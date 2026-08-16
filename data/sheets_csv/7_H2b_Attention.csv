@@ -1,0 +1,84 @@
+H2b thermometer 1 - attention jumps (raw rows; diamond's corrected post-window is in 4b; final stats in 1_Results).,,,,,,,,,,,
+group,commodity,exam_id,announce_date,post30_relevant,post30_total,baseline24m_relevant,baseline_monthly_mean,jump_ratio,query,note,fetched_at
+target,gallium,A,2023-07-03,152,284986,394,16.417,9.259,gallium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:09:18
+target,germanium,A,2023-07-03,149,284986,75,3.125,47.68,germanium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:09:22
+target,antimony,C,2024-08-15,27,267598,201,8.375,3.224,antimony AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:10:20
+target,tungsten,D,2025-02-04,106,364016,391,16.292,6.506,tungsten AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:10:23
+target,tellurium,D,2025-02-04,78,364016,32,1.333,58.5,tellurium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:11:19
+target,bismuth,D,2025-02-04,70,364016,68,2.833,24.706,bismuth AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:11:22
+target,molybdenum,D,2025-02-04,124,364016,622,25.917,4.785,molybdenum AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:12:21
+target,indium,D,2025-02-04,71,364016,139,5.792,12.259,indium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:12:23
+target,samarium,E1,2025-04-04,80,365807,41,1.708,46.829,samarium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:13:19
+target,gadolinium,E1,2025-04-04,84,365807,53,2.208,38.038,gadolinium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:13:23
+target,terbium,E1,2025-04-04,60,365807,110,4.583,13.091,terbium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:14:19
+target,dysprosium,E1,2025-04-04,62,365807,145,6.042,10.262,dysprosium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:14:23
+target,lutetium,E1,2025-04-04,30,365807,75,3.125,9.6,lutetium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:15:19
+target,scandium,E1,2025-04-04,61,365807,61,2.542,24,scandium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:15:23
+target,yttrium,E1,2025-04-04,46,365807,87,3.625,12.69,yttrium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:16:19
+target,holmium,E2,2025-10-09,24,383315,14,0.583,41.143,holmium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:16:24
+target,erbium,E2,2025-10-09,26,383315,35,1.458,17.829,erbium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:17:19
+target,thulium,E2,2025-10-09,23,383315,15,0.625,36.8,thulium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:17:23
+target,europium,E2,2025-10-09,29,383315,30,1.25,23.2,europium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:18:19
+target,ytterbium,E2,2025-10-09,27,383315,55,2.292,11.782,ytterbium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:18:23
+placebo,gold,A,2023-07-03,1334,284986,33523,1396.792,0.955,gold AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:19:21
+placebo,gold,E1,2025-04-04,1773,365807,32107,1337.792,1.325,gold AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:19:23
+placebo,lanthanum,A,2023-07-03,2,284986,60,2.5,0.8,lanthanum AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:20:20
+placebo,lanthanum,E1,2025-04-04,23,365807,66,2.75,8.364,lanthanum AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:20:23
+placebo,tantalum,A,2023-07-03,21,284986,272,11.333,1.853,tantalum AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:21:20
+placebo,tantalum,E1,2025-04-04,21,365807,316,13.167,1.595,tantalum AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:21:23
+placebo,rubidium,A,2023-07-03,5,284986,51,2.125,2.353,rubidium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:22:19
+placebo,rubidium,E1,2025-04-04,1,365807,51,2.125,0.471,rubidium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:22:23
+placebo,beryllium,A,2023-07-03,11,284986,89,3.708,2.966,beryllium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:23:20
+placebo,beryllium,E1,2025-04-04,14,365807,96,4,3.5,beryllium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:23:24
+placebo,diamond (industrial),A,2023-07-03,0,284986,4,0.167,0,"""industrial diamond"" AND (mining OR supply OR production OR export OR smelter OR refinery)",ok,2026-08-12T18:24:20
+placebo,diamond (industrial),E1,2025-04-04,0,365807,3,0.125,0,"""industrial diamond"" AND (mining OR supply OR production OR export OR smelter OR refinery)",ok,2026-08-12T18:24:24
+placebo,gypsum,A,2023-07-03,9,284986,372,15.5,0.581,gypsum AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:25:19
+placebo,gypsum,E1,2025-04-04,10,365807,339,14.125,0.708,gypsum AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:25:24
+placebo,chromium,A,2023-07-03,26,284986,396,16.5,1.576,chromium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:26:19
+placebo,chromium,E1,2025-04-04,102,365807,419,17.458,5.842,chromium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:26:24
+placebo,quartz crystal (industrial),A,2023-07-03,0,284986,22,0.917,0,"""quartz crystal"" AND (mining OR supply OR production OR export OR smelter OR refinery)",ok,2026-08-12T18:27:20
+placebo,quartz crystal (industrial),E1,2025-04-04,1,365807,17,0.708,1.412,"""quartz crystal"" AND (mining OR supply OR production OR export OR smelter OR refinery)",ok,2026-08-12T18:27:24
+placebo,thallium,A,2023-07-03,0,284986,21,0.875,0,thallium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:28:20
+placebo,thallium,E1,2025-04-04,1,365807,11,0.458,2.182,thallium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:28:24
+placebo,zirconium,A,2023-07-03,4,284986,139,5.792,0.691,zirconium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:29:20
+placebo,zirconium,E1,2025-04-04,11,365807,99,4.125,2.667,zirconium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:29:24
+placebo,magnesium compounds,A,2023-07-03,0,284986,7,0.292,0,"""magnesium compounds"" AND (mining OR supply OR production OR export OR smelter OR refinery)",ok,2026-08-12T18:30:21
+placebo,magnesium compounds,E1,2025-04-04,0,365807,5,0.208,0,"""magnesium compounds"" AND (mining OR supply OR production OR export OR smelter OR refinery)",ok,2026-08-12T18:30:24
+placebo,cobalt,A,2023-07-03,195,284986,3675,153.125,1.273,cobalt AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:31:20
+placebo,cobalt,E1,2025-04-04,183,365807,2939,122.458,1.494,cobalt AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:31:24
+placebo,titanium,A,2023-07-03,98,284986,1852,77.167,1.27,titanium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:32:20
+placebo,titanium,E1,2025-04-04,118,365807,1753,73.042,1.616,titanium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:32:24
+placebo,tin,A,2023-07-03,68,284986,1947,81.125,0.838,tin AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:33:20
+placebo,tin,E1,2025-04-04,79,365807,1757,73.208,1.079,tin AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:33:24
+placebo,nitrogen (fixed)-ammonia,A,2023-07-03,137,284986,2061,85.875,1.595,ammonia AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:34:20
+placebo,nitrogen (fixed)-ammonia,E1,2025-04-04,70,365807,1702,70.917,0.987,ammonia AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:34:24
+placebo,potash,A,2023-07-03,42,284986,715,29.792,1.41,potash AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:35:20
+placebo,potash,E1,2025-04-04,39,365807,512,21.333,1.828,potash AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:35:24
+placebo,neodymium,A,2023-07-03,20,284986,255,10.625,1.882,neodymium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:36:20
+placebo,neodymium,E1,2025-04-04,48,365807,272,11.333,4.235,neodymium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:36:24
+placebo,strontium,A,2023-07-03,3,284986,75,3.125,0.96,strontium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:37:20
+placebo,strontium,E1,2025-04-04,2,365807,72,3,0.667,strontium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:37:24
+placebo,sulfur,A,2023-07-03,52,284986,1442,60.083,0.865,sulfur AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:38:20
+placebo,sulfur,E1,2025-04-04,112,365807,1225,51.042,2.194,sulfur AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T18:38:24
+target,graphite (natural),B,2023-10-20,71,248670,1671,69.625,1.02,graphite AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T19:08:16
+target,diamond (industrial),E2,2025-10-09,0,383315,4,0.167,0,"""industrial diamond"" AND (mining OR supply OR production OR export OR smelter OR refinery)",ok,2026-08-12T19:08:19
+placebo,lime,A,2023-07-03,100,284986,1804,75.167,1.33,lime AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T19:09:08
+placebo,lime,E1,2025-04-04,74,365807,1633,68.042,1.088,lime AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T19:09:18
+placebo,thorium,A,2023-07-03,3,284986,107,4.458,0.673,thorium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T19:10:09
+placebo,thorium,E1,2025-04-04,5,365807,117,4.875,1.026,thorium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T19:10:19
+placebo,sand and gravel,A,2023-07-03,13,284986,122,5.083,2.557,"""sand and gravel"" AND (mining OR supply OR production OR export OR smelter OR refinery)",ok,2026-08-12T19:11:09
+placebo,sand and gravel,E1,2025-04-04,3,365807,137,5.708,0.526,"""sand and gravel"" AND (mining OR supply OR production OR export OR smelter OR refinery)",ok,2026-08-12T19:11:19
+placebo,diatomite,A,2023-07-03,2,284986,31,1.292,1.548,diatomite AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T19:12:08
+placebo,diatomite,E1,2025-04-04,3,365807,38,1.583,1.895,diatomite AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T19:12:18
+placebo,helium,A,2023-07-03,34,284986,952,39.667,0.857,helium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T19:13:10
+placebo,helium,E1,2025-04-04,28,365807,854,35.583,0.787,helium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T19:13:19
+placebo,manganese,A,2023-07-03,64,284986,1260,52.5,1.219,manganese AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T19:14:08
+placebo,manganese,E1,2025-04-04,111,365807,994,41.417,2.68,manganese AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T19:14:19
+placebo,pumice and pumicite,A,2023-07-03,17,284986,329,13.708,1.24,pumice AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T19:15:09
+placebo,pumice and pumicite,E1,2025-04-04,17,365807,367,15.292,1.112,pumice AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T19:15:19
+placebo,niobium,A,2023-07-03,14,284986,200,8.333,1.68,niobium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T19:16:09
+placebo,niobium,E1,2025-04-04,26,365807,123,5.125,5.073,niobium AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T19:16:19
+placebo,talc and pyrophyllite,A,2023-07-03,10,284986,216,9,1.111,talc AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T19:17:10
+placebo,talc and pyrophyllite,E1,2025-04-04,8,365807,171,7.125,1.123,talc AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T19:17:19
+placebo,asbestos,A,2023-07-03,29,284986,558,23.25,1.247,asbestos AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T19:18:09
+placebo,asbestos,E1,2025-04-04,17,365807,595,24.792,0.686,asbestos AND (mining OR supply OR production OR export OR smelter OR refinery),ok,2026-08-12T19:18:19

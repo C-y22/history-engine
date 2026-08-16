@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Figure 2 — Host vintage vs gallium circuit</title>
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1:#fcfcfb; --page:#f9f9f7;
+    --text-primary:#0b0b0b; --text-secondary:#52514e; --muted:#898781;
+    --grid:#e1e0d9; --baseline:#c3c2b7; --border:rgba(11,11,11,0.10);
+    --wave1:#2a78d6; --wave2:#eb6834; --absent:#4a3aa7; --unknown:#898781;
+    --band:rgba(11,11,11,0.05);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:where(:not([data-theme="light"])) .viz-root{
+      color-scheme: dark;
+      --surface-1:#1a1a19; --page:#0d0d0d;
+      --text-primary:#fff; --text-secondary:#c3c2b7; --muted:#898781;
+      --grid:#2c2c2a; --baseline:#383835; --border:rgba(255,255,255,0.10);
+      --wave1:#3987e5; --wave2:#d95926; --absent:#9085e9; --unknown:#898781;
+      --band:rgba(255,255,255,0.07);
+    }
+  }
+  :root[data-theme="dark"] .viz-root{
+    color-scheme: dark;
+    --surface-1:#1a1a19; --page:#0d0d0d;
+    --text-primary:#fff; --text-secondary:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835; --border:rgba(255,255,255,0.10);
+    --wave1:#3987e5; --wave2:#d95926; --absent:#9085e9; --unknown:#898781;
+    --band:rgba(255,255,255,0.07);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--page)}
+  .viz-root{font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei","Segoe UI",sans-serif;
+    background:var(--page);color:var(--text-primary);min-height:100vh;padding:28px 16px 40px}
+  .card{max-width:1060px;margin:0 auto;background:var(--surface-1);border:1px solid var(--border);
+    border-radius:10px;padding:28px 30px 22px}
+  .head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+  h1{font-size:20px;font-weight:650;letter-spacing:-0.01em;line-height:1.3}
+  .subtitle{font-size:13.5px;color:var(--text-secondary);margin-top:6px;line-height:1.5}
+  .figno{font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+  .theme-btn{flex:none;font-size:12px;color:var(--text-secondary);background:none;
+    border:1px solid var(--border);border-radius:6px;padding:5px 10px;cursor:pointer;font-family:inherit}
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:16px;font-size:11.5px;color:var(--text-secondary)}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .sw{width:10px;height:10px;border-radius:50%;display:inline-block}
+  svg{display:block;width:100%;height:auto;margin-top:6px}
+  .footnote{margin-top:16px;padding-top:12px;border-top:1px solid var(--grid);
+    font-size:11px;color:var(--muted);line-height:1.6}
+  details{margin-top:14px;font-size:12px;color:var(--text-secondary)}
+  summary{cursor:pointer;font-weight:600}
+  table{border-collapse:collapse;margin-top:10px;font-variant-numeric:tabular-nums;width:100%}
+  th,td{padding:3px 10px 3px 0;text-align:left;font-size:11.5px;border-bottom:1px solid var(--grid)}
+  th{color:var(--muted);font-weight:600}
+  td.num{text-align:right}
+</style>
+</head>
+<body>
+<div class="viz-root">
+  <div class="card">
+    <div class="head">
+      <div>
+        <div class="figno">Figure 2 · The two waves of sedimentation (H1)</div>
+        <h1>A gallium circuit is not a free byproduct of an alumina refinery. It is a decision that can wait twenty years, or never happen</h1>
+        <div class="subtitle">44 Chinese alumina refineries (sampling frame: all plants with capacity ≥0.8 Mt/yr, closures included). X = year the host refinery started up; Y = year its gallium circuit started up. On the diagonal = built with gallium from day one; the higher above the diagonal, the longer the retrofit waited.</div>
+      </div>
+      <button class="theme-btn" id="themeBtn" type="button">◐ Theme</button>
+    </div>
+
+    <div class="legend">
+      <span><i class="sw" style="background:var(--wave1)"></i>Wave 1 lines (≤2014, hardened)</span>
+      <span><i class="sw" style="background:var(--wave2)"></i>Wave 2 lines (≥2020, ongoing)</span>
+      <span><i class="sw" style="background:var(--absent)"></i>No gallium line to date</span>
+      <span><i class="sw" style="background:var(--unknown);opacity:.55"></i>Line status unknown</span>
+      <span style="color:var(--muted)">vertical bar = start-up year known only as a range</span>
+    </div>
+
+    <svg id="fig" viewBox="0 0 1000 630" role="img"
+      aria-label="Scatter plot: host refinery start-up year (1950-2027) vs gallium circuit start-up year. Wave 1 lines cluster before 2014, 2015-2019 is an empty band, wave 2 clusters after 2020. Luoyang Xiangjiang Wanji: host 2005, gallium line 2025, a 20-year lag."></svg>
+
+    <div class="footnote">
+      <strong>Reading:</strong> 2015–2019 is an empty horizontal band. Among all dated gallium lines, not one started in those five years, exactly when gallium bottomed at $124–188/kg. Before the gap sits wave 1, which fixed what China held when the July 2023 export controls landed; after it comes wave 2, gathering pace as prices recovered from 2021 and the controls themselves lit the map. <strong>Vertical distance = years of lag.</strong> Luoyang Xiangjiang Wanji built its refinery in 2005 and its gallium line in 2025, a 20-year lag; its environmental filing states the plant adds 60 t/yr of byproduct gallium while alumina capacity stays unchanged. Same plant, alumina flat, gallium from zero: the most direct rebuttal to the idea that the circuit comes automatically with the refinery.<br>
+      <strong>Sampling frame:</strong> roughly 40 refineries (38–42) nationwide with capacity ≥0.8 Mt/yr, covering over 95% of built capacity (~112 Mt, Mysteel 2025-06). The frame is triangulated from three independent sources: the SHFE alumina futures registered-brand list (2024), a 2019 plant-by-plant survey in China Nonferrous Metals News, and the 2023 CIB Futures / 2025 Founder CIFCO (Mysteel) capacity tables. The 44 rows here cover that frame, including the closed Nanchuan Xianfeng, Lushan Huiyuan (in bankruptcy restructuring), and plants outside the seven main provinces. <strong>16 plants have unknown line status</strong> (no evidence found, which is not evidence of absence); they are kept off the main panel and shown only as a rug of host years — so this figure argues existence, not proportions. <strong>Facility-level exit does happen:</strong> Fangyuan's Lushan and Dengfeng lines were idle before 2019 while their hosts went through bankruptcy or equity sales — yet national capacity (Figure 1) never fell. Sedimentation is irreversible at the aggregate, not grain by grain.<br>
+      <strong>Sources:</strong> host start-up years from company websites, China Nonferrous Metals News, local-government notices, and MEE filings; gallium-line years from environmental-impact disclosures, listed-company announcements and investor-Q&A replies, Sunresin's inquiry-letter response, Chalco's website, and trade media. Cell-level sources in <code>host_vintage_gallium.csv</code>. Where only "before year X" evidence exists, a vertical bar marks the range.
+    </div>
+
+    <details>
+      <summary>Data table (dated lines and confirmed-absent plants)</summary>
+      <table id="dt"><thead><tr><th>Plant</th><th>Province</th><th class="num">Host start-up</th><th class="num">Ga line start-up</th><th class="num">Lag</th><th>Evidence</th></tr></thead><tbody></tbody></table>
+    </details>
+  </div>
+</div>
+
+<script>
+(function(){
+  var NS="http://www.w3.org/2000/svg";
+  var svg=document.getElementById("fig");
+  var X0=1990,X1=2029, Y0=1990,Y1=2029;
+  var ML=58,MR=150,MT=18,PLOT_H=430;
+  var W=1000;
+  var PW=W-ML-MR;
+
+  function x(v){return ML+(v-X0)/(X1-X0)*PW;}
+  function y(v){return MT+PLOT_H-(v-Y0)/(Y1-Y0)*PLOT_H;}
+  function el(p,t,a,txt){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);
+    if(txt!=null)e.textContent=txt;p.appendChild(e);return e;}
+
+  // ---- data ----
+  // precise: [host, gaYear, name, colorVar, labelDx, labelDy, anchor]  (label null = dot only)
+  var precise=[
+    [2006,2008,"East Hope Mianchi 70t · 2-yr lag","wave1",9,4,"start"],
+    [2010,2012,null,"wave1",0,0,"start"],
+    [2013,2020,null,"wave2",0,0,"start"],
+    [2006,2021,"Yuanping Zhongke Jingdian 100t · 15-yr lag","wave2",-9,4,"end"],
+    [2013,2023,null,"wave2",0,0,"start"],
+    [2015,2024,"Guizhou Huajin 50t · 9-yr lag","wave2",9,14,"start"],
+    [2022,2024,null,"wave2",0,0,"start"],
+    [2005,2025,"Luoyang Xiangjiang Wanji 60t · 20-yr lag","wave2",9,-9,"start"],
+    [2012,2025,"Yunnan Wenshan 50t · 13-yr lag","wave2",9,3,"start"],
+    [2019,2026,null,"wave2",0,0,"start"]
+  ];
+  // ranges: [host, gaLo, gaHi, name, colorVar, dx, dy, anchor]
+  var ranges=[
+    [1995,1998,2014,"Chalco Guangxi Pingguo 120t","wave1",9,0,"start"],
+    [2003,2005,2011,"Fangyuan group: Nanchuan · Lushan · Zouping · Dengfeng","wave1",-9,-4,"end"],
+    [2004,2005,2011,"(Lushan & Dengfeng idle before 2019)","wave1",-19,10,"end"],
+    [2006,2005,2011,null,"wave1",0,0,"start"],
+    [2007,2008,2011,null,"wave1",0,0,"start"],
+    [2008,2009,2015,null,"wave1",0,0,"start"],
+    [2007,2010,2021,null,"wave1",0,0,"start"],
+    [2014,2016,2021,null,"wave2",0,0,"start"]
+  ];
+  // absent strip: [host, name, strong, labelDy]
+  var absent=[
+    [1993,"Chalco Zhongzhou",true,34],
+    [2006,"Nanshan Longkou Donghai",true,34],
+    [2019,"Jingxi Tiangui",true,34,-30],
+    [2020,"Guangxi Huasheng",false,52,26]
+  ];
+  // unknown rug: host years (16 plants; 5 have no year)
+  var unknown=[2008,2005,2007,2010,2011,2015,2018,2023,2023.2,2024,2025];
+
+  // ---- 2015-2019 empty band ----
+  el(svg,"rect",{x:ML,y:y(2019.6),width:PW,height:y(2014.4)-y(2019.6),fill:"var(--band)"});
+  el(svg,"text",{x:ML+6,y:y(2017.6),"font-size":11,fill:"var(--text-secondary)"},
+    "2015–2019 gap: among dated lines, not one started in these five years");
+  el(svg,"text",{x:ML+6,y:y(2016.2),"font-size":10.5,fill:"var(--muted)"},
+    "(gallium price trough, $124–188/kg)");
+
+  // ---- gridlines ----
+  [1990,2000,2010,2020].forEach(function(t){
+    el(svg,"line",{x1:ML,x2:ML+PW,y1:y(t),y2:y(t),stroke:"var(--grid)","stroke-width":1});
+    el(svg,"text",{x:ML-8,y:y(t)+3.5,"text-anchor":"end","font-size":10.5,fill:"var(--muted)"},t);
+  });
+  // ---- diagonal ----
+  el(svg,"line",{x1:x(1990),y1:y(1990),x2:x(2029),y2:y(2029),stroke:"var(--baseline)","stroke-width":1});
+  el(svg,"text",{x:x(2001)+5,y:y(2001)-7,"font-size":10.5,fill:"var(--muted)",
+    transform:"rotate(-45 "+(x(2001)+5)+" "+(y(2001)-7)+")"},"diagonal = installed the year the plant was built");
+  // ---- export control line ----
+  el(svg,"line",{x1:ML,x2:ML+PW,y1:y(2023.5),y2:y(2023.5),stroke:"var(--muted)","stroke-width":1,"stroke-dasharray":"3 3"});
+  el(svg,"text",{x:ML+PW+6,y:y(2023.5)+3.5,"font-size":10.5,fill:"var(--text-secondary)"},"2023-07 export controls");
+  // ---- pre-1990 off-scale note ----
+  el(svg,"text",{x:ML+6,y:MT+16,"font-size":10.5,fill:"var(--muted)"},
+    "Off-axis (two pre-1990 SOE plants): Chalco Shandong, host 1954 / line 1956 (China's first); Chalco Henan, host 1966 / line before 2008");
+
+  // ---- ranges (vertical bars) ----
+  ranges.forEach(function(d){
+    var xx=x(d[0]);
+    el(svg,"line",{x1:xx,x2:xx,y1:y(d[1]),y2:y(d[2]),stroke:"var(--"+d[4]+")","stroke-width":3.4,
+      "stroke-linecap":"round",opacity:.5});
+    if(d[3]) el(svg,"text",{x:xx+d[5],y:(y(d[1])+y(d[2]))/2+d[6],"text-anchor":d[7],"font-size":10.5,
+      fill:"var(--text-secondary)"},d[3]);
+  });
+  // ---- precise points ----
+  precise.forEach(function(d){
+    var xx=x(d[0]),yy=y(d[1]);
+    el(svg,"line",{x1:xx,x2:xx,y1:y(d[0]),y2:yy,stroke:"var(--"+d[3]+")","stroke-width":1,opacity:.3});
+    el(svg,"circle",{cx:xx,cy:yy,r:4.4,fill:"var(--"+d[3]+")"});
+    if(d[2]) el(svg,"text",{x:xx+d[4],y:yy+d[5],"text-anchor":d[6],"font-size":10.5,
+      fill:"var(--text-primary)"},d[2]);
+  });
+
+  // ---- x axis ----
+  var AXY=MT+PLOT_H;
+  el(svg,"line",{x1:ML,x2:ML+PW,y1:AXY,y2:AXY,stroke:"var(--baseline)","stroke-width":1});
+  [1990,1995,2000,2005,2010,2015,2020,2025].forEach(function(t){
+    el(svg,"line",{x1:x(t),x2:x(t),y1:AXY,y2:AXY+4,stroke:"var(--baseline)","stroke-width":1});
+    el(svg,"text",{x:x(t),y:AXY+17,"text-anchor":"middle","font-size":10.5,fill:"var(--muted)"},t);
+  });
+  el(svg,"text",{x:ML-8,y:MT+8,"text-anchor":"end","font-size":11,fill:"var(--muted)"},"Ga line year ↑");
+  el(svg,"text",{x:ML+PW+6,y:AXY+4,"font-size":11,fill:"var(--muted)"},"host start-up year →");
+
+  // ---- strip A: absent ----
+  var SA=AXY+44;
+  el(svg,"line",{x1:ML,x2:ML+PW,y1:SA-20,y2:SA-20,stroke:"var(--grid)","stroke-width":1});
+  el(svg,"text",{x:ML,y:SA-6,"font-size":11.5,fill:"var(--text-primary)","font-weight":600},"No gallium line to date (4 plants)");
+  absent.forEach(function(d){
+    var xx=x(d[0]);
+    el(svg,"circle",{cx:xx,cy:SA+16,r:4.4,fill:d[2]?"var(--absent)":"var(--surface-1)",
+      stroke:"var(--absent)","stroke-width":d[2]?0:1.8});
+    var lx=xx+(d[4]||0);
+    if(d[3]>40) el(svg,"line",{x1:xx,x2:lx,y1:SA+21,y2:SA+d[3]-10,stroke:"var(--absent)",
+      "stroke-width":1,opacity:.4});
+    el(svg,"text",{x:lx,y:SA+d[3],"text-anchor":"middle","font-size":10.5,fill:"var(--text-primary)"},d[1]);
+    el(svg,"text",{x:lx,y:SA+d[3]+12,"text-anchor":"middle","font-size":10,fill:"var(--muted)"},d[0]);
+  });
+  el(svg,"text",{x:ML+PW+6,y:SA+20,"font-size":10.5,fill:"var(--text-secondary)"},"hollow = weaker evidence");
+
+  // ---- strip B: unknown rug ----
+  var SB=SA+82;
+  el(svg,"line",{x1:ML,x2:ML+PW,y1:SB-14,y2:SB-14,stroke:"var(--grid)","stroke-width":1});
+  el(svg,"text",{x:ML,y:SB,"font-size":11.5,fill:"var(--text-secondary)","font-weight":600},"Line status unknown (16 plants; 5 also lack host years)");
+  unknown.forEach(function(t){
+    el(svg,"line",{x1:x(t),x2:x(t),y1:SB+10,y2:SB+22,stroke:"var(--unknown)","stroke-width":2,opacity:.6});
+  });
+
+  // ---- table ----
+  var tb=document.querySelector("#dt tbody");
+  var provOf={"Chalco Shandong · China's first line":"Shandong","East Hope Mianchi 70t":"Henan","Zunyi Aluminum 40t":"Guizhou",
+    "Liulin Senze 40t":"Shanxi","Yuanping Zhongke Jingdian 100t":"Shanxi","Shanxi Huaxing":"Shanxi","Guizhou Huajin 50t":"Guizhou",
+    "Jiulong Wanbo · Vital 150t":"Chongqing","Luoyang Xiangjiang Wanji 60t":"Henan","Yunnan Wenshan 50t":"Yunnan","Huihong · Binzhou Gallium 30t":"Shandong"};
+  precise.forEach(function(d){
+    var tr=document.createElement("tr");
+    function td(v,c){var e=document.createElement("td");e.textContent=v;if(c)e.className=c;tr.appendChild(e);}
+    td(d[2]);td(provOf[d[2]]||"");td(d[0],"num");td(d[1],"num");td((d[1]-d[0])+" yr","num");
+    td(d[3]==="wave1"?"Wave 1":"Wave 2");
+    tb.appendChild(tr);
+  });
+  absent.forEach(function(d){
+    var tr=document.createElement("tr");
+    function td(v,c){var e=document.createElement("td");e.textContent=v;if(c)e.className=c;tr.appendChild(e);}
+    td(d[1]);td("");td(d[0],"num");td("—","num");td("—","num");
+    td(d[2]?"confirmed absent":"likely absent (weak evidence)");
+    tb.appendChild(tr);
+  });
+
+  document.getElementById("themeBtn").addEventListener("click",function(){
+    var r=document.documentElement,cur=r.getAttribute("data-theme");
+    var pd=window.matchMedia("(prefers-color-scheme: dark)").matches;
+    r.setAttribute("data-theme",(cur||(pd?"dark":"light"))==="dark"?"light":"dark");
+  });
+})();
+</script>
+</body>
+</html>

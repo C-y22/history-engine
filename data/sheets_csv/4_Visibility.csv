@@ -1,0 +1,602 @@
+"Raw visibility counts, original term set (diamond superseded by corrected term - see 4b and sheet 5).",,,,,,,
+exam_id,cutoff,commodity,query,relevant_count,total_count,note,fetched_at
+A,2023-07-02,abrasives (manufactured),abrasives AND (mining OR supply OR production OR export OR smelter OR refinery),149,6802947,ok,2026-08-06T23:30:15
+A,2023-07-02,aluminum,aluminum AND (mining OR supply OR production OR export OR smelter OR refinery),6705,6802947,ok,2026-08-06T23:30:38
+A,2023-07-02,antimony,antimony AND (mining OR supply OR production OR export OR smelter OR refinery),221,6802947,ok,2026-08-06T23:31:08
+A,2023-07-02,arsenic,arsenic AND (mining OR supply OR production OR export OR smelter OR refinery),713,6802947,ok,2026-08-06T23:31:37
+A,2023-07-02,asbestos,asbestos AND (mining OR supply OR production OR export OR smelter OR refinery),558,6802947,ok,2026-08-06T23:32:10
+A,2023-07-02,barite,barite AND (mining OR supply OR production OR export OR smelter OR refinery),59,6802947,ok,2026-08-06T23:32:37
+A,2023-07-02,bauxite and alumina,bauxite AND (mining OR supply OR production OR export OR smelter OR refinery),365,6802947,ok,2026-08-06T23:33:15
+A,2023-07-02,beryllium,beryllium AND (mining OR supply OR production OR export OR smelter OR refinery),89,6802947,ok,2026-08-06T23:33:37
+A,2023-07-02,bismuth,bismuth AND (mining OR supply OR production OR export OR smelter OR refinery),92,6802947,ok,2026-08-06T23:34:11
+A,2023-07-02,boron,boron AND (mining OR supply OR production OR export OR smelter OR refinery),403,6802947,ok,2026-08-06T23:34:42
+A,2023-07-02,bromine,bromine AND (mining OR supply OR production OR export OR smelter OR refinery),174,6802947,ok,2026-08-06T23:35:05
+A,2023-07-02,cadmium,cadmium AND (mining OR supply OR production OR export OR smelter OR refinery),472,6802947,ok,2026-08-06T23:35:40
+A,2023-07-02,cement,cement AND (mining OR supply OR production OR export OR smelter OR refinery),5528,6802947,ok,2026-08-06T23:36:11
+A,2023-07-02,cesium,cesium AND (mining OR supply OR production OR export OR smelter OR refinery),178,6802947,ok,2026-08-06T23:36:34
+A,2023-07-02,chromium,chromium AND (mining OR supply OR production OR export OR smelter OR refinery),396,6802947,ok,2026-08-06T23:37:12
+A,2023-07-02,clays,clays AND (mining OR supply OR production OR export OR smelter OR refinery),147,6802947,ok,2026-08-06T23:37:37
+A,2023-07-02,cobalt,cobalt AND (mining OR supply OR production OR export OR smelter OR refinery),3675,6802947,ok,2026-08-06T23:38:15
+A,2023-07-02,copper,copper AND (mining OR supply OR production OR export OR smelter OR refinery),10347,6802947,ok,2026-08-06T23:38:45
+A,2023-07-02,diamond (industrial),"""industrial diamond"" AND (mining OR supply OR production OR export OR smelter OR refinery)",4,6802947,ok,2026-08-06T23:39:16
+A,2023-07-02,diatomite,diatomite AND (mining OR supply OR production OR export OR smelter OR refinery),31,6802947,ok,2026-08-06T23:39:32
+A,2023-07-02,feldspar,feldspar AND (mining OR supply OR production OR export OR smelter OR refinery),103,6802947,ok,2026-08-06T23:40:14
+A,2023-07-02,fluorspar,fluorspar AND (mining OR supply OR production OR export OR smelter OR refinery),24,6802947,ok,2026-08-06T23:40:31
+A,2023-07-02,gallium,gallium AND (mining OR supply OR production OR export OR smelter OR refinery),394,6802947,ok,2026-08-06T23:40:49
+A,2023-07-02,garnet (industrial),garnet AND (mining OR supply OR production OR export OR smelter OR refinery),205,6802947,ok,2026-08-06T23:41:48
+A,2023-07-02,gemstones,gemstones AND (mining OR supply OR production OR export OR smelter OR refinery),407,6802947,ok,2026-08-06T23:42:06
+A,2023-07-02,germanium,germanium AND (mining OR supply OR production OR export OR smelter OR refinery),75,6802947,ok,2026-08-06T23:42:40
+A,2023-07-02,gold,gold AND (mining OR supply OR production OR export OR smelter OR refinery),33523,6802947,ok,2026-08-06T23:43:15
+A,2023-07-02,graphite (natural),graphite AND (mining OR supply OR production OR export OR smelter OR refinery),1601,6802947,ok,2026-08-06T23:43:30
+A,2023-07-02,gypsum,gypsum AND (mining OR supply OR production OR export OR smelter OR refinery),372,6802947,ok,2026-08-06T23:44:09
+A,2023-07-02,hafnium,hafnium AND (mining OR supply OR production OR export OR smelter OR refinery),26,6802947,ok,2026-08-06T23:44:33
+A,2023-07-02,helium,helium AND (mining OR supply OR production OR export OR smelter OR refinery),952,6802947,ok,2026-08-06T23:45:12
+A,2023-07-02,indium,indium AND (mining OR supply OR production OR export OR smelter OR refinery),180,6802947,ok,2026-08-06T23:45:31
+A,2023-07-02,iodine,iodine AND (mining OR supply OR production OR export OR smelter OR refinery),390,6802947,ok,2026-08-06T23:46:06
+A,2023-07-02,iron and steel,"""steel industry"" AND (mining OR supply OR production OR export OR smelter OR refinery)",848,6802947,ok,2026-08-06T23:46:38
+A,2023-07-02,iron and steel scrap,"""steel scrap"" AND (mining OR supply OR production OR export OR smelter OR refinery)",59,6802947,ok,2026-08-06T23:47:10
+A,2023-07-02,iron and steel slag,"""steel slag"" AND (mining OR supply OR production OR export OR smelter OR refinery)",8,6802947,ok,2026-08-06T23:47:32
+A,2023-07-02,iron ore,"""iron ore"" AND (mining OR supply OR production OR export OR smelter OR refinery)",2258,6802947,ok,2026-08-06T23:48:14
+A,2023-07-02,iron oxide pigments,"""iron oxide"" AND (mining OR supply OR production OR export OR smelter OR refinery)",141,6802947,ok,2026-08-06T23:48:32
+A,2023-07-02,kyanite,kyanite AND (mining OR supply OR production OR export OR smelter OR refinery),6,6802947,ok,2026-08-06T23:49:00
+A,2023-07-02,lead,lead AND (mining OR supply OR production OR export OR smelter OR refinery),107683,6802947,ok,2026-08-06T23:49:40
+A,2023-07-02,lime,lime AND (mining OR supply OR production OR export OR smelter OR refinery),1804,6802947,ok,2026-08-06T23:50:06
+A,2023-07-02,lithium,lithium AND (mining OR supply OR production OR export OR smelter OR refinery),10878,6802947,ok,2026-08-06T23:50:32
+A,2023-07-02,magnesium compounds,"""magnesium compounds"" AND (mining OR supply OR production OR export OR smelter OR refinery)",7,6802947,ok,2026-08-06T23:51:12
+A,2023-07-02,magnesium metal,magnesium AND (mining OR supply OR production OR export OR smelter OR refinery),1249,6802947,ok,2026-08-06T23:51:35
+A,2023-07-02,manganese,manganese AND (mining OR supply OR production OR export OR smelter OR refinery),1260,6802947,ok,2026-08-06T23:52:09
+A,2023-07-02,mercury,mercury AND (mining OR supply OR production OR export OR smelter OR refinery),3207,6802947,ok,2026-08-06T23:52:59
+A,2023-07-02,mica (natural),mica AND (mining OR supply OR production OR export OR smelter OR refinery),278,6802947,ok,2026-08-06T23:53:10
+A,2023-07-02,molybdenum,molybdenum AND (mining OR supply OR production OR export OR smelter OR refinery),558,6802947,ok,2026-08-06T23:53:56
+A,2023-07-02,nickel,nickel AND (mining OR supply OR production OR export OR smelter OR refinery),6458,6802947,ok,2026-08-06T23:54:14
+A,2023-07-02,niobium,niobium AND (mining OR supply OR production OR export OR smelter OR refinery),200,6802947,ok,2026-08-06T23:54:53
+A,2023-07-02,nitrogen (fixed)-ammonia,ammonia AND (mining OR supply OR production OR export OR smelter OR refinery),2061,6802947,ok,2026-08-06T23:55:15
+A,2023-07-02,peat,peat AND (mining OR supply OR production OR export OR smelter OR refinery),570,6802947,ok,2026-08-06T23:56:01
+A,2023-07-02,perlite,perlite AND (mining OR supply OR production OR export OR smelter OR refinery),80,6802947,ok,2026-08-06T23:56:11
+A,2023-07-02,phosphate rock,"""phosphate rock"" AND (mining OR supply OR production OR export OR smelter OR refinery)",64,6802947,ok,2026-08-06T23:57:03
+A,2023-07-02,platinum-group metals,(platinum OR palladium) AND (mining OR supply OR production OR export OR smelter OR refinery),4551,6802947,ok,2026-08-06T23:57:24
+A,2023-07-02,potash,potash AND (mining OR supply OR production OR export OR smelter OR refinery),715,6802947,ok,2026-08-06T23:57:57
+A,2023-07-02,pumice and pumicite,pumice AND (mining OR supply OR production OR export OR smelter OR refinery),329,6802947,ok,2026-08-06T23:58:15
+A,2023-07-02,quartz crystal (industrial),"""quartz crystal"" AND (mining OR supply OR production OR export OR smelter OR refinery)",22,6802947,ok,2026-08-06T23:58:56
+A,2023-07-02,rare earths,"""rare earth"" AND (mining OR supply OR production OR export OR smelter OR refinery)",1978,6802947,ok,2026-08-06T23:59:20
+A,2023-07-02,rhenium,rhenium AND (mining OR supply OR production OR export OR smelter OR refinery),59,6802947,ok,2026-08-06T23:59:49
+A,2023-07-02,rubidium,rubidium AND (mining OR supply OR production OR export OR smelter OR refinery),51,6802947,ok,2026-08-07T00:00:14
+A,2023-07-02,salt,salt AND (mining OR supply OR production OR export OR smelter OR refinery),10354,6802947,ok,2026-08-07T00:00:53
+A,2023-07-02,sand and gravel,"""sand and gravel"" AND (mining OR supply OR production OR export OR smelter OR refinery)",122,6802947,ok,2026-08-07T00:01:24
+A,2023-07-02,scandium,scandium AND (mining OR supply OR production OR export OR smelter OR refinery),120,6802947,ok,2026-08-07T00:01:49
+A,2023-07-02,selenium,selenium AND (mining OR supply OR production OR export OR smelter OR refinery),254,6802947,ok,2026-08-07T00:02:23
+A,2023-07-02,silicon,silicon AND (mining OR supply OR production OR export OR smelter OR refinery),10097,6802947,ok,2026-08-07T00:02:51
+A,2023-07-02,silver,silver AND (mining OR supply OR production OR export OR smelter OR refinery),15967,6802947,ok,2026-08-07T00:03:20
+A,2023-07-02,soda ash,"""soda ash"" AND (mining OR supply OR production OR export OR smelter OR refinery)",96,6802947,ok,2026-08-07T00:03:59
+A,2023-07-02,stone,stone AND (mining OR supply OR production OR export OR smelter OR refinery),12138,6802947,ok,2026-08-07T00:04:22
+A,2023-07-02,strontium,strontium AND (mining OR supply OR production OR export OR smelter OR refinery),75,6802947,ok,2026-08-07T00:04:52
+A,2023-07-02,sulfur,sulfur AND (mining OR supply OR production OR export OR smelter OR refinery),1442,6802947,ok,2026-08-07T00:05:20
+A,2023-07-02,talc and pyrophyllite,talc AND (mining OR supply OR production OR export OR smelter OR refinery),216,6802947,ok,2026-08-07T00:05:51
+A,2023-07-02,tantalum,tantalum AND (mining OR supply OR production OR export OR smelter OR refinery),272,6802947,ok,2026-08-07T00:06:17
+A,2023-07-02,tellurium,tellurium AND (mining OR supply OR production OR export OR smelter OR refinery),64,6802947,ok,2026-08-07T00:06:50
+A,2023-07-02,thallium,thallium AND (mining OR supply OR production OR export OR smelter OR refinery),21,6802947,ok,2026-08-07T00:07:20
+A,2023-07-02,thorium,thorium AND (mining OR supply OR production OR export OR smelter OR refinery),107,6802947,ok,2026-08-07T00:07:52
+A,2023-07-02,tin,tin AND (mining OR supply OR production OR export OR smelter OR refinery),1947,6802947,ok,2026-08-07T00:08:25
+A,2023-07-02,titanium,titanium AND (mining OR supply OR production OR export OR smelter OR refinery),1852,6802947,ok,2026-08-07T00:08:35
+A,2023-07-02,tungsten,tungsten AND (mining OR supply OR production OR export OR smelter OR refinery),390,6802947,ok,2026-08-07T00:09:47
+A,2023-07-02,vanadium,vanadium AND (mining OR supply OR production OR export OR smelter OR refinery),343,6802947,ok,2026-08-07T00:10:05
+A,2023-07-02,vermiculite,vermiculite AND (mining OR supply OR production OR export OR smelter OR refinery),34,6802947,ok,2026-08-07T00:10:38
+A,2023-07-02,wollastonite,wollastonite AND (mining OR supply OR production OR export OR smelter OR refinery),6,6802947,ok,2026-08-07T00:10:52
+A,2023-07-02,yttrium,yttrium AND (mining OR supply OR production OR export OR smelter OR refinery),73,6802947,ok,2026-08-07T00:11:42
+A,2023-07-02,zeolites (natural),zeolites AND (mining OR supply OR production OR export OR smelter OR refinery),49,6802947,ok,2026-08-07T00:11:56
+A,2023-07-02,zinc,zinc AND (mining OR supply OR production OR export OR smelter OR refinery),3028,6802947,ok,2026-08-07T00:12:52
+A,2023-07-02,zirconium,zirconium AND (mining OR supply OR production OR export OR smelter OR refinery),139,6802947,ok,2026-08-07T00:13:03
+B,2023-10-19,abrasives (manufactured),abrasives AND (mining OR supply OR production OR export OR smelter OR refinery),173,6722256,ok,2026-08-07T00:14:02
+B,2023-10-19,aluminum,aluminum AND (mining OR supply OR production OR export OR smelter OR refinery),6683,6722256,ok,2026-08-07T00:14:18
+B,2023-10-19,antimony,antimony AND (mining OR supply OR production OR export OR smelter OR refinery),220,6722256,ok,2026-08-07T00:14:44
+B,2023-10-19,arsenic,arsenic AND (mining OR supply OR production OR export OR smelter OR refinery),726,6722256,ok,2026-08-07T00:15:24
+B,2023-10-19,asbestos,asbestos AND (mining OR supply OR production OR export OR smelter OR refinery),571,6722256,ok,2026-08-07T00:15:38
+B,2023-10-19,barite,barite AND (mining OR supply OR production OR export OR smelter OR refinery),56,6722256,ok,2026-08-07T00:16:21
+B,2023-10-19,bauxite and alumina,bauxite AND (mining OR supply OR production OR export OR smelter OR refinery),319,6722256,ok,2026-08-07T00:16:43
+B,2023-10-19,beryllium,beryllium AND (mining OR supply OR production OR export OR smelter OR refinery),99,6722256,ok,2026-08-07T00:17:21
+B,2023-10-19,bismuth,bismuth AND (mining OR supply OR production OR export OR smelter OR refinery),98,6722256,ok,2026-08-07T00:17:39
+B,2023-10-19,boron,boron AND (mining OR supply OR production OR export OR smelter OR refinery),398,6722256,ok,2026-08-07T00:18:28
+B,2023-10-19,bromine,bromine AND (mining OR supply OR production OR export OR smelter OR refinery),202,6722256,ok,2026-08-07T00:18:46
+B,2023-10-19,cadmium,cadmium AND (mining OR supply OR production OR export OR smelter OR refinery),525,6722256,ok,2026-08-07T00:19:26
+B,2023-10-19,cement,cement AND (mining OR supply OR production OR export OR smelter OR refinery),5567,6722256,ok,2026-08-07T00:19:49
+B,2023-10-19,cesium,cesium AND (mining OR supply OR production OR export OR smelter OR refinery),235,6722256,ok,2026-08-07T00:20:16
+B,2023-10-19,chromium,chromium AND (mining OR supply OR production OR export OR smelter OR refinery),420,6722256,ok,2026-08-07T00:20:52
+B,2023-10-19,clays,clays AND (mining OR supply OR production OR export OR smelter OR refinery),163,6722256,ok,2026-08-07T00:21:13
+B,2023-10-19,cobalt,cobalt AND (mining OR supply OR production OR export OR smelter OR refinery),3847,6722256,ok,2026-08-07T00:21:47
+B,2023-10-19,copper,copper AND (mining OR supply OR production OR export OR smelter OR refinery),10683,6722256,ok,2026-08-07T00:22:20
+B,2023-10-19,diamond (industrial),"""industrial diamond"" AND (mining OR supply OR production OR export OR smelter OR refinery)",3,6722256,ok,2026-08-07T00:22:54
+B,2023-10-19,diatomite,diatomite AND (mining OR supply OR production OR export OR smelter OR refinery),36,6722256,ok,2026-08-07T00:23:14
+B,2023-10-19,feldspar,feldspar AND (mining OR supply OR production OR export OR smelter OR refinery),114,6722256,ok,2026-08-07T00:23:45
+B,2023-10-19,fluorspar,fluorspar AND (mining OR supply OR production OR export OR smelter OR refinery),23,6722256,ok,2026-08-07T00:24:16
+B,2023-10-19,gallium,gallium AND (mining OR supply OR production OR export OR smelter OR refinery),573,6722256,ok,2026-08-07T00:24:47
+B,2023-10-19,garnet (industrial),garnet AND (mining OR supply OR production OR export OR smelter OR refinery),200,6722256,ok,2026-08-07T00:25:20
+B,2023-10-19,gemstones,gemstones AND (mining OR supply OR production OR export OR smelter OR refinery),435,6722256,ok,2026-08-07T00:25:43
+B,2023-10-19,germanium,germanium AND (mining OR supply OR production OR export OR smelter OR refinery),263,6722256,ok,2026-08-07T00:26:18
+B,2023-10-19,gold,gold AND (mining OR supply OR production OR export OR smelter OR refinery),33320,6722256,ok,2026-08-07T00:26:45
+B,2023-10-19,graphite (natural),graphite AND (mining OR supply OR production OR export OR smelter OR refinery),1671,6722256,ok,2026-08-07T00:27:26
+B,2023-10-19,gypsum,gypsum AND (mining OR supply OR production OR export OR smelter OR refinery),349,6722256,ok,2026-08-07T00:27:44
+B,2023-10-19,hafnium,hafnium AND (mining OR supply OR production OR export OR smelter OR refinery),25,6722256,ok,2026-08-07T00:28:17
+B,2023-10-19,helium,helium AND (mining OR supply OR production OR export OR smelter OR refinery),985,6722256,ok,2026-08-07T00:28:53
+B,2023-10-19,indium,indium AND (mining OR supply OR production OR export OR smelter OR refinery),188,6722256,ok,2026-08-07T00:29:15
+B,2023-10-19,iodine,iodine AND (mining OR supply OR production OR export OR smelter OR refinery),406,6722256,ok,2026-08-07T00:29:47
+B,2023-10-19,iron and steel,"""steel industry"" AND (mining OR supply OR production OR export OR smelter OR refinery)",885,6722256,ok,2026-08-07T00:30:30
+B,2023-10-19,iron and steel scrap,"""steel scrap"" AND (mining OR supply OR production OR export OR smelter OR refinery)",69,6722256,ok,2026-08-07T00:30:44
+B,2023-10-19,iron and steel slag,"""steel slag"" AND (mining OR supply OR production OR export OR smelter OR refinery)",6,6722256,ok,2026-08-07T00:31:22
+B,2023-10-19,iron ore,"""iron ore"" AND (mining OR supply OR production OR export OR smelter OR refinery)",2062,6722256,ok,2026-08-07T00:31:50
+B,2023-10-19,iron oxide pigments,"""iron oxide"" AND (mining OR supply OR production OR export OR smelter OR refinery)",150,6722256,ok,2026-08-07T00:32:28
+B,2023-10-19,kyanite,kyanite AND (mining OR supply OR production OR export OR smelter OR refinery),6,6722256,ok,2026-08-07T00:32:40
+B,2023-10-19,lead,lead AND (mining OR supply OR production OR export OR smelter OR refinery),107591,6722256,ok,2026-08-07T00:33:28
+B,2023-10-19,lime,lime AND (mining OR supply OR production OR export OR smelter OR refinery),1880,6722256,ok,2026-08-07T00:33:44
+B,2023-10-19,lithium,lithium AND (mining OR supply OR production OR export OR smelter OR refinery),11399,6722256,ok,2026-08-07T00:34:26
+B,2023-10-19,magnesium compounds,"""magnesium compounds"" AND (mining OR supply OR production OR export OR smelter OR refinery)",7,6722256,ok,2026-08-07T00:34:50
+B,2023-10-19,magnesium metal,magnesium AND (mining OR supply OR production OR export OR smelter OR refinery),1295,6722256,ok,2026-08-07T00:35:20
+B,2023-10-19,manganese,manganese AND (mining OR supply OR production OR export OR smelter OR refinery),1334,6722256,ok,2026-08-07T00:35:46
+B,2023-10-19,mercury,mercury AND (mining OR supply OR production OR export OR smelter OR refinery),3238,6722256,ok,2026-08-07T00:36:18
+B,2023-10-19,mica (natural),mica AND (mining OR supply OR production OR export OR smelter OR refinery),281,6722256,ok,2026-08-07T00:36:52
+B,2023-10-19,molybdenum,molybdenum AND (mining OR supply OR production OR export OR smelter OR refinery),607,6722256,ok,2026-08-07T00:37:19
+B,2023-10-19,nickel,nickel AND (mining OR supply OR production OR export OR smelter OR refinery),6736,6722256,ok,2026-08-07T00:37:50
+B,2023-10-19,niobium,niobium AND (mining OR supply OR production OR export OR smelter OR refinery),217,6722256,ok,2026-08-07T00:38:22
+B,2023-10-19,nitrogen (fixed)-ammonia,ammonia AND (mining OR supply OR production OR export OR smelter OR refinery),2197,6722256,ok,2026-08-07T00:38:51
+B,2023-10-19,peat,peat AND (mining OR supply OR production OR export OR smelter OR refinery),575,6722256,ok,2026-08-07T00:39:22
+B,2023-10-19,perlite,perlite AND (mining OR supply OR production OR export OR smelter OR refinery),82,6722256,ok,2026-08-07T00:39:44
+B,2023-10-19,phosphate rock,"""phosphate rock"" AND (mining OR supply OR production OR export OR smelter OR refinery)",67,6722256,ok,2026-08-07T00:40:30
+B,2023-10-19,platinum-group metals,(platinum OR palladium) AND (mining OR supply OR production OR export OR smelter OR refinery),4630,6722256,ok,2026-08-07T00:40:48
+B,2023-10-19,potash,potash AND (mining OR supply OR production OR export OR smelter OR refinery),749,6722256,ok,2026-08-07T00:41:21
+B,2023-10-19,pumice and pumicite,pumice AND (mining OR supply OR production OR export OR smelter OR refinery),359,6722256,ok,2026-08-07T00:41:45
+B,2023-10-19,quartz crystal (industrial),"""quartz crystal"" AND (mining OR supply OR production OR export OR smelter OR refinery)",21,6722256,ok,2026-08-07T00:42:31
+B,2023-10-19,rare earths,"""rare earth"" AND (mining OR supply OR production OR export OR smelter OR refinery)",1993,6722256,ok,2026-08-07T00:43:00
+B,2023-10-19,rhenium,rhenium AND (mining OR supply OR production OR export OR smelter OR refinery),67,6722256,ok,2026-08-07T00:43:15
+B,2023-10-19,rubidium,rubidium AND (mining OR supply OR production OR export OR smelter OR refinery),69,6722256,ok,2026-08-07T00:43:52
+B,2023-10-19,salt,salt AND (mining OR supply OR production OR export OR smelter OR refinery),10391,6722256,ok,2026-08-07T00:44:26
+B,2023-10-19,sand and gravel,"""sand and gravel"" AND (mining OR supply OR production OR export OR smelter OR refinery)",154,6722256,ok,2026-08-07T00:44:57
+B,2023-10-19,scandium,scandium AND (mining OR supply OR production OR export OR smelter OR refinery),122,6722256,ok,2026-08-07T00:45:21
+B,2023-10-19,selenium,selenium AND (mining OR supply OR production OR export OR smelter OR refinery),250,6722256,ok,2026-08-07T00:45:56
+B,2023-10-19,silicon,silicon AND (mining OR supply OR production OR export OR smelter OR refinery),9898,6722256,ok,2026-08-07T00:46:18
+B,2023-10-19,silver,silver AND (mining OR supply OR production OR export OR smelter OR refinery),15821,6722256,ok,2026-08-07T00:46:50
+B,2023-10-19,soda ash,"""soda ash"" AND (mining OR supply OR production OR export OR smelter OR refinery)",111,6722256,ok,2026-08-07T00:47:22
+B,2023-10-19,stone,stone AND (mining OR supply OR production OR export OR smelter OR refinery),12493,6722256,ok,2026-08-07T00:47:49
+B,2023-10-19,strontium,strontium AND (mining OR supply OR production OR export OR smelter OR refinery),86,6722256,ok,2026-08-07T00:48:21
+B,2023-10-19,sulfur,sulfur AND (mining OR supply OR production OR export OR smelter OR refinery),1459,6722256,ok,2026-08-07T00:48:48
+B,2023-10-19,talc and pyrophyllite,talc AND (mining OR supply OR production OR export OR smelter OR refinery),184,6722256,ok,2026-08-07T00:49:21
+B,2023-10-19,tantalum,tantalum AND (mining OR supply OR production OR export OR smelter OR refinery),315,6722256,ok,2026-08-07T00:49:46
+B,2023-10-19,tellurium,tellurium AND (mining OR supply OR production OR export OR smelter OR refinery),65,6722256,ok,2026-08-07T00:50:16
+B,2023-10-19,thallium,thallium AND (mining OR supply OR production OR export OR smelter OR refinery),21,6722256,ok,2026-08-07T00:50:45
+B,2023-10-19,thorium,thorium AND (mining OR supply OR production OR export OR smelter OR refinery),102,6722256,ok,2026-08-07T00:51:20
+B,2023-10-19,tin,tin AND (mining OR supply OR production OR export OR smelter OR refinery),1924,6722256,ok,2026-08-07T00:51:49
+B,2023-10-19,titanium,titanium AND (mining OR supply OR production OR export OR smelter OR refinery),1986,6722256,ok,2026-08-07T00:52:22
+B,2023-10-19,tungsten,tungsten AND (mining OR supply OR production OR export OR smelter OR refinery),394,6722256,ok,2026-08-07T00:52:49
+B,2023-10-19,vanadium,vanadium AND (mining OR supply OR production OR export OR smelter OR refinery),352,6722256,ok,2026-08-07T00:53:25
+B,2023-10-19,vermiculite,vermiculite AND (mining OR supply OR production OR export OR smelter OR refinery),41,6722256,ok,2026-08-07T00:53:47
+B,2023-10-19,wollastonite,wollastonite AND (mining OR supply OR production OR export OR smelter OR refinery),3,6722256,ok,2026-08-07T00:54:12
+B,2023-10-19,yttrium,yttrium AND (mining OR supply OR production OR export OR smelter OR refinery),74,6722256,ok,2026-08-07T00:54:53
+B,2023-10-19,zeolites (natural),zeolites AND (mining OR supply OR production OR export OR smelter OR refinery),61,6722256,ok,2026-08-07T00:55:16
+B,2023-10-19,zinc,zinc AND (mining OR supply OR production OR export OR smelter OR refinery),3131,6722256,ok,2026-08-07T00:55:56
+B,2023-10-19,zirconium,zirconium AND (mining OR supply OR production OR export OR smelter OR refinery),147,6722256,ok,2026-08-07T00:56:17
+C,2024-08-14,abrasives (manufactured),abrasives AND (mining OR supply OR production OR export OR smelter OR refinery),168,6333804,ok,2026-08-07T00:56:54
+C,2024-08-14,aluminum,aluminum AND (mining OR supply OR production OR export OR smelter OR refinery),5773,6333804,ok,2026-08-07T00:57:28
+C,2024-08-14,antimony,antimony AND (mining OR supply OR production OR export OR smelter OR refinery),201,6333804,ok,2026-08-07T00:57:50
+C,2024-08-14,arsenic,arsenic AND (mining OR supply OR production OR export OR smelter OR refinery),684,6333804,ok,2026-08-07T00:58:25
+C,2024-08-14,asbestos,asbestos AND (mining OR supply OR production OR export OR smelter OR refinery),619,6333804,ok,2026-08-07T00:58:48
+C,2024-08-14,barite,barite AND (mining OR supply OR production OR export OR smelter OR refinery),54,6333804,ok,2026-08-07T00:59:20
+C,2024-08-14,bauxite and alumina,bauxite AND (mining OR supply OR production OR export OR smelter OR refinery),339,6333804,ok,2026-08-07T00:59:49
+C,2024-08-14,beryllium,beryllium AND (mining OR supply OR production OR export OR smelter OR refinery),90,6333804,ok,2026-08-07T01:00:17
+C,2024-08-14,bismuth,bismuth AND (mining OR supply OR production OR export OR smelter OR refinery),86,6333804,ok,2026-08-07T01:00:44
+C,2024-08-14,boron,boron AND (mining OR supply OR production OR export OR smelter OR refinery),414,6333804,ok,2026-08-07T01:01:27
+C,2024-08-14,bromine,bromine AND (mining OR supply OR production OR export OR smelter OR refinery),248,6333804,ok,2026-08-07T01:01:46
+C,2024-08-14,cadmium,cadmium AND (mining OR supply OR production OR export OR smelter OR refinery),506,6333804,ok,2026-08-07T01:02:22
+C,2024-08-14,cement,cement AND (mining OR supply OR production OR export OR smelter OR refinery),5144,6333804,ok,2026-08-07T01:02:50
+C,2024-08-14,cesium,cesium AND (mining OR supply OR production OR export OR smelter OR refinery),240,6333804,ok,2026-08-07T01:03:18
+C,2024-08-14,chromium,chromium AND (mining OR supply OR production OR export OR smelter OR refinery),453,6333804,ok,2026-08-07T01:03:50
+C,2024-08-14,clays,clays AND (mining OR supply OR production OR export OR smelter OR refinery),146,6333804,ok,2026-08-07T01:04:18
+C,2024-08-14,cobalt,cobalt AND (mining OR supply OR production OR export OR smelter OR refinery),3408,6333804,ok,2026-08-07T01:04:55
+C,2024-08-14,copper,copper AND (mining OR supply OR production OR export OR smelter OR refinery),10636,6333804,ok,2026-08-07T01:05:24
+C,2024-08-14,diamond (industrial),"""industrial diamond"" AND (mining OR supply OR production OR export OR smelter OR refinery)",3,6333804,ok,2026-08-07T01:05:51
+C,2024-08-14,diatomite,diatomite AND (mining OR supply OR production OR export OR smelter OR refinery),42,6333804,ok,2026-08-07T01:06:14
+C,2024-08-14,feldspar,feldspar AND (mining OR supply OR production OR export OR smelter OR refinery),121,6333804,ok,2026-08-07T01:06:46
+C,2024-08-14,fluorspar,fluorspar AND (mining OR supply OR production OR export OR smelter OR refinery),24,6333804,ok,2026-08-07T01:07:16
+C,2024-08-14,gallium,gallium AND (mining OR supply OR production OR export OR smelter OR refinery),596,6333804,ok,2026-08-07T01:07:52
+C,2024-08-14,garnet (industrial),garnet AND (mining OR supply OR production OR export OR smelter OR refinery),181,6333804,ok,2026-08-07T01:08:19
+C,2024-08-14,gemstones,gemstones AND (mining OR supply OR production OR export OR smelter OR refinery),430,6333804,ok,2026-08-07T01:08:53
+C,2024-08-14,germanium,germanium AND (mining OR supply OR production OR export OR smelter OR refinery),310,6333804,ok,2026-08-07T01:09:24
+C,2024-08-14,gold,gold AND (mining OR supply OR production OR export OR smelter OR refinery),31059,6333804,ok,2026-08-07T01:09:53
+C,2024-08-14,graphite (natural),graphite AND (mining OR supply OR production OR export OR smelter OR refinery),1637,6333804,ok,2026-08-07T01:10:25
+C,2024-08-14,gypsum,gypsum AND (mining OR supply OR production OR export OR smelter OR refinery),360,6333804,ok,2026-08-07T01:10:44
+C,2024-08-14,hafnium,hafnium AND (mining OR supply OR production OR export OR smelter OR refinery),13,6333804,ok,2026-08-07T01:11:17
+C,2024-08-14,helium,helium AND (mining OR supply OR production OR export OR smelter OR refinery),965,6333804,ok,2026-08-07T01:11:51
+C,2024-08-14,indium,indium AND (mining OR supply OR production OR export OR smelter OR refinery),168,6333804,ok,2026-08-07T01:12:19
+C,2024-08-14,iodine,iodine AND (mining OR supply OR production OR export OR smelter OR refinery),358,6333804,ok,2026-08-07T01:12:48
+C,2024-08-14,iron and steel,"""steel industry"" AND (mining OR supply OR production OR export OR smelter OR refinery)",850,6333804,ok,2026-08-07T01:13:30
+C,2024-08-14,iron and steel scrap,"""steel scrap"" AND (mining OR supply OR production OR export OR smelter OR refinery)",59,6333804,ok,2026-08-07T01:13:50
+C,2024-08-14,iron and steel slag,"""steel slag"" AND (mining OR supply OR production OR export OR smelter OR refinery)",31,6333804,ok,2026-08-07T01:14:24
+C,2024-08-14,iron ore,"""iron ore"" AND (mining OR supply OR production OR export OR smelter OR refinery)",1919,6333804,ok,2026-08-07T01:14:59
+C,2024-08-14,iron oxide pigments,"""iron oxide"" AND (mining OR supply OR production OR export OR smelter OR refinery)",144,6333804,ok,2026-08-07T01:15:23
+C,2024-08-14,kyanite,kyanite AND (mining OR supply OR production OR export OR smelter OR refinery),5,6333804,ok,2026-08-07T01:15:45
+C,2024-08-14,lead,lead AND (mining OR supply OR production OR export OR smelter OR refinery),96612,6333804,ok,2026-08-07T01:16:30
+C,2024-08-14,lime,lime AND (mining OR supply OR production OR export OR smelter OR refinery),1720,6333804,ok,2026-08-07T01:16:50
+C,2024-08-14,lithium,lithium AND (mining OR supply OR production OR export OR smelter OR refinery),11279,6333804,ok,2026-08-07T01:17:24
+C,2024-08-14,magnesium compounds,"""magnesium compounds"" AND (mining OR supply OR production OR export OR smelter OR refinery)",8,6333804,ok,2026-08-07T01:17:56
+C,2024-08-14,magnesium metal,magnesium AND (mining OR supply OR production OR export OR smelter OR refinery),1193,6333804,ok,2026-08-07T01:18:24
+C,2024-08-14,manganese,manganese AND (mining OR supply OR production OR export OR smelter OR refinery),1211,6333804,ok,2026-08-07T01:18:55
+C,2024-08-14,mercury,mercury AND (mining OR supply OR production OR export OR smelter OR refinery),2858,6333804,ok,2026-08-07T01:19:25
+C,2024-08-14,mica (natural),mica AND (mining OR supply OR production OR export OR smelter OR refinery),325,6333804,ok,2026-08-07T01:19:54
+C,2024-08-14,molybdenum,molybdenum AND (mining OR supply OR production OR export OR smelter OR refinery),662,6333804,ok,2026-08-07T01:20:24
+C,2024-08-14,nickel,nickel AND (mining OR supply OR production OR export OR smelter OR refinery),5559,6333804,ok,2026-08-07T01:20:51
+C,2024-08-14,niobium,niobium AND (mining OR supply OR production OR export OR smelter OR refinery),190,6333804,ok,2026-08-07T01:21:22
+C,2024-08-14,nitrogen (fixed)-ammonia,ammonia AND (mining OR supply OR production OR export OR smelter OR refinery),2026,6333804,ok,2026-08-07T01:21:49
+C,2024-08-14,peat,peat AND (mining OR supply OR production OR export OR smelter OR refinery),591,6333804,ok,2026-08-07T01:22:28
+C,2024-08-14,perlite,perlite AND (mining OR supply OR production OR export OR smelter OR refinery),71,6333804,ok,2026-08-07T01:22:49
+C,2024-08-14,phosphate rock,"""phosphate rock"" AND (mining OR supply OR production OR export OR smelter OR refinery)",56,6333804,ok,2026-08-07T01:23:29
+C,2024-08-14,platinum-group metals,(platinum OR palladium) AND (mining OR supply OR production OR export OR smelter OR refinery),3704,6333804,ok,2026-08-07T01:23:51
+C,2024-08-14,potash,potash AND (mining OR supply OR production OR export OR smelter OR refinery),473,6333804,ok,2026-08-07T01:24:24
+C,2024-08-14,pumice and pumicite,pumice AND (mining OR supply OR production OR export OR smelter OR refinery),378,6333804,ok,2026-08-07T01:24:48
+C,2024-08-14,quartz crystal (industrial),"""quartz crystal"" AND (mining OR supply OR production OR export OR smelter OR refinery)",20,6333804,ok,2026-08-07T01:25:28
+C,2024-08-14,rare earths,"""rare earth"" AND (mining OR supply OR production OR export OR smelter OR refinery)",1796,6333804,ok,2026-08-07T01:25:49
+C,2024-08-14,rhenium,rhenium AND (mining OR supply OR production OR export OR smelter OR refinery),73,6333804,ok,2026-08-07T01:26:21
+C,2024-08-14,rubidium,rubidium AND (mining OR supply OR production OR export OR smelter OR refinery),70,6333804,ok,2026-08-07T01:26:47
+C,2024-08-14,salt,salt AND (mining OR supply OR production OR export OR smelter OR refinery),9384,6333804,ok,2026-08-07T01:27:27
+C,2024-08-14,sand and gravel,"""sand and gravel"" AND (mining OR supply OR production OR export OR smelter OR refinery)",153,6333804,ok,2026-08-07T01:28:00
+C,2024-08-14,scandium,scandium AND (mining OR supply OR production OR export OR smelter OR refinery),84,6333804,ok,2026-08-07T01:28:20
+C,2024-08-14,selenium,selenium AND (mining OR supply OR production OR export OR smelter OR refinery),253,6333804,ok,2026-08-07T01:28:57
+C,2024-08-14,silicon,silicon AND (mining OR supply OR production OR export OR smelter OR refinery),9093,6333804,ok,2026-08-07T01:29:24
+C,2024-08-14,silver,silver AND (mining OR supply OR production OR export OR smelter OR refinery),14523,6333804,ok,2026-08-07T01:29:52
+C,2024-08-14,soda ash,"""soda ash"" AND (mining OR supply OR production OR export OR smelter OR refinery)",103,6333804,ok,2026-08-07T01:30:26
+C,2024-08-14,stone,stone AND (mining OR supply OR production OR export OR smelter OR refinery),12816,6333804,ok,2026-08-07T01:30:53
+C,2024-08-14,strontium,strontium AND (mining OR supply OR production OR export OR smelter OR refinery),77,6333804,ok,2026-08-07T01:31:15
+C,2024-08-14,sulfur,sulfur AND (mining OR supply OR production OR export OR smelter OR refinery),1317,6333804,ok,2026-08-07T01:31:52
+C,2024-08-14,talc and pyrophyllite,talc AND (mining OR supply OR production OR export OR smelter OR refinery),163,6333804,ok,2026-08-07T01:32:19
+C,2024-08-14,tantalum,tantalum AND (mining OR supply OR production OR export OR smelter OR refinery),366,6333804,ok,2026-08-07T01:32:47
+C,2024-08-14,tellurium,tellurium AND (mining OR supply OR production OR export OR smelter OR refinery),51,6333804,ok,2026-08-07T01:33:21
+C,2024-08-14,thallium,thallium AND (mining OR supply OR production OR export OR smelter OR refinery),24,6333804,ok,2026-08-07T01:33:46
+C,2024-08-14,thorium,thorium AND (mining OR supply OR production OR export OR smelter OR refinery),114,6333804,ok,2026-08-07T01:34:23
+C,2024-08-14,tin,tin AND (mining OR supply OR production OR export OR smelter OR refinery),1833,6333804,ok,2026-08-07T01:34:48
+C,2024-08-14,titanium,titanium AND (mining OR supply OR production OR export OR smelter OR refinery),1766,6333804,ok,2026-08-07T01:35:22
+C,2024-08-14,tungsten,tungsten AND (mining OR supply OR production OR export OR smelter OR refinery),382,6333804,ok,2026-08-07T01:35:48
+C,2024-08-14,vanadium,vanadium AND (mining OR supply OR production OR export OR smelter OR refinery),352,6333804,ok,2026-08-07T01:36:21
+C,2024-08-14,vermiculite,vermiculite AND (mining OR supply OR production OR export OR smelter OR refinery),51,6333804,ok,2026-08-07T01:36:43
+C,2024-08-14,wollastonite,wollastonite AND (mining OR supply OR production OR export OR smelter OR refinery),6,6333804,ok,2026-08-07T01:37:14
+C,2024-08-14,yttrium,yttrium AND (mining OR supply OR production OR export OR smelter OR refinery),72,6333804,ok,2026-08-07T01:37:50
+C,2024-08-14,zeolites (natural),zeolites AND (mining OR supply OR production OR export OR smelter OR refinery),72,6333804,ok,2026-08-07T01:38:22
+C,2024-08-14,zinc,zinc AND (mining OR supply OR production OR export OR smelter OR refinery),2940,6333804,ok,2026-08-07T01:38:51
+C,2024-08-14,zirconium,zirconium AND (mining OR supply OR production OR export OR smelter OR refinery),128,6333804,ok,2026-08-07T01:39:23
+D,2025-01-31,abrasives (manufactured),abrasives AND (mining OR supply OR production OR export OR smelter OR refinery),107,6354836,ok,2026-08-07T01:40:06
+D,2025-01-31,aluminum,aluminum AND (mining OR supply OR production OR export OR smelter OR refinery),5652,6354836,ok,2026-08-07T01:40:24
+D,2025-01-31,antimony,antimony AND (mining OR supply OR production OR export OR smelter OR refinery),378,6354836,ok,2026-08-07T01:40:55
+D,2025-01-31,arsenic,arsenic AND (mining OR supply OR production OR export OR smelter OR refinery),683,6354836,ok,2026-08-07T01:41:26
+D,2025-01-31,asbestos,asbestos AND (mining OR supply OR production OR export OR smelter OR refinery),602,6354836,ok,2026-08-07T01:41:54
+D,2025-01-31,barite,barite AND (mining OR supply OR production OR export OR smelter OR refinery),42,6354836,ok,2026-08-07T01:42:23
+D,2025-01-31,bauxite and alumina,bauxite AND (mining OR supply OR production OR export OR smelter OR refinery),349,6354836,ok,2026-08-07T01:42:59
+D,2025-01-31,beryllium,beryllium AND (mining OR supply OR production OR export OR smelter OR refinery),76,6354836,ok,2026-08-07T01:43:26
+D,2025-01-31,bismuth,bismuth AND (mining OR supply OR production OR export OR smelter OR refinery),68,6354836,ok,2026-08-07T01:43:53
+D,2025-01-31,boron,boron AND (mining OR supply OR production OR export OR smelter OR refinery),331,6354836,ok,2026-08-07T01:44:29
+D,2025-01-31,bromine,bromine AND (mining OR supply OR production OR export OR smelter OR refinery),238,6354836,ok,2026-08-07T01:44:50
+D,2025-01-31,cadmium,cadmium AND (mining OR supply OR production OR export OR smelter OR refinery),496,6354836,ok,2026-08-07T01:45:28
+D,2025-01-31,cement,cement AND (mining OR supply OR production OR export OR smelter OR refinery),4524,6354836,ok,2026-08-07T01:45:51
+D,2025-01-31,cesium,cesium AND (mining OR supply OR production OR export OR smelter OR refinery),207,6354836,ok,2026-08-07T01:46:23
+D,2025-01-31,chromium,chromium AND (mining OR supply OR production OR export OR smelter OR refinery),407,6354836,ok,2026-08-07T01:46:50
+D,2025-01-31,clays,clays AND (mining OR supply OR production OR export OR smelter OR refinery),125,6354836,ok,2026-08-07T01:47:20
+D,2025-01-31,cobalt,cobalt AND (mining OR supply OR production OR export OR smelter OR refinery),3056,6354836,ok,2026-08-07T01:47:56
+D,2025-01-31,copper,copper AND (mining OR supply OR production OR export OR smelter OR refinery),10283,6354836,ok,2026-08-07T01:48:27
+D,2025-01-31,diamond (industrial),"""industrial diamond"" AND (mining OR supply OR production OR export OR smelter OR refinery)",4,6354836,ok,2026-08-07T01:48:54
+D,2025-01-31,diatomite,diatomite AND (mining OR supply OR production OR export OR smelter OR refinery),36,6354836,ok,2026-08-07T01:49:16
+D,2025-01-31,feldspar,feldspar AND (mining OR supply OR production OR export OR smelter OR refinery),108,6354836,ok,2026-08-07T01:49:50
+D,2025-01-31,fluorspar,fluorspar AND (mining OR supply OR production OR export OR smelter OR refinery),21,6354836,ok,2026-08-07T01:50:15
+D,2025-01-31,gallium,gallium AND (mining OR supply OR production OR export OR smelter OR refinery),757,6354836,ok,2026-08-07T01:50:53
+D,2025-01-31,garnet (industrial),garnet AND (mining OR supply OR production OR export OR smelter OR refinery),195,6354836,ok,2026-08-07T01:51:24
+D,2025-01-31,gemstones,gemstones AND (mining OR supply OR production OR export OR smelter OR refinery),450,6354836,ok,2026-08-07T01:51:56
+D,2025-01-31,germanium,germanium AND (mining OR supply OR production OR export OR smelter OR refinery),501,6354836,ok,2026-08-07T01:52:23
+D,2025-01-31,gold,gold AND (mining OR supply OR production OR export OR smelter OR refinery),31621,6354836,ok,2026-08-07T01:53:04
+D,2025-01-31,graphite (natural),graphite AND (mining OR supply OR production OR export OR smelter OR refinery),1503,6354836,ok,2026-08-07T01:53:24
+D,2025-01-31,gypsum,gypsum AND (mining OR supply OR production OR export OR smelter OR refinery),344,6354836,ok,2026-08-07T01:53:53
+D,2025-01-31,hafnium,hafnium AND (mining OR supply OR production OR export OR smelter OR refinery),13,6354836,ok,2026-08-07T01:54:26
+D,2025-01-31,helium,helium AND (mining OR supply OR production OR export OR smelter OR refinery),855,6354836,ok,2026-08-07T01:54:53
+D,2025-01-31,indium,indium AND (mining OR supply OR production OR export OR smelter OR refinery),139,6354836,ok,2026-08-07T01:55:31
+D,2025-01-31,iodine,iodine AND (mining OR supply OR production OR export OR smelter OR refinery),260,6354836,ok,2026-08-07T01:55:50
+D,2025-01-31,iron and steel,"""steel industry"" AND (mining OR supply OR production OR export OR smelter OR refinery)",1048,6354836,ok,2026-08-07T01:56:38
+D,2025-01-31,iron and steel scrap,"""steel scrap"" AND (mining OR supply OR production OR export OR smelter OR refinery)",60,6354836,ok,2026-08-07T01:56:58
+D,2025-01-31,iron and steel slag,"""steel slag"" AND (mining OR supply OR production OR export OR smelter OR refinery)",34,6354836,ok,2026-08-07T01:57:26
+D,2025-01-31,iron ore,"""iron ore"" AND (mining OR supply OR production OR export OR smelter OR refinery)",1804,6354836,ok,2026-08-07T01:58:12
+D,2025-01-31,iron oxide pigments,"""iron oxide"" AND (mining OR supply OR production OR export OR smelter OR refinery)",136,6354836,ok,2026-08-07T01:58:40
+D,2025-01-31,kyanite,kyanite AND (mining OR supply OR production OR export OR smelter OR refinery),3,6354836,ok,2026-08-07T01:58:53
+D,2025-01-31,lead,lead AND (mining OR supply OR production OR export OR smelter OR refinery),92797,6354836,ok,2026-08-07T01:59:43
+D,2025-01-31,lime,lime AND (mining OR supply OR production OR export OR smelter OR refinery),1654,6354836,ok,2026-08-07T02:00:04
+D,2025-01-31,lithium,lithium AND (mining OR supply OR production OR export OR smelter OR refinery),10193,6354836,ok,2026-08-07T02:00:35
+D,2025-01-31,magnesium compounds,"""magnesium compounds"" AND (mining OR supply OR production OR export OR smelter OR refinery)",6,6354836,ok,2026-08-07T02:01:08
+D,2025-01-31,magnesium metal,magnesium AND (mining OR supply OR production OR export OR smelter OR refinery),1121,6354836,ok,2026-08-07T02:01:25
+D,2025-01-31,manganese,manganese AND (mining OR supply OR production OR export OR smelter OR refinery),1054,6354836,ok,2026-08-07T02:02:04
+D,2025-01-31,mercury,mercury AND (mining OR supply OR production OR export OR smelter OR refinery),2622,6354836,ok,2026-08-07T02:02:37
+D,2025-01-31,mica (natural),mica AND (mining OR supply OR production OR export OR smelter OR refinery),317,6354836,ok,2026-08-07T02:03:06
+D,2025-01-31,molybdenum,molybdenum AND (mining OR supply OR production OR export OR smelter OR refinery),622,6354836,ok,2026-08-07T02:03:28
+D,2025-01-31,nickel,nickel AND (mining OR supply OR production OR export OR smelter OR refinery),5416,6354836,ok,2026-08-07T02:04:07
+D,2025-01-31,niobium,niobium AND (mining OR supply OR production OR export OR smelter OR refinery),149,6354836,ok,2026-08-07T02:04:31
+D,2025-01-31,nitrogen (fixed)-ammonia,ammonia AND (mining OR supply OR production OR export OR smelter OR refinery),1798,6354836,ok,2026-08-07T02:05:08
+D,2025-01-31,peat,peat AND (mining OR supply OR production OR export OR smelter OR refinery),679,6354836,ok,2026-08-07T02:05:36
+D,2025-01-31,perlite,perlite AND (mining OR supply OR production OR export OR smelter OR refinery),55,6354836,ok,2026-08-07T02:05:58
+D,2025-01-31,phosphate rock,"""phosphate rock"" AND (mining OR supply OR production OR export OR smelter OR refinery)",33,6354836,ok,2026-08-07T02:06:35
+D,2025-01-31,platinum-group metals,(platinum OR palladium) AND (mining OR supply OR production OR export OR smelter OR refinery),3760,6354836,ok,2026-08-07T02:07:13
+D,2025-01-31,potash,potash AND (mining OR supply OR production OR export OR smelter OR refinery),419,6354836,ok,2026-08-07T02:08:02
+D,2025-01-31,pumice and pumicite,pumice AND (mining OR supply OR production OR export OR smelter OR refinery),358,6354836,ok,2026-08-07T02:08:27
+D,2025-01-31,quartz crystal (industrial),"""quartz crystal"" AND (mining OR supply OR production OR export OR smelter OR refinery)",17,6354836,ok,2026-08-07T02:09:11
+D,2025-01-31,rare earths,"""rare earth"" AND (mining OR supply OR production OR export OR smelter OR refinery)",1753,6354836,ok,2026-08-07T02:09:35
+D,2025-01-31,rhenium,rhenium AND (mining OR supply OR production OR export OR smelter OR refinery),64,6354836,ok,2026-08-07T02:10:01
+D,2025-01-31,rubidium,rubidium AND (mining OR supply OR production OR export OR smelter OR refinery),52,6354836,ok,2026-08-07T02:10:27
+D,2025-01-31,salt,salt AND (mining OR supply OR production OR export OR smelter OR refinery),8471,6354836,ok,2026-08-07T02:11:01
+D,2025-01-31,sand and gravel,"""sand and gravel"" AND (mining OR supply OR production OR export OR smelter OR refinery)",144,6354836,ok,2026-08-07T02:11:39
+D,2025-01-31,scandium,scandium AND (mining OR supply OR production OR export OR smelter OR refinery),61,6354836,ok,2026-08-07T02:11:54
+D,2025-01-31,selenium,selenium AND (mining OR supply OR production OR export OR smelter OR refinery),212,6354836,ok,2026-08-07T02:12:27
+D,2025-01-31,silicon,silicon AND (mining OR supply OR production OR export OR smelter OR refinery),8732,6354836,ok,2026-08-07T02:13:01
+D,2025-01-31,silver,silver AND (mining OR supply OR production OR export OR smelter OR refinery),13958,6354836,ok,2026-08-07T02:13:27
+D,2025-01-31,soda ash,"""soda ash"" AND (mining OR supply OR production OR export OR smelter OR refinery)",83,6354836,ok,2026-08-07T02:14:07
+D,2025-01-31,stone,stone AND (mining OR supply OR production OR export OR smelter OR refinery),13048,6354836,ok,2026-08-07T02:14:30
+D,2025-01-31,strontium,strontium AND (mining OR supply OR production OR export OR smelter OR refinery),81,6354836,ok,2026-08-07T02:14:56
+D,2025-01-31,sulfur,sulfur AND (mining OR supply OR production OR export OR smelter OR refinery),1216,6354836,ok,2026-08-07T02:15:29
+D,2025-01-31,talc and pyrophyllite,talc AND (mining OR supply OR production OR export OR smelter OR refinery),164,6354836,ok,2026-08-07T02:15:56
+D,2025-01-31,tantalum,tantalum AND (mining OR supply OR production OR export OR smelter OR refinery),317,6354836,ok,2026-08-07T02:16:27
+D,2025-01-31,tellurium,tellurium AND (mining OR supply OR production OR export OR smelter OR refinery),32,6354836,ok,2026-08-07T02:16:56
+D,2025-01-31,thallium,thallium AND (mining OR supply OR production OR export OR smelter OR refinery),14,6354836,ok,2026-08-07T02:17:25
+D,2025-01-31,thorium,thorium AND (mining OR supply OR production OR export OR smelter OR refinery),120,6354836,ok,2026-08-07T02:18:00
+D,2025-01-31,tin,tin AND (mining OR supply OR production OR export OR smelter OR refinery),1697,6354836,ok,2026-08-07T02:18:29
+D,2025-01-31,titanium,titanium AND (mining OR supply OR production OR export OR smelter OR refinery),1666,6354836,ok,2026-08-07T02:19:02
+D,2025-01-31,tungsten,tungsten AND (mining OR supply OR production OR export OR smelter OR refinery),391,6354836,ok,2026-08-07T02:19:28
+D,2025-01-31,vanadium,vanadium AND (mining OR supply OR production OR export OR smelter OR refinery),297,6354836,ok,2026-08-07T02:19:56
+D,2025-01-31,vermiculite,vermiculite AND (mining OR supply OR production OR export OR smelter OR refinery),48,6354836,ok,2026-08-07T02:20:24
+D,2025-01-31,wollastonite,wollastonite AND (mining OR supply OR production OR export OR smelter OR refinery),9,6354836,ok,2026-08-07T02:20:52
+D,2025-01-31,yttrium,yttrium AND (mining OR supply OR production OR export OR smelter OR refinery),70,6354836,ok,2026-08-07T02:21:26
+D,2025-01-31,zeolites (natural),zeolites AND (mining OR supply OR production OR export OR smelter OR refinery),69,6354836,ok,2026-08-07T02:21:52
+D,2025-01-31,zinc,zinc AND (mining OR supply OR production OR export OR smelter OR refinery),2744,6354836,ok,2026-08-07T02:22:34
+D,2025-01-31,zirconium,zirconium AND (mining OR supply OR production OR export OR smelter OR refinery),103,6354836,ok,2026-08-07T02:22:56
+E1,2025-04-01,abrasives (manufactured),abrasives AND (mining OR supply OR production OR export OR smelter OR refinery),118,6450371,ok,2026-08-07T02:23:36
+E1,2025-04-01,aluminum,aluminum AND (mining OR supply OR production OR export OR smelter OR refinery),7343,6450371,ok,2026-08-07T02:23:59
+E1,2025-04-01,antimony,antimony AND (mining OR supply OR production OR export OR smelter OR refinery),405,6450371,ok,2026-08-07T02:24:30
+E1,2025-04-01,arsenic,arsenic AND (mining OR supply OR production OR export OR smelter OR refinery),701,6450371,ok,2026-08-07T02:25:04
+E1,2025-04-01,asbestos,asbestos AND (mining OR supply OR production OR export OR smelter OR refinery),595,6450371,ok,2026-08-07T02:25:24
+E1,2025-04-01,barite,barite AND (mining OR supply OR production OR export OR smelter OR refinery),37,6450371,ok,2026-08-07T02:26:02
+E1,2025-04-01,bauxite and alumina,bauxite AND (mining OR supply OR production OR export OR smelter OR refinery),368,6450371,ok,2026-08-07T02:26:28
+E1,2025-04-01,beryllium,beryllium AND (mining OR supply OR production OR export OR smelter OR refinery),96,6450371,ok,2026-08-07T02:27:01
+E1,2025-04-01,bismuth,bismuth AND (mining OR supply OR production OR export OR smelter OR refinery),131,6450371,ok,2026-08-07T02:27:29
+E1,2025-04-01,boron,boron AND (mining OR supply OR production OR export OR smelter OR refinery),309,6450371,ok,2026-08-07T02:28:10
+E1,2025-04-01,bromine,bromine AND (mining OR supply OR production OR export OR smelter OR refinery),237,6450371,ok,2026-08-07T02:28:28
+E1,2025-04-01,cadmium,cadmium AND (mining OR supply OR production OR export OR smelter OR refinery),483,6450371,ok,2026-08-07T02:29:08
+E1,2025-04-01,cement,cement AND (mining OR supply OR production OR export OR smelter OR refinery),4319,6450371,ok,2026-08-07T02:29:31
+E1,2025-04-01,cesium,cesium AND (mining OR supply OR production OR export OR smelter OR refinery),183,6450371,ok,2026-08-07T02:30:05
+E1,2025-04-01,chromium,chromium AND (mining OR supply OR production OR export OR smelter OR refinery),419,6450371,ok,2026-08-07T02:30:32
+E1,2025-04-01,clays,clays AND (mining OR supply OR production OR export OR smelter OR refinery),114,6450371,ok,2026-08-07T02:30:56
+E1,2025-04-01,cobalt,cobalt AND (mining OR supply OR production OR export OR smelter OR refinery),2939,6450371,ok,2026-08-07T02:31:34
+E1,2025-04-01,copper,copper AND (mining OR supply OR production OR export OR smelter OR refinery),10632,6450371,ok,2026-08-07T02:31:58
+E1,2025-04-01,diamond (industrial),"""industrial diamond"" AND (mining OR supply OR production OR export OR smelter OR refinery)",3,6450371,ok,2026-08-07T02:32:34
+E1,2025-04-01,diatomite,diatomite AND (mining OR supply OR production OR export OR smelter OR refinery),38,6450371,ok,2026-08-07T02:32:57
+E1,2025-04-01,feldspar,feldspar AND (mining OR supply OR production OR export OR smelter OR refinery),96,6450371,ok,2026-08-07T02:33:31
+E1,2025-04-01,fluorspar,fluorspar AND (mining OR supply OR production OR export OR smelter OR refinery),18,6450371,ok,2026-08-07T02:34:01
+E1,2025-04-01,gallium,gallium AND (mining OR supply OR production OR export OR smelter OR refinery),847,6450371,ok,2026-08-07T02:34:36
+E1,2025-04-01,garnet (industrial),garnet AND (mining OR supply OR production OR export OR smelter OR refinery),190,6450371,ok,2026-08-07T02:35:02
+E1,2025-04-01,gemstones,gemstones AND (mining OR supply OR production OR export OR smelter OR refinery),494,6450371,ok,2026-08-07T02:35:35
+E1,2025-04-01,germanium,germanium AND (mining OR supply OR production OR export OR smelter OR refinery),567,6450371,ok,2026-08-07T02:35:59
+E1,2025-04-01,gold,gold AND (mining OR supply OR production OR export OR smelter OR refinery),32107,6450371,ok,2026-08-07T02:36:36
+E1,2025-04-01,graphite (natural),graphite AND (mining OR supply OR production OR export OR smelter OR refinery),1535,6450371,ok,2026-08-07T02:36:59
+E1,2025-04-01,gypsum,gypsum AND (mining OR supply OR production OR export OR smelter OR refinery),339,6450371,ok,2026-08-07T02:37:32
+E1,2025-04-01,hafnium,hafnium AND (mining OR supply OR production OR export OR smelter OR refinery),13,6450371,ok,2026-08-07T02:37:59
+E1,2025-04-01,helium,helium AND (mining OR supply OR production OR export OR smelter OR refinery),854,6450371,ok,2026-08-07T02:38:37
+E1,2025-04-01,indium,indium AND (mining OR supply OR production OR export OR smelter OR refinery),206,6450371,ok,2026-08-07T02:39:04
+E1,2025-04-01,iodine,iodine AND (mining OR supply OR production OR export OR smelter OR refinery),255,6450371,ok,2026-08-07T02:39:32
+E1,2025-04-01,iron and steel,"""steel industry"" AND (mining OR supply OR production OR export OR smelter OR refinery)",1180,6450371,ok,2026-08-07T02:40:10
+E1,2025-04-01,iron and steel scrap,"""steel scrap"" AND (mining OR supply OR production OR export OR smelter OR refinery)",61,6450371,ok,2026-08-07T02:40:31
+E1,2025-04-01,iron and steel slag,"""steel slag"" AND (mining OR supply OR production OR export OR smelter OR refinery)",31,6450371,ok,2026-08-07T02:41:06
+E1,2025-04-01,iron ore,"""iron ore"" AND (mining OR supply OR production OR export OR smelter OR refinery)",1870,6450371,ok,2026-08-07T02:41:35
+E1,2025-04-01,iron oxide pigments,"""iron oxide"" AND (mining OR supply OR production OR export OR smelter OR refinery)",140,6450371,ok,2026-08-07T02:42:02
+E1,2025-04-01,kyanite,kyanite AND (mining OR supply OR production OR export OR smelter OR refinery),2,6450371,ok,2026-08-07T02:42:24
+E1,2025-04-01,lead,lead AND (mining OR supply OR production OR export OR smelter OR refinery),92664,6450371,ok,2026-08-07T02:43:07
+E1,2025-04-01,lime,lime AND (mining OR supply OR production OR export OR smelter OR refinery),1633,6450371,ok,2026-08-07T02:43:36
+E1,2025-04-01,lithium,lithium AND (mining OR supply OR production OR export OR smelter OR refinery),9757,6450371,ok,2026-08-07T02:44:02
+E1,2025-04-01,magnesium compounds,"""magnesium compounds"" AND (mining OR supply OR production OR export OR smelter OR refinery)",5,6450371,ok,2026-08-07T02:44:34
+E1,2025-04-01,magnesium metal,magnesium AND (mining OR supply OR production OR export OR smelter OR refinery),1131,6450371,ok,2026-08-07T02:45:07
+E1,2025-04-01,manganese,manganese AND (mining OR supply OR production OR export OR smelter OR refinery),994,6450371,ok,2026-08-07T02:45:33
+E1,2025-04-01,mercury,mercury AND (mining OR supply OR production OR export OR smelter OR refinery),2594,6450371,ok,2026-08-07T02:46:04
+E1,2025-04-01,mica (natural),mica AND (mining OR supply OR production OR export OR smelter OR refinery),312,6450371,ok,2026-08-07T02:46:34
+E1,2025-04-01,molybdenum,molybdenum AND (mining OR supply OR production OR export OR smelter OR refinery),708,6450371,ok,2026-08-07T02:46:57
+E1,2025-04-01,nickel,nickel AND (mining OR supply OR production OR export OR smelter OR refinery),5652,6450371,ok,2026-08-07T02:47:33
+E1,2025-04-01,niobium,niobium AND (mining OR supply OR production OR export OR smelter OR refinery),123,6450371,ok,2026-08-07T02:48:01
+E1,2025-04-01,nitrogen (fixed)-ammonia,ammonia AND (mining OR supply OR production OR export OR smelter OR refinery),1702,6450371,ok,2026-08-07T02:48:34
+E1,2025-04-01,peat,peat AND (mining OR supply OR production OR export OR smelter OR refinery),785,6450371,ok,2026-08-07T02:49:04
+E1,2025-04-01,perlite,perlite AND (mining OR supply OR production OR export OR smelter OR refinery),49,6450371,ok,2026-08-07T02:49:30
+E1,2025-04-01,phosphate rock,"""phosphate rock"" AND (mining OR supply OR production OR export OR smelter OR refinery)",29,6450371,ok,2026-08-07T02:50:04
+E1,2025-04-01,platinum-group metals,(platinum OR palladium) AND (mining OR supply OR production OR export OR smelter OR refinery),3714,6450371,ok,2026-08-07T02:50:35
+E1,2025-04-01,potash,potash AND (mining OR supply OR production OR export OR smelter OR refinery),512,6450371,ok,2026-08-07T02:50:58
+E1,2025-04-01,pumice and pumicite,pumice AND (mining OR supply OR production OR export OR smelter OR refinery),367,6450371,ok,2026-08-07T02:51:25
+E1,2025-04-01,quartz crystal (industrial),"""quartz crystal"" AND (mining OR supply OR production OR export OR smelter OR refinery)",17,6450371,ok,2026-08-07T02:52:03
+E1,2025-04-01,rare earths,"""rare earth"" AND (mining OR supply OR production OR export OR smelter OR refinery)",2156,6450371,ok,2026-08-07T02:52:35
+E1,2025-04-01,rhenium,rhenium AND (mining OR supply OR production OR export OR smelter OR refinery),64,6450371,ok,2026-08-07T02:52:58
+E1,2025-04-01,rubidium,rubidium AND (mining OR supply OR production OR export OR smelter OR refinery),51,6450371,ok,2026-08-07T02:53:27
+E1,2025-04-01,salt,salt AND (mining OR supply OR production OR export OR smelter OR refinery),8316,6450371,ok,2026-08-07T02:54:07
+E1,2025-04-01,sand and gravel,"""sand and gravel"" AND (mining OR supply OR production OR export OR smelter OR refinery)",137,6450371,ok,2026-08-07T02:54:36
+E1,2025-04-01,scandium,scandium AND (mining OR supply OR production OR export OR smelter OR refinery),61,6450371,ok,2026-08-07T02:54:59
+E1,2025-04-01,selenium,selenium AND (mining OR supply OR production OR export OR smelter OR refinery),204,6450371,ok,2026-08-07T02:55:30
+E1,2025-04-01,silicon,silicon AND (mining OR supply OR production OR export OR smelter OR refinery),8103,6450371,ok,2026-08-07T02:56:01
+E1,2025-04-01,silver,silver AND (mining OR supply OR production OR export OR smelter OR refinery),13848,6450371,ok,2026-08-07T02:56:30
+E1,2025-04-01,soda ash,"""soda ash"" AND (mining OR supply OR production OR export OR smelter OR refinery)",76,6450371,ok,2026-08-07T02:57:04
+E1,2025-04-01,stone,stone AND (mining OR supply OR production OR export OR smelter OR refinery),12990,6450371,ok,2026-08-07T02:57:35
+E1,2025-04-01,strontium,strontium AND (mining OR supply OR production OR export OR smelter OR refinery),72,6450371,ok,2026-08-07T02:57:59
+E1,2025-04-01,sulfur,sulfur AND (mining OR supply OR production OR export OR smelter OR refinery),1225,6450371,ok,2026-08-07T02:58:32
+E1,2025-04-01,talc and pyrophyllite,talc AND (mining OR supply OR production OR export OR smelter OR refinery),171,6450371,ok,2026-08-07T02:59:00
+E1,2025-04-01,tantalum,tantalum AND (mining OR supply OR production OR export OR smelter OR refinery),316,6450371,ok,2026-08-07T02:59:30
+E1,2025-04-01,tellurium,tellurium AND (mining OR supply OR production OR export OR smelter OR refinery),113,6450371,ok,2026-08-07T02:59:58
+E1,2025-04-01,thallium,thallium AND (mining OR supply OR production OR export OR smelter OR refinery),11,6450371,ok,2026-08-07T03:00:28
+E1,2025-04-01,thorium,thorium AND (mining OR supply OR production OR export OR smelter OR refinery),117,6450371,ok,2026-08-07T03:00:57
+E1,2025-04-01,tin,tin AND (mining OR supply OR production OR export OR smelter OR refinery),1757,6450371,ok,2026-08-07T03:01:34
+E1,2025-04-01,titanium,titanium AND (mining OR supply OR production OR export OR smelter OR refinery),1753,6450371,ok,2026-08-07T03:02:00
+E1,2025-04-01,tungsten,tungsten AND (mining OR supply OR production OR export OR smelter OR refinery),475,6450371,ok,2026-08-07T03:02:28
+E1,2025-04-01,vanadium,vanadium AND (mining OR supply OR production OR export OR smelter OR refinery),297,6450371,ok,2026-08-07T03:03:03
+E1,2025-04-01,vermiculite,vermiculite AND (mining OR supply OR production OR export OR smelter OR refinery),46,6450371,ok,2026-08-07T03:03:28
+E1,2025-04-01,wollastonite,wollastonite AND (mining OR supply OR production OR export OR smelter OR refinery),9,6450371,ok,2026-08-07T03:03:54
+E1,2025-04-01,yttrium,yttrium AND (mining OR supply OR production OR export OR smelter OR refinery),87,6450371,ok,2026-08-07T03:04:29
+E1,2025-04-01,zeolites (natural),zeolites AND (mining OR supply OR production OR export OR smelter OR refinery),70,6450371,ok,2026-08-07T03:04:58
+E1,2025-04-01,zinc,zinc AND (mining OR supply OR production OR export OR smelter OR refinery),2815,6450371,ok,2026-08-07T03:05:34
+E1,2025-04-01,zirconium,zirconium AND (mining OR supply OR production OR export OR smelter OR refinery),99,6450371,ok,2026-08-07T03:05:59
+E2,2025-10-08,abrasives (manufactured),abrasives AND (mining OR supply OR production OR export OR smelter OR refinery),98,6931756,ok,2026-08-07T03:06:38
+E2,2025-10-08,aluminum,aluminum AND (mining OR supply OR production OR export OR smelter OR refinery),9818,6931756,ok,2026-08-07T03:07:05
+E2,2025-10-08,antimony,antimony AND (mining OR supply OR production OR export OR smelter OR refinery),653,6931756,ok,2026-08-07T03:07:34
+E2,2025-10-08,arsenic,arsenic AND (mining OR supply OR production OR export OR smelter OR refinery),799,6931756,ok,2026-08-07T03:08:07
+E2,2025-10-08,asbestos,asbestos AND (mining OR supply OR production OR export OR smelter OR refinery),535,6931756,ok,2026-08-07T03:08:30
+E2,2025-10-08,barite,barite AND (mining OR supply OR production OR export OR smelter OR refinery),38,6931756,ok,2026-08-07T03:09:01
+E2,2025-10-08,bauxite and alumina,bauxite AND (mining OR supply OR production OR export OR smelter OR refinery),387,6931756,ok,2026-08-07T03:09:32
+E2,2025-10-08,beryllium,beryllium AND (mining OR supply OR production OR export OR smelter OR refinery),123,6931756,ok,2026-08-07T03:10:03
+E2,2025-10-08,bismuth,bismuth AND (mining OR supply OR production OR export OR smelter OR refinery),141,6931756,ok,2026-08-07T03:10:29
+E2,2025-10-08,boron,boron AND (mining OR supply OR production OR export OR smelter OR refinery),310,6931756,ok,2026-08-07T03:11:02
+E2,2025-10-08,bromine,bromine AND (mining OR supply OR production OR export OR smelter OR refinery),203,6931756,ok,2026-08-07T03:11:32
+E2,2025-10-08,cadmium,cadmium AND (mining OR supply OR production OR export OR smelter OR refinery),455,6931756,ok,2026-08-07T03:12:02
+E2,2025-10-08,cement,cement AND (mining OR supply OR production OR export OR smelter OR refinery),4286,6931756,ok,2026-08-07T03:12:38
+E2,2025-10-08,cesium,cesium AND (mining OR supply OR production OR export OR smelter OR refinery),134,6931756,ok,2026-08-07T03:13:01
+E2,2025-10-08,chromium,chromium AND (mining OR supply OR production OR export OR smelter OR refinery),550,6931756,ok,2026-08-07T03:13:36
+E2,2025-10-08,clays,clays AND (mining OR supply OR production OR export OR smelter OR refinery),86,6931756,ok,2026-08-07T03:13:59
+E2,2025-10-08,cobalt,cobalt AND (mining OR supply OR production OR export OR smelter OR refinery),2792,6931756,ok,2026-08-07T03:14:30
+E2,2025-10-08,copper,copper AND (mining OR supply OR production OR export OR smelter OR refinery),11570,6931756,ok,2026-08-07T03:15:09
+E2,2025-10-08,diamond (industrial),"""industrial diamond"" AND (mining OR supply OR production OR export OR smelter OR refinery)",4,6931756,ok,2026-08-07T03:15:32
+E2,2025-10-08,diatomite,diatomite AND (mining OR supply OR production OR export OR smelter OR refinery),50,6931756,ok,2026-08-07T03:15:56
+E2,2025-10-08,feldspar,feldspar AND (mining OR supply OR production OR export OR smelter OR refinery),84,6931756,ok,2026-08-07T03:16:32
+E2,2025-10-08,fluorspar,fluorspar AND (mining OR supply OR production OR export OR smelter OR refinery),24,6931756,ok,2026-08-07T03:16:57
+E2,2025-10-08,gallium,gallium AND (mining OR supply OR production OR export OR smelter OR refinery),856,6931756,ok,2026-08-07T03:17:37
+E2,2025-10-08,garnet (industrial),garnet AND (mining OR supply OR production OR export OR smelter OR refinery),177,6931756,ok,2026-08-07T03:18:00
+E2,2025-10-08,gemstones,gemstones AND (mining OR supply OR production OR export OR smelter OR refinery),526,6931756,ok,2026-08-07T03:18:34
+E2,2025-10-08,germanium,germanium AND (mining OR supply OR production OR export OR smelter OR refinery),558,6931756,ok,2026-08-07T03:19:02
+E2,2025-10-08,gold,gold AND (mining OR supply OR production OR export OR smelter OR refinery),34503,6931756,ok,2026-08-07T03:19:37
+E2,2025-10-08,graphite (natural),graphite AND (mining OR supply OR production OR export OR smelter OR refinery),1442,6931756,ok,2026-08-07T03:19:57
+E2,2025-10-08,gypsum,gypsum AND (mining OR supply OR production OR export OR smelter OR refinery),258,6931756,ok,2026-08-07T03:20:27
+E2,2025-10-08,hafnium,hafnium AND (mining OR supply OR production OR export OR smelter OR refinery),15,6931756,ok,2026-08-07T03:20:54
+E2,2025-10-08,helium,helium AND (mining OR supply OR production OR export OR smelter OR refinery),843,6931756,ok,2026-08-07T03:21:30
+E2,2025-10-08,indium,indium AND (mining OR supply OR production OR export OR smelter OR refinery),183,6931756,ok,2026-08-07T03:21:57
+E2,2025-10-08,iodine,iodine AND (mining OR supply OR production OR export OR smelter OR refinery),264,6931756,ok,2026-08-07T03:22:28
+E2,2025-10-08,iron and steel,"""steel industry"" AND (mining OR supply OR production OR export OR smelter OR refinery)",1380,6931756,ok,2026-08-07T03:23:06
+E2,2025-10-08,iron and steel scrap,"""steel scrap"" AND (mining OR supply OR production OR export OR smelter OR refinery)",69,6931756,ok,2026-08-07T03:23:29
+E2,2025-10-08,iron and steel slag,"""steel slag"" AND (mining OR supply OR production OR export OR smelter OR refinery)",35,6931756,ok,2026-08-07T03:24:03
+E2,2025-10-08,iron ore,"""iron ore"" AND (mining OR supply OR production OR export OR smelter OR refinery)",1964,6931756,ok,2026-08-07T03:24:33
+E2,2025-10-08,iron oxide pigments,"""iron oxide"" AND (mining OR supply OR production OR export OR smelter OR refinery)",127,6931756,ok,2026-08-07T03:24:58
+E2,2025-10-08,kyanite,kyanite AND (mining OR supply OR production OR export OR smelter OR refinery),4,6931756,ok,2026-08-07T03:25:21
+E2,2025-10-08,lead,lead AND (mining OR supply OR production OR export OR smelter OR refinery),95277,6931756,ok,2026-08-07T03:26:05
+E2,2025-10-08,lime,lime AND (mining OR supply OR production OR export OR smelter OR refinery),1580,6931756,ok,2026-08-07T03:26:25
+E2,2025-10-08,lithium,lithium AND (mining OR supply OR production OR export OR smelter OR refinery),8811,6931756,ok,2026-08-07T03:27:00
+E2,2025-10-08,magnesium compounds,"""magnesium compounds"" AND (mining OR supply OR production OR export OR smelter OR refinery)",5,6931756,ok,2026-08-07T03:27:32
+E2,2025-10-08,magnesium metal,magnesium AND (mining OR supply OR production OR export OR smelter OR refinery),1440,6931756,ok,2026-08-07T03:27:57
+E2,2025-10-08,manganese,manganese AND (mining OR supply OR production OR export OR smelter OR refinery),987,6931756,ok,2026-08-07T03:28:28
+E2,2025-10-08,mercury,mercury AND (mining OR supply OR production OR export OR smelter OR refinery),2725,6931756,ok,2026-08-07T03:29:03
+E2,2025-10-08,mica (natural),mica AND (mining OR supply OR production OR export OR smelter OR refinery),292,6931756,ok,2026-08-07T03:29:25
+E2,2025-10-08,molybdenum,molybdenum AND (mining OR supply OR production OR export OR smelter OR refinery),694,6931756,ok,2026-08-07T03:30:01
+E2,2025-10-08,nickel,nickel AND (mining OR supply OR production OR export OR smelter OR refinery),5778,6931756,ok,2026-08-07T03:30:28
+E2,2025-10-08,niobium,niobium AND (mining OR supply OR production OR export OR smelter OR refinery),168,6931756,ok,2026-08-07T03:30:55
+E2,2025-10-08,nitrogen (fixed)-ammonia,ammonia AND (mining OR supply OR production OR export OR smelter OR refinery),1424,6931756,ok,2026-08-07T03:31:33
+E2,2025-10-08,peat,peat AND (mining OR supply OR production OR export OR smelter OR refinery),847,6931756,ok,2026-08-07T03:31:57
+E2,2025-10-08,perlite,perlite AND (mining OR supply OR production OR export OR smelter OR refinery),35,6931756,ok,2026-08-07T03:32:27
+E2,2025-10-08,phosphate rock,"""phosphate rock"" AND (mining OR supply OR production OR export OR smelter OR refinery)",28,6931756,ok,2026-08-07T03:33:03
+E2,2025-10-08,platinum-group metals,(platinum OR palladium) AND (mining OR supply OR production OR export OR smelter OR refinery),3868,6931756,ok,2026-08-07T03:33:32
+E2,2025-10-08,potash,potash AND (mining OR supply OR production OR export OR smelter OR refinery),513,6931756,ok,2026-08-07T03:33:58
+E2,2025-10-08,pumice and pumicite,pumice AND (mining OR supply OR production OR export OR smelter OR refinery),367,6931756,ok,2026-08-07T03:34:30
+E2,2025-10-08,quartz crystal (industrial),"""quartz crystal"" AND (mining OR supply OR production OR export OR smelter OR refinery)",15,6931756,ok,2026-08-07T03:35:03
+E2,2025-10-08,rare earths,"""rare earth"" AND (mining OR supply OR production OR export OR smelter OR refinery)",4292,6931756,ok,2026-08-07T03:35:32
+E2,2025-10-08,rhenium,rhenium AND (mining OR supply OR production OR export OR smelter OR refinery),51,6931756,ok,2026-08-07T03:35:55
+E2,2025-10-08,rubidium,rubidium AND (mining OR supply OR production OR export OR smelter OR refinery),35,6931756,ok,2026-08-07T03:36:25
+E2,2025-10-08,salt,salt AND (mining OR supply OR production OR export OR smelter OR refinery),8206,6931756,ok,2026-08-07T03:37:03
+E2,2025-10-08,sand and gravel,"""sand and gravel"" AND (mining OR supply OR production OR export OR smelter OR refinery)",103,6931756,ok,2026-08-07T03:37:36
+E2,2025-10-08,scandium,scandium AND (mining OR supply OR production OR export OR smelter OR refinery),165,6931756,ok,2026-08-07T03:37:56
+E2,2025-10-08,selenium,selenium AND (mining OR supply OR production OR export OR smelter OR refinery),208,6931756,ok,2026-08-07T03:38:33
+E2,2025-10-08,silicon,silicon AND (mining OR supply OR production OR export OR smelter OR refinery),8027,6931756,ok,2026-08-07T03:39:01
+E2,2025-10-08,silver,silver AND (mining OR supply OR production OR export OR smelter OR refinery),14287,6931756,ok,2026-08-07T03:39:29
+E2,2025-10-08,soda ash,"""soda ash"" AND (mining OR supply OR production OR export OR smelter OR refinery)",49,6931756,ok,2026-08-07T03:40:04
+E2,2025-10-08,stone,stone AND (mining OR supply OR production OR export OR smelter OR refinery),13101,6931756,ok,2026-08-07T03:40:30
+E2,2025-10-08,strontium,strontium AND (mining OR supply OR production OR export OR smelter OR refinery),71,6931756,ok,2026-08-07T03:40:56
+E2,2025-10-08,sulfur,sulfur AND (mining OR supply OR production OR export OR smelter OR refinery),1204,6931756,ok,2026-08-07T03:41:28
+E2,2025-10-08,talc and pyrophyllite,talc AND (mining OR supply OR production OR export OR smelter OR refinery),160,6931756,ok,2026-08-07T03:41:59
+E2,2025-10-08,tantalum,tantalum AND (mining OR supply OR production OR export OR smelter OR refinery),316,6931756,ok,2026-08-07T03:42:25
+E2,2025-10-08,tellurium,tellurium AND (mining OR supply OR production OR export OR smelter OR refinery),119,6931756,ok,2026-08-07T03:42:57
+E2,2025-10-08,thallium,thallium AND (mining OR supply OR production OR export OR smelter OR refinery),20,6931756,ok,2026-08-07T03:43:26
+E2,2025-10-08,thorium,thorium AND (mining OR supply OR production OR export OR smelter OR refinery),111,6931756,ok,2026-08-07T03:43:57
+E2,2025-10-08,tin,tin AND (mining OR supply OR production OR export OR smelter OR refinery),1822,6931756,ok,2026-08-07T03:44:29
+E2,2025-10-08,titanium,titanium AND (mining OR supply OR production OR export OR smelter OR refinery),1700,6931756,ok,2026-08-07T03:44:58
+E2,2025-10-08,tungsten,tungsten AND (mining OR supply OR production OR export OR smelter OR refinery),542,6931756,ok,2026-08-07T03:45:27
+E2,2025-10-08,vanadium,vanadium AND (mining OR supply OR production OR export OR smelter OR refinery),297,6931756,ok,2026-08-07T03:45:56
+E2,2025-10-08,vermiculite,vermiculite AND (mining OR supply OR production OR export OR smelter OR refinery),40,6931756,ok,2026-08-07T03:46:24
+E2,2025-10-08,wollastonite,wollastonite AND (mining OR supply OR production OR export OR smelter OR refinery),9,6931756,ok,2026-08-07T03:46:53
+E2,2025-10-08,yttrium,yttrium AND (mining OR supply OR production OR export OR smelter OR refinery),164,6931756,ok,2026-08-07T03:47:26
+E2,2025-10-08,zeolites (natural),zeolites AND (mining OR supply OR production OR export OR smelter OR refinery),57,6931756,ok,2026-08-07T03:47:56
+E2,2025-10-08,zinc,zinc AND (mining OR supply OR production OR export OR smelter OR refinery),3074,6931756,ok,2026-08-07T03:48:29
+E2,2025-10-08,zirconium,zirconium AND (mining OR supply OR production OR export OR smelter OR refinery),97,6931756,ok,2026-08-07T03:48:56
+A,2023-07-02,neodymium,neodymium AND (mining OR supply OR production OR export OR smelter OR refinery),255,6802947,ok,2026-08-07T10:06:50
+A,2023-07-02,praseodymium,praseodymium AND (mining OR supply OR production OR export OR smelter OR refinery),134,6802947,ok,2026-08-07T10:06:54
+A,2023-07-02,dysprosium,dysprosium AND (mining OR supply OR production OR export OR smelter OR refinery),142,6802947,ok,2026-08-07T10:07:48
+A,2023-07-02,cerium,cerium AND (mining OR supply OR production OR export OR smelter OR refinery),76,6802947,ok,2026-08-07T10:07:57
+A,2023-07-02,lanthanum,lanthanum AND (mining OR supply OR production OR export OR smelter OR refinery),60,6802947,ok,2026-08-07T10:08:51
+A,2023-07-02,samarium,samarium AND (mining OR supply OR production OR export OR smelter OR refinery),35,6802947,ok,2026-08-07T10:08:58
+A,2023-07-02,gadolinium,gadolinium AND (mining OR supply OR production OR export OR smelter OR refinery),47,6802947,ok,2026-08-07T10:09:50
+A,2023-07-02,terbium,terbium AND (mining OR supply OR production OR export OR smelter OR refinery),110,6802947,ok,2026-08-07T10:09:58
+A,2023-07-02,lutetium,lutetium AND (mining OR supply OR production OR export OR smelter OR refinery),88,6802947,ok,2026-08-07T10:10:47
+A,2023-07-02,holmium,holmium AND (mining OR supply OR production OR export OR smelter OR refinery),19,6802947,ok,2026-08-07T10:10:55
+A,2023-07-02,erbium,erbium AND (mining OR supply OR production OR export OR smelter OR refinery),26,6802947,ok,2026-08-07T10:11:48
+A,2023-07-02,thulium,thulium AND (mining OR supply OR production OR export OR smelter OR refinery),17,6802947,ok,2026-08-07T10:12:00
+A,2023-07-02,europium,europium AND (mining OR supply OR production OR export OR smelter OR refinery),29,6802947,ok,2026-08-07T10:12:46
+A,2023-07-02,ytterbium,ytterbium AND (mining OR supply OR production OR export OR smelter OR refinery),21,6802947,ok,2026-08-07T10:12:57
+B,2023-10-19,neodymium,neodymium AND (mining OR supply OR production OR export OR smelter OR refinery),261,6722256,ok,2026-08-07T10:13:51
+B,2023-10-19,praseodymium,praseodymium AND (mining OR supply OR production OR export OR smelter OR refinery),144,6722256,ok,2026-08-07T10:13:56
+B,2023-10-19,dysprosium,dysprosium AND (mining OR supply OR production OR export OR smelter OR refinery),145,6722256,ok,2026-08-07T10:14:47
+B,2023-10-19,cerium,cerium AND (mining OR supply OR production OR export OR smelter OR refinery),75,6722256,ok,2026-08-07T10:14:56
+B,2023-10-19,lanthanum,lanthanum AND (mining OR supply OR production OR export OR smelter OR refinery),56,6722256,ok,2026-08-07T10:15:45
+B,2023-10-19,samarium,samarium AND (mining OR supply OR production OR export OR smelter OR refinery),37,6722256,ok,2026-08-07T10:15:55
+B,2023-10-19,gadolinium,gadolinium AND (mining OR supply OR production OR export OR smelter OR refinery),51,6722256,ok,2026-08-07T10:16:47
+B,2023-10-19,terbium,terbium AND (mining OR supply OR production OR export OR smelter OR refinery),117,6722256,ok,2026-08-07T10:16:55
+B,2023-10-19,lutetium,lutetium AND (mining OR supply OR production OR export OR smelter OR refinery),87,6722256,ok,2026-08-07T10:17:46
+B,2023-10-19,holmium,holmium AND (mining OR supply OR production OR export OR smelter OR refinery),18,6722256,ok,2026-08-07T10:17:57
+B,2023-10-19,erbium,erbium AND (mining OR supply OR production OR export OR smelter OR refinery),26,6722256,ok,2026-08-07T10:18:50
+B,2023-10-19,thulium,thulium AND (mining OR supply OR production OR export OR smelter OR refinery),18,6722256,ok,2026-08-07T10:18:58
+B,2023-10-19,europium,europium AND (mining OR supply OR production OR export OR smelter OR refinery),24,6722256,ok,2026-08-07T10:19:49
+B,2023-10-19,ytterbium,ytterbium AND (mining OR supply OR production OR export OR smelter OR refinery),19,6722256,ok,2026-08-07T10:19:57
+C,2024-08-14,neodymium,neodymium AND (mining OR supply OR production OR export OR smelter OR refinery),252,6333804,ok,2026-08-07T10:20:51
+C,2024-08-14,praseodymium,praseodymium AND (mining OR supply OR production OR export OR smelter OR refinery),138,6333804,ok,2026-08-07T10:20:55
+C,2024-08-14,dysprosium,dysprosium AND (mining OR supply OR production OR export OR smelter OR refinery),145,6333804,ok,2026-08-07T10:21:50
+C,2024-08-14,cerium,cerium AND (mining OR supply OR production OR export OR smelter OR refinery),71,6333804,ok,2026-08-07T10:21:57
+C,2024-08-14,lanthanum,lanthanum AND (mining OR supply OR production OR export OR smelter OR refinery),58,6333804,ok,2026-08-07T10:22:51
+C,2024-08-14,samarium,samarium AND (mining OR supply OR production OR export OR smelter OR refinery),42,6333804,ok,2026-08-07T10:22:58
+C,2024-08-14,gadolinium,gadolinium AND (mining OR supply OR production OR export OR smelter OR refinery),58,6333804,ok,2026-08-07T10:23:49
+C,2024-08-14,terbium,terbium AND (mining OR supply OR production OR export OR smelter OR refinery),110,6333804,ok,2026-08-07T10:23:59
+C,2024-08-14,lutetium,lutetium AND (mining OR supply OR production OR export OR smelter OR refinery),81,6333804,ok,2026-08-07T10:24:47
+C,2024-08-14,holmium,holmium AND (mining OR supply OR production OR export OR smelter OR refinery),14,6333804,ok,2026-08-07T10:24:57
+C,2024-08-14,erbium,erbium AND (mining OR supply OR production OR export OR smelter OR refinery),23,6333804,ok,2026-08-07T10:25:48
+C,2024-08-14,thulium,thulium AND (mining OR supply OR production OR export OR smelter OR refinery),16,6333804,ok,2026-08-07T10:25:57
+C,2024-08-14,europium,europium AND (mining OR supply OR production OR export OR smelter OR refinery),23,6333804,ok,2026-08-07T10:26:48
+C,2024-08-14,ytterbium,ytterbium AND (mining OR supply OR production OR export OR smelter OR refinery),28,6333804,ok,2026-08-07T10:26:58
+D,2025-01-31,neodymium,neodymium AND (mining OR supply OR production OR export OR smelter OR refinery),256,6354836,ok,2026-08-07T10:27:52
+D,2025-01-31,praseodymium,praseodymium AND (mining OR supply OR production OR export OR smelter OR refinery),121,6354836,ok,2026-08-07T10:27:58
+D,2025-01-31,dysprosium,dysprosium AND (mining OR supply OR production OR export OR smelter OR refinery),130,6354836,ok,2026-08-07T10:28:48
+D,2025-01-31,cerium,cerium AND (mining OR supply OR production OR export OR smelter OR refinery),46,6354836,ok,2026-08-07T10:28:58
+D,2025-01-31,lanthanum,lanthanum AND (mining OR supply OR production OR export OR smelter OR refinery),47,6354836,ok,2026-08-07T10:29:47
+D,2025-01-31,samarium,samarium AND (mining OR supply OR production OR export OR smelter OR refinery),37,6354836,ok,2026-08-07T10:30:00
+D,2025-01-31,gadolinium,gadolinium AND (mining OR supply OR production OR export OR smelter OR refinery),51,6354836,ok,2026-08-07T10:30:45
+D,2025-01-31,terbium,terbium AND (mining OR supply OR production OR export OR smelter OR refinery),104,6354836,ok,2026-08-07T10:31:00
+D,2025-01-31,lutetium,lutetium AND (mining OR supply OR production OR export OR smelter OR refinery),68,6354836,ok,2026-08-07T10:31:47
+D,2025-01-31,holmium,holmium AND (mining OR supply OR production OR export OR smelter OR refinery),10,6354836,ok,2026-08-07T10:31:59
+D,2025-01-31,erbium,erbium AND (mining OR supply OR production OR export OR smelter OR refinery),16,6354836,ok,2026-08-07T10:32:49
+D,2025-01-31,thulium,thulium AND (mining OR supply OR production OR export OR smelter OR refinery),9,6354836,ok,2026-08-07T10:32:59
+D,2025-01-31,europium,europium AND (mining OR supply OR production OR export OR smelter OR refinery),18,6354836,ok,2026-08-07T10:33:49
+D,2025-01-31,ytterbium,ytterbium AND (mining OR supply OR production OR export OR smelter OR refinery),29,6354836,ok,2026-08-07T10:33:57
+E1,2025-04-01,neodymium,neodymium AND (mining OR supply OR production OR export OR smelter OR refinery),272,6450371,ok,2026-08-07T10:34:48
+E1,2025-04-01,praseodymium,praseodymium AND (mining OR supply OR production OR export OR smelter OR refinery),120,6450371,ok,2026-08-07T10:34:59
+E1,2025-04-01,dysprosium,dysprosium AND (mining OR supply OR production OR export OR smelter OR refinery),145,6450371,ok,2026-08-07T10:35:51
+E1,2025-04-01,cerium,cerium AND (mining OR supply OR production OR export OR smelter OR refinery),60,6450371,ok,2026-08-07T10:36:01
+E1,2025-04-01,lanthanum,lanthanum AND (mining OR supply OR production OR export OR smelter OR refinery),66,6450371,ok,2026-08-07T10:36:51
+E1,2025-04-01,samarium,samarium AND (mining OR supply OR production OR export OR smelter OR refinery),41,6450371,ok,2026-08-07T10:37:01
+E1,2025-04-01,gadolinium,gadolinium AND (mining OR supply OR production OR export OR smelter OR refinery),53,6450371,ok,2026-08-07T10:37:54
+E1,2025-04-01,terbium,terbium AND (mining OR supply OR production OR export OR smelter OR refinery),110,6450371,ok,2026-08-07T10:38:03
+E1,2025-04-01,lutetium,lutetium AND (mining OR supply OR production OR export OR smelter OR refinery),75,6450371,ok,2026-08-07T10:38:52
+E1,2025-04-01,holmium,holmium AND (mining OR supply OR production OR export OR smelter OR refinery),15,6450371,ok,2026-08-07T10:39:02
+E1,2025-04-01,erbium,erbium AND (mining OR supply OR production OR export OR smelter OR refinery),29,6450371,ok,2026-08-07T10:39:50
+E1,2025-04-01,thulium,thulium AND (mining OR supply OR production OR export OR smelter OR refinery),15,6450371,ok,2026-08-07T10:39:59
+E1,2025-04-01,europium,europium AND (mining OR supply OR production OR export OR smelter OR refinery),25,6450371,ok,2026-08-07T10:40:47
+E1,2025-04-01,ytterbium,ytterbium AND (mining OR supply OR production OR export OR smelter OR refinery),47,6450371,ok,2026-08-07T10:41:01
+E2,2025-10-08,neodymium,neodymium AND (mining OR supply OR production OR export OR smelter OR refinery),390,6931756,ok,2026-08-07T10:41:49
+E2,2025-10-08,praseodymium,praseodymium AND (mining OR supply OR production OR export OR smelter OR refinery),201,6931756,ok,2026-08-07T10:42:01
+E2,2025-10-08,dysprosium,dysprosium AND (mining OR supply OR production OR export OR smelter OR refinery),269,6931756,ok,2026-08-07T10:42:50
+E2,2025-10-08,cerium,cerium AND (mining OR supply OR production OR export OR smelter OR refinery),85,6931756,ok,2026-08-07T10:42:59
+E2,2025-10-08,lanthanum,lanthanum AND (mining OR supply OR production OR export OR smelter OR refinery),96,6931756,ok,2026-08-07T10:43:50
+E2,2025-10-08,samarium,samarium AND (mining OR supply OR production OR export OR smelter OR refinery),152,6931756,ok,2026-08-07T10:44:01
+E2,2025-10-08,gadolinium,gadolinium AND (mining OR supply OR production OR export OR smelter OR refinery),154,6931756,ok,2026-08-07T10:44:51
+E2,2025-10-08,terbium,terbium AND (mining OR supply OR production OR export OR smelter OR refinery),230,6931756,ok,2026-08-07T10:45:02
+E2,2025-10-08,lutetium,lutetium AND (mining OR supply OR production OR export OR smelter OR refinery),107,6931756,ok,2026-08-07T10:45:49
+E2,2025-10-08,holmium,holmium AND (mining OR supply OR production OR export OR smelter OR refinery),14,6931756,ok,2026-08-07T10:46:00
+E2,2025-10-08,erbium,erbium AND (mining OR supply OR production OR export OR smelter OR refinery),35,6931756,ok,2026-08-07T10:46:50
+E2,2025-10-08,thulium,thulium AND (mining OR supply OR production OR export OR smelter OR refinery),15,6931756,ok,2026-08-07T10:47:00
+E2,2025-10-08,europium,europium AND (mining OR supply OR production OR export OR smelter OR refinery),30,6931756,ok,2026-08-07T10:47:49
+E2,2025-10-08,ytterbium,ytterbium AND (mining OR supply OR production OR export OR smelter OR refinery),55,6931756,ok,2026-08-07T10:48:02

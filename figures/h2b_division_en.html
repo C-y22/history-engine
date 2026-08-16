@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Figure 5 — Division of labor across the three thermometers</title>
+<style>
+  .viz-root{color-scheme:light;
+    --surface-1:#fcfcfb;--page:#f9f9f7;--text-primary:#0b0b0b;--text-secondary:#52514e;
+    --muted:#898781;--grid:#e1e0d9;--baseline:#c3c2b7;--border:rgba(11,11,11,0.10);
+    --s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;}
+  @media (prefers-color-scheme: dark){
+    :root:where(:not([data-theme="light"])) .viz-root{color-scheme:dark;
+      --surface-1:#1a1a19;--page:#0d0d0d;--text-primary:#fff;--text-secondary:#c3c2b7;
+      --muted:#898781;--grid:#2c2c2a;--baseline:#383835;--border:rgba(255,255,255,0.10);
+      --s1:#3987e5;--s2:#d95926;--s3:#199e70;}}
+  :root[data-theme="dark"] .viz-root{color-scheme:dark;
+    --surface-1:#1a1a19;--page:#0d0d0d;--text-primary:#fff;--text-secondary:#c3c2b7;
+    --muted:#898781;--grid:#2c2c2a;--baseline:#383835;--border:rgba(255,255,255,0.10);
+    --s1:#3987e5;--s2:#d95926;--s3:#199e70;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--page)}
+  .viz-root{font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei","Segoe UI",sans-serif;
+    background:var(--page);color:var(--text-primary);min-height:100vh;padding:28px 16px 40px}
+  .card{max-width:880px;margin:0 auto;background:var(--surface-1);border:1px solid var(--border);
+    border-radius:10px;padding:26px 28px 20px}
+  .head{display:flex;justify-content:space-between;gap:16px}
+  h1{font-size:19px;font-weight:650;line-height:1.35}
+  .subtitle{font-size:13px;color:var(--text-secondary);margin-top:6px;line-height:1.5}
+  .figno{font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+  .theme-btn{flex:none;font-size:12px;color:var(--text-secondary);background:none;
+    border:1px solid var(--border);border-radius:6px;padding:5px 10px;cursor:pointer;font-family:inherit;height:fit-content}
+  .legend{display:flex;gap:18px;margin-top:14px;font-size:11.5px;color:var(--text-secondary);flex-wrap:wrap}
+  .sw{width:10px;height:10px;border-radius:2px;display:inline-block;margin-right:5px;vertical-align:-1px}
+  svg{display:block;width:100%;height:auto;margin-top:6px}
+  .footnote{margin-top:14px;padding-top:11px;border-top:1px solid var(--grid);
+    font-size:11px;color:var(--muted);line-height:1.6}
+</style>
+</head>
+<body>
+<div class="viz-root"><div class="card">
+  <div class="head">
+    <div>
+      <div class="figno">Figure 5 · Which factor each thermometer listens to (H2b ablation)</div>
+      <h1>News tracks unpreparedness, prices track the full product, stocks sit in between</h1>
+      <div class="subtitle">Four intensity outcomes, each re-measured with three rulers (Spearman ρ within controlled commodities). Attention is driven almost entirely by pre-event unpreparedness — an information phenomenon: how loud the reversal is depends on how dark you were before. Commodity prices follow the full product, criticality × unpreparedness — a physical phenomenon: the supply must really be chokeable and nobody can have stockpiled. Stocks fall in between.</div>
+    </div>
+    <button class="theme-btn" id="themeBtn" type="button">◐ Theme</button>
+  </div>
+  <div class="legend">
+    <span><i class="sw" style="background:var(--s1)"></i>Unpreparedness only (1−V)</span>
+    <span><i class="sw" style="background:var(--s2)"></i>Share only</span>
+    <span><i class="sw" style="background:var(--s3)"></i>Product: criticality × unpreparedness</span>
+    <span style="color:var(--muted)">dashed = not significant (p&gt;0.05) · dotted † = marginal (p=0.051)</span>
+  </div>
+  <svg id="fig" viewBox="0 0 860 400" role="img"
+    aria-label="Grouped bar chart: four outcome variables, three bars each. Attention: unpreparedness highest at 0.66, product 0.36 marginal. One-month price window: product highest at 0.89, unpreparedness 0.30 not significant."></svg>
+  <div class="footnote">
+    <strong>Data:</strong> attention = 30-day post-announcement news jump (targets n=22, corrected-term basis; diamond's post-announcement zero is a genuine reading, not a vocabulary artifact, so it re-enters the sample — pre-correction n=21 values were 0.82 / 0.12 / 0.53); stocks = CAR[0,+5] (n=24; share/product versions n=22, diamond has no share data); prices = offshore price change (one-month window n=10, longest window n=12). One-sided permutation p: attention 0.0005 / n.s. / <strong>0.051 (marginal, not significant)</strong>; CAR 0.004 / 0.10 / 0.009; long-window price 0.037 / 0.022 / 0.002; one-month price 0.21 / 0.004 / <strong>0.0008</strong>.<br>
+    <strong>Reading:</strong> the formula, awakening intensity = criticality × unpreparedness, passes direct validation in its home domain (prices) under the product specification (one-month ρ=0.89). The earlier "one-month window not significant (ρ=0.30)" came from mis-specifying a single-factor ruler; both results are reported. The specification was fixed by theory before the test was run (design doc v2.4, revision 2), not picked after seeing results. Share varies widely within controlled commodities (molybdenum 40% → heavy rare earths 99%) and carries the price explanation: tellurium and dysprosium were equally dark, but tellurium at 53% share rose 7% while dysprosium at 99% tripled.
+  </div>
+</div></div>
+<script>
+(function(){
+  var NS="http://www.w3.org/2000/svg";
+  var svg=document.getElementById("fig");
+  var ML=52,MT=16,MB=54,W=860,H=400;
+  var plotH=H-MT-MB, plotW=W-ML-24;
+  function y(v){return MT+plotH-(v/1.0)*plotH;}
+  function el(p,t,a,txt){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);
+    if(txt!=null)e.textContent=txt;p.appendChild(e);return e;}
+  [0,0.25,0.5,0.75,1.0].forEach(function(t){
+    el(svg,"line",{x1:ML,x2:ML+plotW,y1:y(t),y2:y(t),stroke:t===0?"var(--baseline)":"var(--grid)","stroke-width":1});
+    el(svg,"text",{x:ML-8,y:y(t)+3.5,"text-anchor":"end","font-size":10.5,fill:"var(--muted)"},t.toFixed(2));
+  });
+  el(svg,"text",{x:ML-8,y:MT-4,"text-anchor":"end","font-size":10.5,fill:"var(--muted)"},"ρ");
+  var groups=[
+    {name:"Attention jump",sub:"n=22",vals:[[0.660,1],[0.090,0],[0.360,2]]},
+    {name:"Stock CAR",sub:"n=24/22",vals:[[0.540,1],[0.285,0],[0.505,1]]},
+    {name:"Price · longest window",sub:"n=12",vals:[[0.545,1],[0.608,1],[0.797,1]]},
+    {name:"Price · 1-month window",sub:"n=10",vals:[[0.297,0],[0.818,1],[0.891,1]]}
+  ];
+  var colors=["var(--s1)","var(--s2)","var(--s3)"];
+  var gw=plotW/groups.length, bw=26, gap=8;
+  groups.forEach(function(g,gi){
+    var cx=ML+gw*gi+gw/2;
+    var x0=cx-(bw*3+gap*2)/2;
+    g.vals.forEach(function(v,i){
+      var xx=x0+i*(bw+gap);
+      var attrs={x:xx,y:y(v[0]),width:bw,height:y(0)-y(v[0]),fill:colors[i]};
+      if(v[1]===0){attrs.fill="var(--surface-1)";attrs.stroke=colors[i];attrs["stroke-width"]=1.6;attrs["stroke-dasharray"]="4 3";}
+      if(v[1]===2){attrs.fill="var(--surface-1)";attrs.stroke=colors[i];attrs["stroke-width"]=1.6;attrs["stroke-dasharray"]="1.5 2.5";}
+      el(svg,"rect",attrs);
+      el(svg,"text",{x:xx+bw/2,y:y(v[0])-5,"text-anchor":"middle","font-size":10.5,
+        "font-weight":600,fill:v[1]===1?"var(--text-primary)":"var(--muted)"},
+        v[0].toFixed(2)+(v[1]===2?"†":""));
+    });
+    el(svg,"text",{x:cx,y:H-MB+20,"text-anchor":"middle","font-size":12,"font-weight":600,
+      fill:"var(--text-primary)"},g.name);
+    el(svg,"text",{x:cx,y:H-MB+35,"text-anchor":"middle","font-size":10.5,fill:"var(--muted)"},g.sub);
+  });
+  document.getElementById("themeBtn").addEventListener("click",function(){
+    var r=document.documentElement,cur=r.getAttribute("data-theme");
+    var pd=window.matchMedia("(prefers-color-scheme: dark)").matches;
+    r.setAttribute("data-theme",(cur||(pd?"dark":"light"))==="dark"?"light":"dark");
+  });
+})();
+</script>
+</body>
+</html>

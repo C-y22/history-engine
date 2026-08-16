@@ -1,0 +1,26 @@
+H1 Figure 1 series: alumina / Ga capacity & output / Ga price.,,,,,,
+year,cn_gallium_capacity_t,cn_gallium_production_t,ga_price_lowgrade_usd_kg,ga_price_mixed_basis_usd_kg,cn_alumina_production_mt,sources_note
+2000,10,,,640,4.33,"DUT2002(cap,approx design);MYB2002(price=producer price 99.9999%);MYB2004(alumina)"
+2001,100,,,640,4.65,"DUT2002(cap,approx design);MYB2002(price=producer price 99.9999%);MYB2004(alumina)"
+2002,,,229,530,5.45,"MYB2003(low-grade import avg,'about same as 2002'→229);MYB2002(mixed=avg US import value);MYB2004(alumina)"
+2003,40,,225,411,6.11,MYB2003(cap tbl7;low-grade 225;mixed);MYB2004(alumina)
+2004,47,,192,550,6.99,"MYB2004(cap tbl7;low-grade);MYB2005(mixed,rev);MYB2007(alumina,rev)"
+2005,59,18,244,538,8.61,"MYB2005(cap tbl7;low-grade;mixed);Li2022(prod,Antaike/CNIA);MYB2007(alumina)"
+2006,59,,285,443,13.7,MYB2006(cap tbl7;low-grade;mixed);MYB2007(alumina)
+2007,59,,314,530,19.5,MYB2007(cap tbl7;low-grade;mixed);MYB2007(alumina)
+2008,59,,361,579,22.8,MYB2008(cap tbl7;low-grade 361=+15% vs 2007;mixed);MYB2012(alumina)
+2009,59,,304,449,23.8,MYB2009(cap tbl7;low-grade;mixed);MYB2012(alumina)
+2010,141,,307,600,29,MYB2010(cap tbl7;low-grade 307 'about same as 2009';mixed);MYB2012(alumina)
+2011,280,200,374,688,34.1,MYB2011(cap tbl7;prod reported;low-grade 374=+22% vs 2010;mixed);MYB2012(alumina)
+2012,350,300,349,529,37.7,MYB2012(cap tbl7;prod reported;low-grade 349;mixed=high-grade 529);MYB2012(alumina)
+2013,450,300,276,502,44.4,MYB2013(cap tbl7;prod reported;low-grade 276;high-grade 502);MYB2015(alumina)
+2014,551,450,239,363,47.1,"MYB2014(cap tbl7;low-grade 239;mixed);MYB2018(prod tbl6,rev);MYB2015(alumina,rev)"
+2015,600,444,188,317,58.98,MYB2015(cap tbl7;low-grade 188;high-grade 317);MYB2018(prod tbl6);MYB2019(alumina)
+2016,600,171,125,125,61.03,"MCS2017(cap approx);MYB2020(prod tbl6,rev);MYB2019 tbl1(low-grade);MYB2019(alumina,rev)"
+2017,600,319,124,124,69.02,"MCS2018(cap approx);MYB2020(prod tbl6,rev);MYB2019 tbl1(low-grade);MYB2019(alumina)"
+2018,600,404,185,185,72.53,"MYB2018(cap tbl7);MYB2020(prod tbl6,rev);MYB2019 tbl1(low-grade);MYB2022(alumina)"
+2019,600,338,153,153,72.47,"MYB2019(cap tbl7);MYB2020/2022(prod);MYB2020(low-grade,rev);MYB2022(alumina)"
+2020,650,336,163,163,73.79,"MYB2020(cap tbl7);MYB2022(prod tbl7,rev);MYB2022(low-grade);MYB2022(alumina,rev)"
+2021,650,423,254,254,77.48,"MYB2021(cap tbl7);MYB2022(prod tbl7);MYB2022(low-grade);MYB2022(alumina,rev)"
+2022,1000,600,394,394,81.86,MYB2022(cap tbl6);MYB2022/MCS2024(prod);MYB2022(low-grade);MYB2022(alumina)
+2023,1000,600,290,290,82,MCS2024(cap est);MCS2024(prod est);MCS2024(low-purity price);MCS2024(alumina est)

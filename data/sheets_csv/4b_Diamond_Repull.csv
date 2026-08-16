@@ -1,0 +1,9 @@
+"Rule-(d) corrected diamond term, all 7 windows (re-pulled 2026-08-15). Pre-windows 32-48 vs 3-4 under old term; post-announcement 30d = 0 (a real zero, not vocabulary).",,,,,,,
+window,start,end,relevant_count,total_count,query,note,fetched_at
+A,2021-07-02,2023-07-02,32,6802959,"(""industrial diamond"" OR ""synthetic diamond"") AND (mining OR supply OR production OR export OR smelter OR refinery)",ok,2026-08-15T17:06:37
+B,2021-10-19,2023-10-19,37,6722268,"(""industrial diamond"" OR ""synthetic diamond"") AND (mining OR supply OR production OR export OR smelter OR refinery)",ok,2026-08-15T17:07:39
+C,2022-08-15,2024-08-14,48,6333814,"(""industrial diamond"" OR ""synthetic diamond"") AND (mining OR supply OR production OR export OR smelter OR refinery)",ok,2026-08-15T17:07:41
+D,2023-02-01,2025-01-31,43,6354845,"(""industrial diamond"" OR ""synthetic diamond"") AND (mining OR supply OR production OR export OR smelter OR refinery)",ok,2026-08-15T17:08:39
+E1,2023-04-02,2025-04-01,42,6450383,"(""industrial diamond"" OR ""synthetic diamond"") AND (mining OR supply OR production OR export OR smelter OR refinery)",ok,2026-08-15T17:08:41
+E2,2023-10-09,2025-10-08,34,6931782,"(""industrial diamond"" OR ""synthetic diamond"") AND (mining OR supply OR production OR export OR smelter OR refinery)",ok,2026-08-15T17:09:38
+E2_post30,2025-10-09,2025-11-08,0,383315,"(""industrial diamond"" OR ""synthetic diamond"") AND (mining OR supply OR production OR export OR smelter OR refinery)",ok,2026-08-15T17:09:41

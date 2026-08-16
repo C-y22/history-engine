@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "The History Engine: latent supply-chain chokepoints"
+message: "If you use this data or code, please cite the repository."
+authors:
+  - family-names: Zhang
+    given-names: Chunyang
+    affiliation: "The University of Texas at Austin"
+version: "2026.08"
+date-released: "2026-08-16"

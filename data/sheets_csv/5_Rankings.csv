@@ -1,0 +1,596 @@
+"H2a final rankings, completed pool + corrected diamond (6 exams x 99 rows, per-row source flags).",,,,,,,,
+exam_id,commodity,news_context,vis_lognorm,share_element,latent_lev_element,rank_lev_element,status,share_source_flag
+A,abrasives (manufactured),149,0.4324,54.3,0.3082,30,,filled_2026-08-15
+A,aluminum,6705,0.7604,58,0.139,47,,v1
+A,antimony,221,0.4663,54.5,0.2909,31,,v1
+A,arsenic,713,0.5671,39.3,0.1701,42,,v1
+A,asbestos,558,0.546,14,0.0636,62,,filled_2026-08-15
+A,barite,59,0.3534,24.1,0.1558,43,,v1
+A,bauxite and alumina,365,0.5094,58.6,0.2875,32,,filled_2026-08-15
+A,beryllium,89,0.3883,25,0.1529,44,,v1
+A,bismuth,92,0.3912,80,0.4871,19,,v1
+A,boron,403,0.5179,6,0.0289,70,,filled_2026-08-15
+A,bromine,174,0.4457,25,0.1386,49,,filled_2026-08-15
+A,cadmium,472,0.5316,41.7,0.1953,40,,v1
+A,cement,5528,0.7437,51,0.1307,51,,filled_2026-08-15
+A,cerium,76,0.3749,88,0.5501,15,,REE_element_file
+A,cesium,178,0.4477,,,,no_share_data,v1
+A,chromium,396,0.5164,0,0,86,,v1
+A,clays,147,0.4313,,,,no_share_data,v1
+A,cobalt,3675,0.7085,1.2,0.0035,83,,v1
+A,copper,10347,0.7978,8.6,0.0174,78,,v1
+A,diamond (industrial),32,0.3018,95,0.6633,7,,diamond_term_corrected_2026-08-15
+A,diatomite,31,0.2991,17,0.1192,54,,filled_2026-08-15
+A,dysprosium,142,0.4283,99,0.566,14,,REE_element_file
+A,erbium,26,0.2844,99,0.7084,4,,REE_element_file
+A,europium,29,0.2935,98,0.6923,5,,REE_element_file
+A,feldspar,103,0.4008,8.6,0.0515,66,,v1
+A,fluorspar,24,0.2778,68.7,0.4962,18,,v1
+A,gadolinium,47,0.3341,98,0.6526,8,,REE_element_file
+A,gallium,394,0.516,98.2,0.4753,20,,v1
+A,garnet (industrial),205,0.4598,17,0.0918,57,,filled_2026-08-15
+A,gemstones,407,0.5188,,,,no_share_data,v1
+A,germanium,75,0.3738,65.4,0.4096,24,,v1
+A,gold,33523,0.8993,10.6,0.0107,80,,v1
+A,graphite (natural),1601,0.6368,65.4,0.2375,37,,v1
+A,gypsum,372,0.5111,15,0.0733,59,,filled_2026-08-15
+A,hafnium,26,0.2844,3,0.0215,74,,v1
+A,helium,952,0.592,0.6,0.0024,85,,v1
+A,holmium,19,0.2585,99,0.734,2,,REE_element_file
+A,indium,180,0.4486,58.9,0.3247,29,,v1
+A,iodine,390,0.5151,1,0.0048,82,,filled_2026-08-15
+A,iron and steel,848,0.582,54,0.2257,38,,filled_2026-08-15
+A,iron and steel scrap,59,0.3534,,,,no_share_data,v1
+A,iron and steel slag,8,0.1896,54,0.4376,22,,filled_2026-08-15
+A,iron ore,2258,0.6665,14.6,0.0487,67,,v1
+A,iron oxide pigments,141,0.4277,,,,no_share_data,v1
+A,kyanite,6,0.1679,15,0.1248,53,,filled_2026-08-15
+A,lanthanum,60,0.3548,88,0.5678,13,,REE_element_file
+A,lead,107683,1,44.4,0,87,,v1
+A,lime,1804,0.6471,72,0.2541,35,,filled_2026-08-15
+A,lithium,10878,0.8022,14.6,0.0289,71,,v1
+A,lutetium,88,0.3874,99,0.6065,11,,REE_element_file
+A,magnesium compounds,7,0.1795,63.8,0.5235,16,,filled_2026-08-15
+A,magnesium metal,1249,0.6154,90,0.3461,27,,v1
+A,manganese,1260,0.6162,5,0.0192,76,,v1
+A,mercury,3207,0.6968,85,0.2578,34,,filled_2026-08-15
+A,mica (natural),278,0.486,25.6,0.1316,50,,v1
+A,molybdenum,558,0.546,40,0.1816,41,,v1
+A,neodymium,255,0.4786,90,0.4693,21,,REE_element_file
+A,nickel,6458,0.7572,3.3,0.008,81,,v1
+A,niobium,200,0.4577,0,0,88,,v1
+A,nitrogen (fixed)-ammonia,2061,0.6586,26,0.0888,58,,filled_2026-08-15
+A,peat,570,0.5478,4,0.0181,77,,filled_2026-08-15
+A,perlite,80,0.3793,10,0.0621,63,,filled_2026-08-15
+A,phosphate rock,64,0.3603,38.6,0.2469,36,,v1
+A,platinum-group metals,4551,0.727,1,0.0027,84,,filled_2026-08-15
+A,potash,715,0.5673,15,0.0649,61,,v1
+A,praseodymium,134,0.4233,90,0.519,17,,REE_element_file
+A,pumice and pumicite,329,0.5005,3,0.015,79,,filled_2026-08-15
+A,quartz crystal (industrial),22,0.2706,,,,no_share_data,v1
+A,rhenium,59,0.3534,4.3,0.0278,72,,v1
+A,rubidium,51,0.341,,,,no_share_data,v1
+A,salt,10354,0.7979,22,0.0445,68,,filled_2026-08-15
+A,samarium,35,0.3093,97,0.67,6,,REE_element_file
+A,sand and gravel,122,0.4153,,,,no_share_data,v1
+A,scandium,120,0.4139,68,0.3986,25,,filled_2026-08-15
+A,selenium,254,0.4782,40.6,0.2118,39,,v1
+A,silicon,10097,0.7957,68,0.1389,48,,filled_2026-08-15
+A,silver,15967,0.8353,13.8,0.0227,73,,v1
+A,soda ash,96,0.3948,46,0.2784,33,,filled_2026-08-15
+A,stone,12138,0.8116,,,,no_share_data,v1
+A,strontium,75,0.3738,23.5,0.1472,46,,v1
+A,sulfur,1442,0.6278,19,0.0707,60,,filled_2026-08-15
+A,talc and pyrophyllite,216,0.4643,28,0.15,45,,filled_2026-08-15
+A,tantalum,272,0.4841,3.9,0.0201,75,,v1
+A,tellurium,64,0.3603,53.1,0.3397,28,,v1
+A,terbium,110,0.4064,99,0.5876,12,,REE_element_file
+A,thallium,21,0.2668,,,,no_share_data,v1
+A,thorium,107,0.4041,,,,no_share_data,v1
+A,thulium,17,0.2494,99,0.743,1,,REE_element_file
+A,tin,1947,0.6537,30.6,0.106,55,,v1
+A,titanium,1852,0.6494,35.8,0.1255,52,,v1
+A,tungsten,390,0.5151,84.5,0.4097,23,,v1
+A,vanadium,343,0.5041,70,0.3472,26,,v1
+A,vermiculite,34,0.3068,8,0.0555,65,,filled_2026-08-15
+A,wollastonite,6,0.1679,75,0.624,9,,filled_2026-08-15
+A,ytterbium,21,0.2668,99,0.7259,3,,REE_element_file
+A,yttrium,73,0.3715,99,0.6223,10,,REE_element_file
+A,zeolites (natural),49,0.3376,5.2,0.0344,69,,filled_2026-08-15
+A,zinc,3028,0.6918,32.3,0.0995,56,,v1
+A,zirconium,139,0.4265,10,0.0574,64,,v1
+B,abrasives (manufactured),173,0.4453,54.3,0.3012,28,,filled_2026-08-15
+B,aluminum,6683,0.7602,58,0.1391,46,,v1
+B,antimony,220,0.4659,54.5,0.2911,30,,v1
+B,arsenic,726,0.5687,39.3,0.1695,40,,v1
+B,asbestos,571,0.548,14,0.0633,60,,filled_2026-08-15
+B,barite,56,0.349,24.1,0.1569,41,,v1
+B,bauxite and alumina,319,0.4979,58.6,0.2943,29,,filled_2026-08-15
+B,beryllium,99,0.3975,25,0.1506,43,,v1
+B,bismuth,98,0.3966,80,0.4827,19,,v1
+B,boron,398,0.5169,6,0.029,68,,filled_2026-08-15
+B,bromine,202,0.4586,25,0.1354,47,,filled_2026-08-15
+B,cadmium,525,0.5408,41.7,0.1915,38,,v1
+B,cement,5567,0.7444,51,0.1304,49,,filled_2026-08-15
+B,cerium,75,0.3738,88,0.5511,15,,REE_element_file
+B,cesium,235,0.4716,,,,no_share_data,v1
+B,chromium,420,0.5215,0,0,84,,v1
+B,clays,163,0.4402,,,,no_share_data,v1
+B,cobalt,3847,0.7125,1.2,0.0034,81,,v1
+B,copper,10683,0.8007,8.6,0.0171,76,,v1
+B,diamond (industrial),37,0.314,95,0.6517,8,,diamond_term_corrected_2026-08-15
+B,diatomite,36,0.3117,17,0.117,52,,filled_2026-08-15
+B,dysprosium,145,0.4301,99,0.5642,14,,REE_element_file
+B,erbium,26,0.2845,99,0.7084,4,,REE_element_file
+B,europium,24,0.2778,98,0.7077,5,,REE_element_file
+B,feldspar,114,0.4095,8.6,0.0508,64,,v1
+B,fluorspar,23,0.2743,68.7,0.4986,18,,v1
+B,gadolinium,51,0.341,98,0.6458,9,,REE_element_file
+B,gallium,573,0.5483,98.2,,,already_controlled,v1
+B,garnet (industrial),200,0.4577,17,0.0922,55,,filled_2026-08-15
+B,gemstones,435,0.5246,,,,no_share_data,v1
+B,germanium,263,0.4813,65.4,,,already_controlled,v1
+B,gold,33320,0.8988,10.6,0.0107,78,,v1
+B,graphite (natural),1671,0.6406,65.4,0.2351,35,,v1
+B,gypsum,349,0.5056,15,0.0742,57,,filled_2026-08-15
+B,hafnium,25,0.2812,3,0.0216,72,,v1
+B,helium,985,0.595,0.6,0.0024,83,,v1
+B,holmium,18,0.2541,99,0.7384,1,,REE_element_file
+B,indium,188,0.4524,58.9,0.3225,27,,v1
+B,iodine,406,0.5186,1,0.0048,80,,filled_2026-08-15
+B,iron and steel,885,0.5858,54,0.2237,36,,filled_2026-08-15
+B,iron and steel scrap,69,0.3667,,,,no_share_data,v1
+B,iron and steel slag,6,0.168,54,0.4493,21,,filled_2026-08-15
+B,iron ore,2062,0.6587,14.6,0.0498,65,,v1
+B,iron oxide pigments,150,0.433,,,,no_share_data,v1
+B,kyanite,6,0.168,15,0.1248,50,,filled_2026-08-15
+B,lanthanum,56,0.349,88,0.5729,13,,REE_element_file
+B,lead,107591,1,44.4,0,85,,v1
+B,lime,1880,0.6507,72,0.2515,33,,filled_2026-08-15
+B,lithium,11399,0.8063,14.6,0.0283,69,,v1
+B,lutetium,87,0.3864,99,0.6074,11,,REE_element_file
+B,magnesium compounds,7,0.1795,63.8,0.5235,16,,filled_2026-08-15
+B,magnesium metal,1295,0.6186,90,0.3433,25,,v1
+B,manganese,1334,0.6211,5,0.0189,74,,v1
+B,mercury,3238,0.6976,85,0.257,32,,filled_2026-08-15
+B,mica (natural),281,0.487,25.6,0.1313,48,,v1
+B,molybdenum,607,0.5533,40,0.1787,39,,v1
+B,neodymium,261,0.4806,90,0.4675,20,,REE_element_file
+B,nickel,6736,0.7609,3.3,0.0079,79,,v1
+B,niobium,217,0.4647,0,0,86,,v1
+B,nitrogen (fixed)-ammonia,2197,0.6642,26,0.0873,56,,filled_2026-08-15
+B,peat,575,0.5486,4,0.0181,75,,filled_2026-08-15
+B,perlite,82,0.3814,10,0.0619,61,,filled_2026-08-15
+B,phosphate rock,67,0.3642,38.6,0.2454,34,,v1
+B,platinum-group metals,4630,0.7285,1,0.0027,82,,filled_2026-08-15
+B,potash,749,0.5714,15,0.0643,59,,v1
+B,praseodymium,144,0.4295,90,0.5134,17,,REE_element_file
+B,pumice and pumicite,359,0.508,3,0.0148,77,,filled_2026-08-15
+B,quartz crystal (industrial),21,0.2668,,,,no_share_data,v1
+B,rhenium,67,0.3642,4.3,0.0273,70,,v1
+B,rubidium,69,0.3667,,,,no_share_data,v1
+B,salt,10391,0.7983,22,0.0444,66,,filled_2026-08-15
+B,samarium,37,0.314,97,0.6655,6,,REE_element_file
+B,sand and gravel,154,0.4353,,,,no_share_data,v1
+B,scandium,122,0.4153,68,0.3976,23,,filled_2026-08-15
+B,selenium,250,0.4769,40.6,0.2124,37,,v1
+B,silicon,9898,0.7941,68,0.14,45,,filled_2026-08-15
+B,silver,15821,0.8345,13.8,0.0228,71,,v1
+B,soda ash,111,0.4073,46,0.2727,31,,filled_2026-08-15
+B,stone,12493,0.8142,,,,no_share_data,v1
+B,strontium,86,0.3855,23.5,0.1444,44,,v1
+B,sulfur,1459,0.6289,19,0.0705,58,,filled_2026-08-15
+B,talc and pyrophyllite,184,0.4506,28,0.1538,42,,filled_2026-08-15
+B,tantalum,315,0.4968,3.9,0.0196,73,,v1
+B,tellurium,65,0.3616,53.1,0.339,26,,v1
+B,terbium,117,0.4118,99,0.5824,12,,REE_element_file
+B,thallium,21,0.2668,,,,no_share_data,v1
+B,thorium,102,0.4,,,,no_share_data,v1
+B,thulium,18,0.2541,99,0.7384,2,,REE_element_file
+B,tin,1924,0.6527,30.6,0.1063,53,,v1
+B,titanium,1986,0.6555,35.8,0.1233,51,,v1
+B,tungsten,394,0.516,84.5,0.4089,22,,v1
+B,vanadium,352,0.5063,70,0.3456,24,,v1
+B,vermiculite,41,0.3226,8,0.0542,63,,filled_2026-08-15
+B,wollastonite,3,0.1197,75,0.6603,7,,filled_2026-08-15
+B,ytterbium,19,0.2586,99,0.734,3,,REE_element_file
+B,yttrium,74,0.3726,99,0.6211,10,,REE_element_file
+B,zeolites (natural),61,0.3562,5.2,0.0335,67,,filled_2026-08-15
+B,zinc,3131,0.6947,32.3,0.0986,54,,v1
+B,zirconium,147,0.4313,10,0.0569,62,,v1
+C,abrasives (manufactured),168,0.4469,54.3,0.3003,28,,filled_2026-08-15
+C,aluminum,5773,0.7546,58,0.1424,44,,v1
+C,antimony,201,0.4625,54.5,0.293,29,,v1
+C,arsenic,684,0.5688,39.3,0.1694,39,,v1
+C,asbestos,619,0.5602,14,0.0616,60,,filled_2026-08-15
+C,barite,54,0.3491,24.1,0.1569,40,,v1
+C,bauxite and alumina,339,0.5078,58.6,0.2884,30,,filled_2026-08-15
+C,beryllium,90,0.393,25,0.1518,42,,v1
+C,bismuth,86,0.3891,80,0.4887,19,,v1
+C,boron,414,0.5252,6,0.0285,67,,filled_2026-08-15
+C,bromine,248,0.4807,25,0.1298,47,,filled_2026-08-15
+C,cadmium,506,0.5426,41.7,0.1907,37,,v1
+C,cement,5144,0.7445,51,0.1303,46,,filled_2026-08-15
+C,cerium,71,0.3726,88,0.5521,15,,REE_element_file
+C,cesium,240,0.4778,,,,no_share_data,v1
+C,chromium,453,0.533,0,0,83,,v1
+C,clays,146,0.4348,,,,no_share_data,v1
+C,cobalt,3408,0.7087,1.2,0.0035,80,,v1
+C,copper,10636,0.8078,8.6,0.0165,75,,v1
+C,diamond (industrial),48,0.3391,95,0.6279,8,,diamond_term_corrected_2026-08-15
+C,diatomite,42,0.3277,17,0.1143,51,,filled_2026-08-15
+C,dysprosium,145,0.4342,99,0.5602,14,,REE_element_file
+C,erbium,23,0.2769,99,0.7159,3,,REE_element_file
+C,europium,23,0.2769,98,0.7087,4,,REE_element_file
+C,feldspar,121,0.4185,8.6,0.05,63,,v1
+C,fluorspar,24,0.2804,68.7,0.4943,18,,v1
+C,gadolinium,58,0.3552,98,0.6319,7,,REE_element_file
+C,gallium,596,0.5569,98.2,,,already_controlled,v1
+C,garnet (industrial),181,0.4534,17,0.0929,54,,filled_2026-08-15
+C,gemstones,430,0.5285,,,,no_share_data,v1
+C,germanium,310,0.5001,65.4,,,already_controlled,v1
+C,gold,31059,0.9011,10.6,0.0105,77,,v1
+C,graphite (natural),1637,0.6448,65.4,,,already_controlled,v1
+C,gypsum,360,0.513,15,0.073,56,,filled_2026-08-15
+C,hafnium,13,0.2299,3,0.0231,70,,v1
+C,helium,965,0.5988,0.6,0.0024,82,,v1
+C,holmium,14,0.2359,99,0.7564,1,,REE_element_file
+C,indium,168,0.4469,58.9,0.3258,27,,v1
+C,iodine,358,0.5126,1,0.0049,79,,filled_2026-08-15
+C,iron and steel,850,0.5877,54,0.2226,35,,filled_2026-08-15
+C,iron and steel scrap,59,0.3567,,,,no_share_data,v1
+C,iron and steel slag,31,0.3019,54,0.377,23,,filled_2026-08-15
+C,iron ore,1919,0.6586,14.6,0.0498,64,,v1
+C,iron oxide pigments,144,0.4336,,,,no_share_data,v1
+C,kyanite,5,0.1561,15,0.1266,49,,filled_2026-08-15
+C,lanthanum,58,0.3552,88,0.5674,13,,REE_element_file
+C,lead,96612,1,44.4,0,84,,v1
+C,lime,1720,0.6491,72,0.2526,33,,filled_2026-08-15
+C,lithium,11279,0.8129,14.6,0.0273,68,,v1
+C,lutetium,81,0.3839,99,0.6099,11,,REE_element_file
+C,magnesium compounds,8,0.1914,63.8,0.5159,16,,filled_2026-08-15
+C,magnesium metal,1193,0.6173,90,0.3445,25,,v1
+C,manganese,1211,0.6186,5,0.0191,72,,v1
+C,mercury,2858,0.6933,85,0.2607,32,,filled_2026-08-15
+C,mica (natural),325,0.5042,25.6,0.1269,48,,v1
+C,molybdenum,662,0.566,40,0.1736,38,,v1
+C,neodymium,252,0.4821,90,0.4661,20,,REE_element_file
+C,nickel,5559,0.7513,3.3,0.0082,78,,v1
+C,niobium,190,0.4576,0,0,85,,v1
+C,nitrogen (fixed)-ammonia,2026,0.6634,26,0.0875,55,,filled_2026-08-15
+C,peat,591,0.5561,4,0.0178,74,,filled_2026-08-15
+C,perlite,71,0.3726,10,0.0627,59,,filled_2026-08-15
+C,phosphate rock,56,0.3522,38.6,0.25,34,,v1
+C,platinum-group metals,3704,0.7159,1,0.0028,81,,filled_2026-08-15
+C,potash,473,0.5368,15,0.0695,58,,v1
+C,praseodymium,138,0.4299,90,0.5131,17,,REE_element_file
+C,pumice and pumicite,378,0.5173,3,0.0145,76,,filled_2026-08-15
+C,quartz crystal (industrial),20,0.2652,,,,no_share_data,v1
+C,rhenium,73,0.375,4.3,0.0269,69,,v1
+C,rubidium,70,0.3714,,,,no_share_data,v1
+C,salt,9384,0.7969,22,0.0447,65,,filled_2026-08-15
+C,samarium,42,0.3277,97,0.6522,6,,REE_element_file
+C,sand and gravel,153,0.4388,,,,no_share_data,v1
+C,scandium,84,0.387,68,0.4168,21,,filled_2026-08-15
+C,selenium,253,0.4824,40.6,0.2101,36,,v1
+C,silicon,9093,0.7941,68,0.14,45,,filled_2026-08-15
+C,silver,14523,0.8349,13.8,0.0228,71,,v1
+C,soda ash,103,0.4046,46,0.2739,31,,filled_2026-08-15
+C,stone,12816,0.824,,,,no_share_data,v1
+C,strontium,77,0.3796,23.5,0.1458,43,,v1
+C,sulfur,1317,0.6259,19,0.0711,57,,filled_2026-08-15
+C,talc and pyrophyllite,163,0.4443,28,0.1556,41,,filled_2026-08-15
+C,tantalum,366,0.5145,3.9,0.0189,73,,v1
+C,tellurium,51,0.3442,53.1,0.3482,24,,v1
+C,terbium,110,0.4103,99,0.5838,12,,REE_element_file
+C,thallium,24,0.2804,,,,no_share_data,v1
+C,thorium,114,0.4134,,,,no_share_data,v1
+C,thulium,16,0.2468,99,0.7456,2,,REE_element_file
+C,tin,1833,0.6546,30.6,0.1057,52,,v1
+C,titanium,1766,0.6514,35.8,0.1248,50,,v1
+C,tungsten,382,0.5182,84.5,0.4071,22,,v1
+C,vanadium,352,0.5111,70,0.3422,26,,v1
+C,vermiculite,51,0.3442,8,0.0525,62,,filled_2026-08-15
+C,wollastonite,6,0.1695,75,0.6229,9,,filled_2026-08-15
+C,ytterbium,28,0.2934,99,0.6996,5,,REE_element_file
+C,yttrium,72,0.3738,99,0.62,10,,REE_element_file
+C,zeolites (natural),72,0.3738,5.2,0.0326,66,,filled_2026-08-15
+C,zinc,2940,0.6958,32.3,0.0983,53,,v1
+C,zirconium,128,0.4234,10,0.0577,61,,v1
+D,abrasives (manufactured),107,0.4093,54.3,0.3207,28,,filled_2026-08-15
+D,aluminum,5652,0.7554,58,0.1419,43,,v1
+D,antimony,378,0.5191,54.5,,,already_controlled,v1
+D,arsenic,683,0.5707,39.3,0.1687,38,,v1
+D,asbestos,602,0.5597,14,0.0616,59,,filled_2026-08-15
+D,barite,42,0.3288,24.1,0.1618,39,,v1
+D,bauxite and alumina,349,0.5121,58.6,0.2859,29,,filled_2026-08-15
+D,beryllium,76,0.3798,25,0.1551,40,,v1
+D,bismuth,68,0.3702,80,0.5039,18,,v1
+D,boron,331,0.5075,6,0.0295,66,,filled_2026-08-15
+D,bromine,238,0.4788,25,0.1303,47,,filled_2026-08-15
+D,cadmium,496,0.5428,41.7,0.1907,36,,v1
+D,cement,4524,0.7359,51,0.1347,45,,filled_2026-08-15
+D,cerium,46,0.3366,88,0.5838,13,,REE_element_file
+D,cesium,207,0.4666,,,,no_share_data,v1
+D,chromium,407,0.5255,0,0,82,,v1
+D,clays,125,0.4228,,,,no_share_data,v1
+D,cobalt,3056,0.7016,1.2,0.0036,79,,v1
+D,copper,10283,0.8077,8.6,0.0165,74,,v1
+D,diamond (industrial),43,0.3308,95,0.6357,8,,diamond_term_corrected_2026-08-15
+D,diatomite,36,0.3157,17,0.1163,50,,filled_2026-08-15
+D,dysprosium,130,0.4262,99,0.568,15,,REE_element_file
+D,erbium,16,0.2477,99,0.7448,3,,REE_element_file
+D,europium,18,0.2574,98,0.7277,4,,REE_element_file
+D,feldspar,108,0.4101,8.6,0.0507,62,,v1
+D,fluorspar,21,0.2702,68.7,0.5013,19,,v1
+D,gadolinium,51,0.3454,98,0.6415,7,,REE_element_file
+D,gallium,757,0.5797,98.2,,,already_controlled,v1
+D,garnet (industrial),195,0.4614,17,0.0916,53,,filled_2026-08-15
+D,gemstones,450,0.5343,,,,no_share_data,v1
+D,germanium,501,0.5437,65.4,,,already_controlled,v1
+D,gold,31621,0.9059,10.6,0.01,76,,v1
+D,graphite (natural),1503,0.6396,65.4,,,already_controlled,v1
+D,gypsum,344,0.5109,15,0.0734,55,,filled_2026-08-15
+D,hafnium,13,0.2307,3,0.0231,69,,v1
+D,helium,855,0.5903,0.6,0.0025,81,,v1
+D,holmium,10,0.2096,99,0.7825,2,,REE_element_file
+D,indium,139,0.432,58.9,0.3345,27,,v1
+D,iodine,260,0.4865,1,0.0051,78,,filled_2026-08-15
+D,iron and steel,1048,0.6081,54,0.2116,35,,filled_2026-08-15
+D,iron and steel scrap,60,0.3594,,,,no_share_data,v1
+D,iron and steel slag,34,0.3108,54,0.3722,23,,filled_2026-08-15
+D,iron ore,1804,0.6556,14.6,0.0503,63,,v1
+D,iron oxide pigments,136,0.4301,,,,no_share_data,v1
+D,kyanite,3,0.1212,15,0.1318,46,,filled_2026-08-15
+D,lanthanum,47,0.3384,88,0.5822,14,,REE_element_file
+D,lead,92797,1,44.4,0,83,,v1
+D,lime,1654,0.648,72,0.2535,33,,filled_2026-08-15
+D,lithium,10193,0.8069,14.6,0.0282,67,,v1
+D,lutetium,68,0.3702,99,0.6235,9,,REE_element_file
+D,magnesium compounds,6,0.1701,63.8,0.5295,16,,filled_2026-08-15
+D,magnesium metal,1121,0.614,90,0.3474,26,,v1
+D,manganese,1054,0.6086,5,0.0196,71,,v1
+D,mercury,2622,0.6882,85,0.265,32,,filled_2026-08-15
+D,mica (natural),317,0.5038,25.6,0.127,48,,v1
+D,molybdenum,622,0.5625,40,0.175,37,,v1
+D,neodymium,256,0.4851,90,0.4634,20,,REE_element_file
+D,nickel,5416,0.7516,3.3,0.0082,77,,v1
+D,niobium,149,0.4381,0,0,84,,v1
+D,nitrogen (fixed)-ammonia,1798,0.6553,26,0.0896,54,,filled_2026-08-15
+D,peat,679,0.5702,4,0.0172,73,,filled_2026-08-15
+D,perlite,55,0.3519,10,0.0648,58,,filled_2026-08-15
+D,phosphate rock,33,0.3083,38.6,0.267,31,,v1
+D,platinum-group metals,3760,0.7197,1,0.0028,80,,filled_2026-08-15
+D,potash,419,0.5281,15,0.0708,57,,v1
+D,praseodymium,121,0.42,90,0.522,17,,REE_element_file
+D,pumice and pumicite,358,0.5144,3,0.0146,75,,filled_2026-08-15
+D,quartz crystal (industrial),17,0.2527,,,,no_share_data,v1
+D,rhenium,64,0.365,4.3,0.0273,68,,v1
+D,rubidium,52,0.3471,,,,no_share_data,v1
+D,salt,8471,0.7907,22,0.046,64,,filled_2026-08-15
+D,samarium,37,0.318,97,0.6615,6,,REE_element_file
+D,sand and gravel,144,0.4351,,,,no_share_data,v1
+D,scandium,61,0.3608,68,0.4346,21,,filled_2026-08-15
+D,selenium,212,0.4687,40.6,0.2157,34,,v1
+D,silicon,8732,0.7934,68,0.1405,44,,filled_2026-08-15
+D,silver,13958,0.8344,13.8,0.0229,70,,v1
+D,soda ash,83,0.3874,46,0.2818,30,,filled_2026-08-15
+D,stone,13048,0.8285,,,,no_share_data,v1
+D,strontium,81,0.3853,23.5,0.1445,42,,v1
+D,sulfur,1216,0.6211,19,0.072,56,,filled_2026-08-15
+D,talc and pyrophyllite,164,0.4464,28,0.155,41,,filled_2026-08-15
+D,tantalum,317,0.5038,3.9,0.0194,72,,v1
+D,tellurium,32,0.3057,53.1,0.3687,24,,v1
+D,terbium,104,0.4069,99,0.5872,12,,REE_element_file
+D,thallium,14,0.2368,,,,no_share_data,v1
+D,thorium,120,0.4193,,,,no_share_data,v1
+D,thulium,9,0.2013,99,0.7907,1,,REE_element_file
+D,tin,1697,0.6502,30.6,0.107,51,,v1
+D,titanium,1666,0.6486,35.8,0.1258,49,,v1
+D,tungsten,391,0.522,84.5,0.4039,22,,v1
+D,vanadium,297,0.4981,70,0.3513,25,,v1
+D,vermiculite,48,0.3402,8,0.0528,61,,filled_2026-08-15
+D,wollastonite,9,0.2013,75,0.599,11,,filled_2026-08-15
+D,ytterbium,29,0.2974,99,0.6956,5,,REE_element_file
+D,yttrium,70,0.3727,99,0.6211,10,,REE_element_file
+D,zeolites (natural),69,0.3714,5.2,0.0327,65,,filled_2026-08-15
+D,zinc,2744,0.6922,32.3,0.0994,52,,v1
+D,zirconium,103,0.406,10,0.0594,60,,v1
+E1,abrasives (manufactured),118,0.4179,54.3,0.3161,24,,filled_2026-08-15
+E1,aluminum,7343,0.7783,58,0.1286,42,,v1
+E1,antimony,405,0.5252,54.5,,,already_controlled,v1
+E1,arsenic,701,0.573,39.3,0.1678,33,,v1
+E1,asbestos,595,0.5587,14,0.0618,54,,filled_2026-08-15
+E1,barite,37,0.3181,24.1,0.1643,34,,v1
+E1,bauxite and alumina,368,0.5168,58.6,0.2831,26,,filled_2026-08-15
+E1,beryllium,96,0.4,25,0.15,36,,v1
+E1,bismuth,131,0.4269,80,,,already_controlled,v1
+E1,boron,309,0.5016,6,0.0299,61,,filled_2026-08-15
+E1,bromine,237,0.4785,25,0.1304,41,,filled_2026-08-15
+E1,cadmium,483,0.5405,41.7,0.1916,32,,v1
+E1,cement,4319,0.7319,51,0.1367,39,,filled_2026-08-15
+E1,cerium,60,0.3594,88,0.5637,13,,REE_element_file
+E1,cesium,183,0.456,,,,no_share_data,v1
+E1,chromium,419,0.5281,0,0,77,,v1
+E1,clays,114,0.4149,,,,no_share_data,v1
+E1,cobalt,2939,0.6983,1.2,0.0036,74,,v1
+E1,copper,10632,0.8107,8.6,0.0163,69,,v1
+E1,diamond (industrial),42,0.3289,95,0.6376,8,,diamond_term_corrected_2026-08-15
+E1,diatomite,38,0.3203,17,0.1155,45,,filled_2026-08-15
+E1,dysprosium,145,0.4357,99,0.5586,14,,REE_element_file
+E1,erbium,29,0.2974,99,0.6956,4,,REE_element_file
+E1,europium,25,0.2849,98,0.7008,3,,REE_element_file
+E1,feldspar,96,0.4,8.6,0.0516,57,,v1
+E1,fluorspar,18,0.2574,68.7,0.5101,18,,v1
+E1,gadolinium,53,0.3488,98,0.6382,7,,REE_element_file
+E1,gallium,847,0.5896,98.2,,,already_controlled,v1
+E1,garnet (industrial),190,0.4592,17,0.0919,48,,filled_2026-08-15
+E1,gemstones,494,0.5425,,,,no_share_data,v1
+E1,germanium,567,0.5545,65.4,,,already_controlled,v1
+E1,gold,32107,0.9073,10.6,0.0098,71,,v1
+E1,graphite (natural),1535,0.6415,65.4,,,already_controlled,v1
+E1,gypsum,339,0.5097,15,0.0736,50,,filled_2026-08-15
+E1,hafnium,13,0.2307,3,0.0231,64,,v1
+E1,helium,854,0.5903,0.6,0.0025,76,,v1
+E1,holmium,15,0.2424,99,0.75,1,,REE_element_file
+E1,indium,206,0.4663,58.9,,,already_controlled,v1
+E1,iodine,255,0.4848,1,0.0052,73,,filled_2026-08-15
+E1,iron and steel,1180,0.6185,54,0.206,31,,filled_2026-08-15
+E1,iron and steel scrap,61,0.3609,,,,no_share_data,v1
+E1,iron and steel slag,31,0.303,54,0.3764,21,,filled_2026-08-15
+E1,iron ore,1870,0.6588,14.6,0.0498,58,,v1
+E1,iron oxide pigments,140,0.4327,,,,no_share_data,v1
+E1,kyanite,2,0.0961,15,0.1356,40,,filled_2026-08-15
+E1,lanthanum,66,0.3676,88,0.5565,15,,REE_element_file
+E1,lead,92664,1,44.4,0,78,,v1
+E1,lime,1633,0.6469,72,0.2542,29,,filled_2026-08-15
+E1,lithium,9757,0.8032,14.6,0.0287,62,,v1
+E1,lutetium,75,0.3787,99,0.6151,9,,REE_element_file
+E1,magnesium compounds,5,0.1567,63.8,0.538,16,,filled_2026-08-15
+E1,magnesium metal,1131,0.6148,90,0.3467,23,,v1
+E1,manganese,994,0.6035,5,0.0198,66,,v1
+E1,mercury,2594,0.6874,85,0.2657,28,,filled_2026-08-15
+E1,mica (natural),312,0.5024,25.6,0.1274,43,,v1
+E1,molybdenum,708,0.5739,40,,,already_controlled,v1
+E1,neodymium,272,0.4905,90,0.4586,19,,REE_element_file
+E1,nickel,5652,0.7554,3.3,0.0081,72,,v1
+E1,niobium,123,0.4215,0,0,79,,v1
+E1,nitrogen (fixed)-ammonia,1702,0.6505,26,0.0909,49,,filled_2026-08-15
+E1,peat,785,0.5829,4,0.0167,68,,filled_2026-08-15
+E1,perlite,49,0.342,10,0.0658,53,,filled_2026-08-15
+E1,phosphate rock,29,0.2974,38.6,0.2712,27,,v1
+E1,platinum-group metals,3714,0.7187,1,0.0028,75,,filled_2026-08-15
+E1,potash,512,0.5456,15,0.0682,52,,v1
+E1,praseodymium,120,0.4193,90,0.5226,17,,REE_element_file
+E1,pumice and pumicite,367,0.5166,3,0.0145,70,,filled_2026-08-15
+E1,quartz crystal (industrial),17,0.2527,,,,no_share_data,v1
+E1,rhenium,64,0.365,4.3,0.0273,63,,v1
+E1,rubidium,51,0.3455,,,,no_share_data,v1
+E1,salt,8316,0.7892,22,0.0464,59,,filled_2026-08-15
+E1,samarium,41,0.3268,97,0.653,6,,REE_element_file
+E1,sand and gravel,137,0.4308,,,,no_share_data,v1
+E1,scandium,61,0.3609,68,0.4346,20,,filled_2026-08-15
+E1,selenium,204,0.4654,40.6,0.217,30,,v1
+E1,silicon,8103,0.7869,68,0.1449,38,,filled_2026-08-15
+E1,silver,13848,0.8338,13.8,0.0229,65,,v1
+E1,soda ash,76,0.3798,46,0.2853,25,,filled_2026-08-15
+E1,stone,12990,0.8282,,,,no_share_data,v1
+E1,strontium,72,0.3751,23.5,0.1468,37,,v1
+E1,sulfur,1225,0.6218,19,0.0719,51,,filled_2026-08-15
+E1,talc and pyrophyllite,171,0.4501,28,0.154,35,,filled_2026-08-15
+E1,tantalum,316,0.5035,3.9,0.0194,67,,v1
+E1,tellurium,113,0.4141,53.1,,,already_controlled,v1
+E1,terbium,110,0.4118,99,0.5823,12,,REE_element_file
+E1,thallium,11,0.2173,,,,no_share_data,v1
+E1,thorium,117,0.4171,,,,no_share_data,v1
+E1,thulium,15,0.2424,99,0.75,2,,REE_element_file
+E1,tin,1757,0.6533,30.6,0.1061,46,,v1
+E1,titanium,1753,0.6531,35.8,0.1242,44,,v1
+E1,tungsten,475,0.5391,84.5,,,already_controlled,v1
+E1,vanadium,297,0.4981,70,0.3513,22,,v1
+E1,vermiculite,46,0.3366,8,0.0531,56,,filled_2026-08-15
+E1,wollastonite,9,0.2013,75,0.599,11,,filled_2026-08-15
+E1,ytterbium,47,0.3385,99,0.6549,5,,REE_element_file
+E1,yttrium,87,0.3915,99,0.6024,10,,REE_element_file
+E1,zeolites (natural),70,0.3727,5.2,0.0326,60,,filled_2026-08-15
+E1,zinc,2815,0.6945,32.3,0.0987,47,,v1
+E1,zirconium,99,0.4027,10,0.0597,55,,v1
+E2,abrasives (manufactured),98,0.4008,54.3,0.3254,17,,filled_2026-08-15
+E2,aluminum,9818,0.8018,58,0.115,37,,v1
+E2,antimony,653,0.5655,54.5,,,already_controlled,v1
+E2,arsenic,799,0.5831,39.3,0.1639,27,,v1
+E2,asbestos,535,0.5481,14,0.0633,47,,filled_2026-08-15
+E2,barite,38,0.3196,24.1,0.164,26,,v1
+E2,bauxite and alumina,387,0.5199,58.6,0.2813,19,,filled_2026-08-15
+E2,beryllium,123,0.4204,25,0.1449,31,,v1
+E2,bismuth,141,0.4323,80,,,already_controlled,v1
+E2,boron,310,0.5007,6,0.03,55,,filled_2026-08-15
+E2,bromine,203,0.4639,25,0.134,33,,filled_2026-08-15
+E2,cadmium,455,0.534,41.7,0.1943,25,,v1
+E2,cement,4286,0.7295,51,0.138,32,,filled_2026-08-15
+E2,cerium,85,0.3885,88,0.5381,9,,REE_element_file
+E2,cesium,134,0.4279,,,,no_share_data,v1
+E2,chromium,550,0.5505,0,0,70,,v1
+E2,clays,86,0.3895,,,,no_share_data,v1
+E2,cobalt,2792,0.6921,1.2,0.0037,67,,v1
+E2,copper,11570,0.8161,8.6,0.0158,62,,v1
+E2,diamond (industrial),34,0.3101,95,0.6554,5,,diamond_term_corrected_2026-08-15
+E2,diatomite,50,0.343,17,0.1117,38,,filled_2026-08-15
+E2,dysprosium,269,0.4883,99,,,already_controlled,REE_element_file
+E2,erbium,35,0.3126,99,0.6806,4,,REE_element_file
+E2,europium,30,0.2995,98,0.6865,3,,REE_element_file
+E2,feldspar,84,0.3875,8.6,0.0527,50,,v1
+E2,fluorspar,24,0.2808,68.7,0.4941,11,,v1
+E2,gadolinium,154,0.4399,98,,,already_controlled,REE_element_file
+E2,gallium,856,0.5891,98.2,,,already_controlled,v1
+E2,garnet (industrial),177,0.452,17,0.0932,42,,filled_2026-08-15
+E2,gemstones,526,0.5467,,,,no_share_data,v1
+E2,germanium,558,0.5518,65.4,,,already_controlled,v1
+E2,gold,34503,0.9114,10.6,0.0094,64,,v1
+E2,graphite (natural),1442,0.6345,65.4,,,already_controlled,v1
+E2,gypsum,258,0.4847,15,0.0773,43,,filled_2026-08-15
+E2,hafnium,15,0.2418,3,0.0227,58,,v1
+E2,helium,843,0.5877,0.6,0.0025,69,,v1
+E2,holmium,14,0.2362,99,0.7562,1,,REE_element_file
+E2,indium,183,0.4549,58.9,,,already_controlled,v1
+E2,iodine,264,0.4867,1,0.0051,66,,filled_2026-08-15
+E2,iron and steel,1380,0.6307,54,0.1994,24,,filled_2026-08-15
+E2,iron and steel scrap,69,0.3706,,,,no_share_data,v1
+E2,iron and steel slag,35,0.3126,54,0.3712,14,,filled_2026-08-15
+E2,iron ore,1964,0.6614,14.6,0.0494,51,,v1
+E2,iron oxide pigments,127,0.4232,,,,no_share_data,v1
+E2,kyanite,4,0.1404,15,0.1289,35,,filled_2026-08-15
+E2,lanthanum,96,0.399,88,0.5289,10,,REE_element_file
+E2,lead,95277,1,44.4,0,71,,v1
+E2,lime,1580,0.6425,72,0.2574,22,,filled_2026-08-15
+E2,lithium,8811,0.7923,14.6,0.0303,54,,v1
+E2,lutetium,107,0.4084,99,,,already_controlled,REE_element_file
+E2,magnesium compounds,5,0.1563,63.8,0.5383,8,,filled_2026-08-15
+E2,magnesium metal,1440,0.6344,90,0.329,16,,v1
+E2,manganese,987,0.6015,5,0.0199,59,,v1
+E2,mercury,2725,0.69,85,0.2635,21,,filled_2026-08-15
+E2,mica (natural),292,0.4955,25.6,0.1292,34,,v1
+E2,molybdenum,694,0.5708,40,,,already_controlled,v1
+E2,neodymium,390,0.5206,90,0.4314,13,,REE_element_file
+E2,nickel,5778,0.7555,3.3,0.0081,65,,v1
+E2,niobium,168,0.4475,0,0,72,,v1
+E2,nitrogen (fixed)-ammonia,1424,0.6334,26,0.0953,41,,filled_2026-08-15
+E2,peat,847,0.5881,4,0.0165,61,,filled_2026-08-15
+E2,perlite,35,0.3126,10,0.0687,45,,filled_2026-08-15
+E2,phosphate rock,28,0.2937,38.6,0.2726,20,,v1
+E2,platinum-group metals,3868,0.7205,1,0.0028,68,,filled_2026-08-15
+E2,potash,513,0.5445,15,0.0683,46,,v1
+E2,praseodymium,201,0.463,90,0.4833,12,,REE_element_file
+E2,pumice and pumicite,367,0.5153,3,0.0145,63,,filled_2026-08-15
+E2,quartz crystal (industrial),15,0.2418,,,,no_share_data,v1
+E2,rhenium,51,0.3446,4.3,0.0282,56,,v1
+E2,rubidium,35,0.3126,,,,no_share_data,v1
+E2,salt,8206,0.7861,22,0.0471,52,,filled_2026-08-15
+E2,samarium,152,0.4388,97,,,already_controlled,REE_element_file
+E2,sand and gravel,103,0.4051,,,,no_share_data,v1
+E2,scandium,165,0.4459,68,,,already_controlled,filled_2026-08-15
+E2,selenium,208,0.466,40.6,0.2168,23,,v1
+E2,silicon,8027,0.7842,68,0.1467,30,,filled_2026-08-15
+E2,silver,14287,0.8345,13.8,0.0228,57,,v1
+E2,soda ash,49,0.3412,46,0.303,18,,filled_2026-08-15
+E2,stone,13101,0.8269,,,,no_share_data,v1
+E2,strontium,71,0.373,23.5,0.1473,29,,v1
+E2,sulfur,1204,0.6188,19,0.0724,44,,filled_2026-08-15
+E2,talc and pyrophyllite,160,0.4432,28,0.1559,28,,filled_2026-08-15
+E2,tantalum,316,0.5023,3.9,0.0194,60,,v1
+E2,tellurium,119,0.4176,53.1,,,already_controlled,v1
+E2,terbium,230,0.4747,99,,,already_controlled,REE_element_file
+E2,thallium,20,0.2656,,,,no_share_data,v1
+E2,thorium,111,0.4116,,,,no_share_data,v1
+E2,thulium,15,0.2418,99,0.7506,2,,REE_element_file
+E2,tin,1822,0.6549,30.6,0.1056,39,,v1
+E2,titanium,1700,0.6489,35.8,0.1257,36,,v1
+E2,tungsten,542,0.5493,84.5,,,already_controlled,v1
+E2,vanadium,297,0.4969,70,0.3522,15,,v1
+E2,vermiculite,40,0.3239,8,0.0541,49,,filled_2026-08-15
+E2,wollastonite,9,0.2008,75,0.5994,7,,filled_2026-08-15
+E2,ytterbium,55,0.3511,99,0.6424,6,,REE_element_file
+E2,yttrium,164,0.4454,99,,,already_controlled,REE_element_file
+E2,zeolites (natural),57,0.3542,5.2,0.0336,53,,filled_2026-08-15
+E2,zinc,3074,0.7005,32.3,0.0967,40,,v1
+E2,zirconium,97,0.3999,10,0.06,48,,v1

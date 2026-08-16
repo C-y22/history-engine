@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Figure 4 — Activation test: pre-event latent power × post-control offshore price shock</title>
+<style>
+  .viz-root{color-scheme:light;
+    --surface-1:#fcfcfb;--page:#f9f9f7;--text-primary:#0b0b0b;--text-secondary:#52514e;
+    --muted:#898781;--grid:#e1e0d9;--baseline:#c3c2b7;--border:rgba(11,11,11,0.10);
+    --pt:#2a78d6;--sec:#898781;}
+  @media (prefers-color-scheme: dark){
+    :root:where(:not([data-theme="light"])) .viz-root{color-scheme:dark;
+      --surface-1:#1a1a19;--page:#0d0d0d;--text-primary:#fff;--text-secondary:#c3c2b7;
+      --muted:#898781;--grid:#2c2c2a;--baseline:#383835;--border:rgba(255,255,255,0.10);
+      --pt:#3987e5;--sec:#898781;}}
+  :root[data-theme="dark"] .viz-root{color-scheme:dark;
+    --surface-1:#1a1a19;--page:#0d0d0d;--text-primary:#fff;--text-secondary:#c3c2b7;
+    --muted:#898781;--grid:#2c2c2a;--baseline:#383835;--border:rgba(255,255,255,0.10);
+    --pt:#3987e5;--sec:#898781;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--page)}
+  .viz-root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+    background:var(--page);color:var(--text-primary);min-height:100vh;padding:28px 16px 40px}
+  .card{max-width:920px;margin:0 auto;background:var(--surface-1);border:1px solid var(--border);
+    border-radius:10px;padding:26px 28px 20px}
+  .head{display:flex;justify-content:space-between;gap:16px}
+  h1{font-size:19px;font-weight:650;line-height:1.35}
+  .subtitle{font-size:13px;color:var(--text-secondary);margin-top:6px;line-height:1.5}
+  .figno{font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+  .theme-btn{flex:none;font-size:12px;color:var(--text-secondary);background:none;
+    border:1px solid var(--border);border-radius:6px;padding:5px 10px;cursor:pointer;font-family:inherit;height:fit-content}
+  .legend{display:flex;gap:18px;margin-top:14px;font-size:11.5px;color:var(--text-secondary);flex-wrap:wrap}
+  svg{display:block;width:100%;height:auto;margin-top:4px}
+  .footnote{margin-top:14px;padding-top:11px;border-top:1px solid var(--grid);
+    font-size:11px;color:var(--muted);line-height:1.6}
+</style>
+</head>
+<body>
+<div class="viz-root"><div class="card">
+  <div class="head">
+    <div>
+      <div class="figno">Figure 4 · Activation test (H2b)</div>
+      <h1>The formula reads the price: latent power before the event predicts the offshore price shock after it</h1>
+      <div class="subtitle">Each point is one controlled commodity. X-axis = its latent power measured before the cutoff of its own exam — criticality × unpreparedness, the same product specification used throughout, fixed by theory before the test was run. Y-axis = offshore price change in roughly the month after the announcement. Prices are the formula's home domain: a shock needs both a real chokehold on supply and a buyer who has not stockpiled.</div>
+    </div>
+    <button class="theme-btn" id="themeBtn" type="button">◐ Theme</button>
+  </div>
+  <div class="legend">
+    <span>● hard point (quoted / assessed price)</span><span>○ descriptive or estimated</span><span style="color:var(--muted)">▫ window mismatch (sensitivity only)</span>
+  </div>
+  <svg id="fig" viewBox="0 0 900 480" role="img" aria-label="Scatter plot: x-axis pre-event latent power 0.15 to 0.62, y-axis offshore price change over the first month 0 to 210 percent. Molybdenum and graphite sit near zero at the low end; dysprosium and terbium and bismuth are high on both axes. Spearman rho 0.89."></svg>
+  <div class="footnote">
+    <strong>Statistics:</strong> Spearman ρ = <strong>0.89</strong> (n=10, one-sided permutation p = 0.0008) under the product specification. The same ten points give ρ = 0.30 (not significant) under unpreparedness alone and ρ = 0.82 under share alone — the single-factor rulers, one of which was mis-specified in an earlier draft; all three are reported (Figure 5). Over the longest available window the product specification gives ρ = 0.80 (n=12, p = 0.002).<br>
+    <strong>The group that is off the chart (itself evidence):</strong> the deepest-latent controlled commodities — samarium, gadolinium, lutetium (2025-04) and holmium, erbium, thulium, europium, ytterbium (2025-10) — have <strong>no active offshore quotation at all</strong> (Fastmarkets only began publishing European prices for some heavy rare earths in May–August 2025). They were too dark even to have a thermometer, so they cannot be plotted. Yttrium oxide has no one-month point; by November 2025 it stood +4,400% against the start of the year. Both facts run with the hypothesis, not against it.<br>
+    <strong>Measurement basis:</strong> offshore markets (Rotterdam / Europe / US). Bismuth is a conservative lower bound 2.5 weeks after the announcement (+100–200% by 21 Feb; recorded as +100%). Natural graphite is FOB China (no independent offshore benchmark). Indium (+0.6–2.0%), tellurium (+7.2%) and molybdenum (+1.0%) are two-point hard readings from archived snapshots (SMI Europe retail / DailyMetalPrice; snapshot dates and redirects verified). For dysprosium and terbium the archived retail-metal snapshots (+35–37% over one month) agree in direction with the SMM oxide basis (×2–3). Tungsten (+18% over three months) is a window mismatch and enters sensitivity only.<br>
+    <strong>Licensed-data corroboration (Benchmark Mineral Intelligence, Q1 2026):</strong> two hard confirmations at the quiet end — exam B, graphite: FOB China quarterly prices Q3→Q4 2023 fell, spherical −4.5% and flake −0.6%, in the quarter of the control; exam E2, anode / synthetic graphite: DDP China quarterly prices Q3→Q4 2025 rose only 1–3%, and the 7 Nov suspension truncated the control four weeks in. This closes the "nobody reports the ones that did not move" selection worry: the quiet end now has an independent licensed source behind it. Only percentage changes are cited; raw price points are not reproduced.<br>
+    <strong>Sources:</strong> Reuters 2023-08-01 (gallium +43.4%, germanium +9.1%, Rotterdam quotes); Argus / MMTA (antimony +12%, Rotterdam); Reuters 2025-02 and 03 (bismuth); SMM 2025-05-06 (dysprosium "nearly tripled", terbium "more than doubled"); MMTA / Benchmark (graphite +4%); USGS MCS 2026 (indium, molybdenum). Pre-event latent power from ranking_unified_v2.csv (completed pool, corrected-diamond basis). Point-level sourcing in h2b_activation.csv and workbook sheet 9_H2b_Prices.
+  </div>
+</div></div>
+<script>
+(function(){
+  var NS="http://www.w3.org/2000/svg";
+  var svg=document.getElementById("fig");
+  var X0=0.13,X1=0.65,Y0=-12,Y1=215;
+  var ML=64,MR=30,MT=14,MB=42,W=900,H=480;
+  function x(v){return ML+(v-X0)/(X1-X0)*(W-ML-MR);}
+  function y(v){return MT+(H-MT-MB)-(v-Y0)/(Y1-Y0)*(H-MT-MB);}
+  function el(p,t,a,txt){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);
+    if(txt!=null)e.textContent=txt;p.appendChild(e);return e;}
+  [0,50,100,150,200].forEach(function(t){
+    el(svg,"line",{x1:ML,x2:W-MR,y1:y(t),y2:y(t),stroke:t===0?"var(--baseline)":"var(--grid)","stroke-width":1});
+    el(svg,"text",{x:ML-8,y:y(t)+3.5,"text-anchor":"end","font-size":10.5,fill:"var(--muted)"},t+"%");
+  });
+  [0.2,0.3,0.4,0.5,0.6].forEach(function(t){
+    el(svg,"line",{x1:x(t),x2:x(t),y1:H-MB,y2:H-MB+4,stroke:"var(--baseline)","stroke-width":1});
+    el(svg,"text",{x:x(t),y:H-MB+17,"text-anchor":"middle","font-size":10.5,fill:"var(--muted)"},t.toFixed(1));
+  });
+  el(svg,"text",{x:W-MR,y:H-MB+34,"text-anchor":"end","font-size":11,fill:"var(--muted)"},
+    "pre-event latent power  (share × unpreparedness) →");
+  el(svg,"text",{x:ML-56,y:MT+2,"font-size":11,fill:"var(--muted)"},"↑ offshore");
+  el(svg,"text",{x:ML-56,y:MT+15,"font-size":11,fill:"var(--muted)"},"price, 1 mo");
+  // points: [latent, price%, label, hard?, dx, dy_label, anchor]
+  var pts=[
+    [0.4753,43.4,"gallium +43%",1,9,-6,"start"],
+    [0.4096,9.1,"germanium +9%",1,9,-6,"start"],
+    [0.2351,4.0,"graphite +4%",1,0,-10,"middle"],
+    [0.2930,12.0,"antimony +12%",1,-9,-6,"end"],
+    [0.5039,100.0,"bismuth +100% (2.5-week lower bound)",1,-9,-8,"end"],
+    [0.1750,1.0,"molybdenum +1%",1,0,-10,"middle"],
+    [0.3345,2.0,"indium +2%",1,0,20,"middle"],
+    [0.3687,7.2,"tellurium +7%",1,9,14,"start"],
+    [0.5586,200.0,"dysprosium ≈+200%",0,-9,4,"end"],
+    [0.5823,100.0,"terbium ≈+100%",0,9,-8,"start"]
+  ];
+  var sec=[[0.4039,18.0,"tungsten +18% (3-month window)"]];
+  sec.forEach(function(d){
+    el(svg,"rect",{x:x(d[0])-3.5,y:y(d[1])-3.5,width:7,height:7,fill:"none",stroke:"var(--sec)","stroke-width":1.4});
+    el(svg,"text",{x:x(d[0]),y:y(d[1])-9,"text-anchor":"middle","font-size":10,fill:"var(--muted)"},d[2]);
+  });
+  pts.forEach(function(d){
+    el(svg,"circle",{cx:x(d[0]),cy:y(d[1]),r:4.6,
+      fill:d[3]?"var(--pt)":"var(--surface-1)",stroke:"var(--pt)","stroke-width":d[3]?0:1.8});
+    el(svg,"text",{x:x(d[0])+d[4],y:y(d[1])+d[5],"text-anchor":d[6],"font-size":10.5,
+      fill:"var(--text-primary)"},d[2]);
+  });
+  el(svg,"text",{x:x(0.145),y:y(196),"font-size":11.5,fill:"var(--text-secondary)","font-weight":600},
+    "Spearman ρ = 0.89  (n=10, one-sided permutation p = 0.0008)");
+  el(svg,"text",{x:x(0.145),y:y(181),"font-size":10.5,fill:"var(--muted)"},
+    "product specification; unpreparedness alone gives 0.30 n.s., share alone 0.82");
+  document.getElementById("themeBtn").addEventListener("click",function(){
+    var r=document.documentElement,cur=r.getAttribute("data-theme");
+    var pd=window.matchMedia("(prefers-color-scheme: dark)").matches;
+    r.setAttribute("data-theme",(cur||(pd?"dark":"light"))==="dark"?"light":"dark");
+  });
+})();
+</script>
+</body>
+</html>

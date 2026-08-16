@@ -1,0 +1,101 @@
+usgs_commodity,search_term,rule_rationale
+abrasives (manufactured),abrasives,parenthetical is USGS nomenclature
+aluminum,aluminum,default rule: USGS name used verbatim
+antimony,antimony,default rule: USGS name used verbatim
+arsenic,arsenic,default rule: USGS name used verbatim
+asbestos,asbestos,default rule: USGS name used verbatim
+barite,barite,default rule: USGS name used verbatim
+bauxite and alumina,bauxite,upstream head noun taken
+beryllium,beryllium,default rule: USGS name used verbatim
+bismuth,bismuth,default rule: USGS name used verbatim
+boron,boron,default rule: USGS name used verbatim
+bromine,bromine,default rule: USGS name used verbatim
+cadmium,cadmium,default rule: USGS name used verbatim
+cement,cement,default rule: USGS name used verbatim
+cerium,cerium,default rule: USGS name used verbatim
+cesium,cesium,default rule: USGS name used verbatim
+chromium,chromium,default rule: USGS name used verbatim
+clays,clays,default rule: USGS name used verbatim
+cobalt,cobalt,default rule: USGS name used verbatim
+copper,copper,default rule: USGS name used verbatim
+diamond (industrial),"""industrial diamond"" OR ""synthetic diamond""","CORRECTED 2026-08-15 under rule (d), vocabulary-validity check: the USGS chapter covers natural and synthetic industrial diamond side by side, and the frozen term (""industrial diamond"") missed the synthetic branch. ""industrial""/""synthetic"" kept to exclude jewellery-diamond news. Frozen term co-reported as the disclosed alternative specification."
+diatomite,diatomite,default rule: USGS name used verbatim
+dysprosium,dysprosium,default rule: USGS name used verbatim
+erbium,erbium,default rule: USGS name used verbatim
+europium,europium,default rule: USGS name used verbatim
+feldspar,feldspar,default rule: USGS name used verbatim
+fluorspar,fluorspar,default rule: USGS name used verbatim
+gadolinium,gadolinium,default rule: USGS name used verbatim
+gallium,gallium,default rule: USGS name used verbatim
+garnet (industrial),garnet,no distinct news term for industrial garnet
+gemstones,gemstones,default rule: USGS name used verbatim
+germanium,germanium,default rule: USGS name used verbatim
+gold,gold,default rule: USGS name used verbatim
+graphite (natural),graphite,"parenthetical is USGS nomenclature; news does not separate natural from synthetic, so the count is overstated — conservative, runs against the hypothesis"
+gypsum,gypsum,default rule: USGS name used verbatim
+hafnium,hafnium,default rule: USGS name used verbatim
+helium,helium,default rule: USGS name used verbatim
+holmium,holmium,default rule: USGS name used verbatim
+indium,indium,default rule: USGS name used verbatim
+iodine,iodine,default rule: USGS name used verbatim
+iron and steel,"""steel industry""",industry row; industry phrase used
+iron and steel scrap,"""steel scrap""",as above
+iron and steel slag,"""steel slag""",as above
+iron ore,"""iron ore""","two-word phrase prevents runaway matching on ""iron"""
+iron oxide pigments,"""iron oxide""",pigment qualifier too narrow
+kyanite,kyanite,default rule: USGS name used verbatim
+lanthanum,lanthanum,default rule: USGS name used verbatim
+lead,lead,default rule: USGS name used verbatim
+lime,lime,default rule: USGS name used verbatim
+lithium,lithium,default rule: USGS name used verbatim
+lutetium,lutetium,default rule: USGS name used verbatim
+magnesium compounds,"""magnesium compounds""",phrase kept to distinguish from magnesium metal
+magnesium metal,magnesium,"USGS row name carries a ""metal"" qualifier that news does not use"
+manganese,manganese,default rule: USGS name used verbatim
+mercury,mercury,default rule: USGS name used verbatim
+mica (natural),mica,as above
+molybdenum,molybdenum,default rule: USGS name used verbatim
+neodymium,neodymium,default rule: USGS name used verbatim
+nickel,nickel,default rule: USGS name used verbatim
+niobium,niobium,default rule: USGS name used verbatim
+nitrogen (fixed)-ammonia,ammonia,the traded commodity is ammonia
+peat,peat,default rule: USGS name used verbatim
+perlite,perlite,default rule: USGS name used verbatim
+phosphate rock,"""phosphate rock""","fixed phrase prevents matching generic ""phosphate"""
+platinum-group metals,(platinum OR palladium),the family name is not used in news; the two principal elements taken
+potash,potash,default rule: USGS name used verbatim
+praseodymium,praseodymium,default rule: USGS name used verbatim
+pumice and pumicite,pumice,head noun taken
+quartz crystal (industrial),"""quartz crystal""","excludes generic quartz (watches, jewellery)"
+rare earths,"""rare earth""",USGS row name is a plural collective; a generic phrase is searched
+rhenium,rhenium,default rule: USGS name used verbatim
+rubidium,rubidium,default rule: USGS name used verbatim
+salt,salt,default rule: USGS name used verbatim
+samarium,samarium,default rule: USGS name used verbatim
+sand and gravel,"""sand and gravel""","fixed phrase, quoted"
+scandium,scandium,default rule: USGS name used verbatim
+selenium,selenium,default rule: USGS name used verbatim
+silicon,silicon,default rule: USGS name used verbatim
+silver,silver,default rule: USGS name used verbatim
+soda ash,"""soda ash""","fixed phrase, quoted"
+stone,stone,default rule: USGS name used verbatim
+strontium,strontium,default rule: USGS name used verbatim
+sulfur,sulfur,default rule: USGS name used verbatim
+talc and pyrophyllite,talc,head noun taken
+tantalum,tantalum,default rule: USGS name used verbatim
+tellurium,tellurium,default rule: USGS name used verbatim
+terbium,terbium,default rule: USGS name used verbatim
+thallium,thallium,default rule: USGS name used verbatim
+thorium,thorium,default rule: USGS name used verbatim
+thulium,thulium,default rule: USGS name used verbatim
+tin,tin,default rule: USGS name used verbatim
+titanium,titanium,default rule: USGS name used verbatim
+tungsten,tungsten,default rule: USGS name used verbatim
+vanadium,vanadium,default rule: USGS name used verbatim
+vermiculite,vermiculite,default rule: USGS name used verbatim
+wollastonite,wollastonite,default rule: USGS name used verbatim
+ytterbium,ytterbium,default rule: USGS name used verbatim
+yttrium,yttrium,default rule: USGS name used verbatim
+zeolites (natural),zeolites,as above
+zinc,zinc,default rule: USGS name used verbatim
+zirconium,zirconium,default rule: USGS name used verbatim

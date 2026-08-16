@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Figure 1 — Sedimentation: gallium capacity rides the alumina wave</title>
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1: #fcfcfb;
+    --page: #f9f9f7;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --baseline: #c3c2b7;
+    --border: rgba(11,11,11,0.10);
+    --alumina: #2a78d6;
+    --capacity: #eb6834;
+    --production: #1baf7a;
+    --price: #4a3aa7;
+    --band: rgba(11,11,11,0.045);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root {
+      color-scheme: dark;
+      --surface-1: #1a1a19;
+      --page: #0d0d0d;
+      --text-primary: #ffffff;
+      --text-secondary: #c3c2b7;
+      --muted: #898781;
+      --grid: #2c2c2a;
+      --baseline: #383835;
+      --border: rgba(255,255,255,0.10);
+      --alumina: #3987e5;
+      --capacity: #d95926;
+      --production: #199e70;
+      --price: #9085e9;
+      --band: rgba(255,255,255,0.06);
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    color-scheme: dark;
+    --surface-1: #1a1a19;
+    --page: #0d0d0d;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --muted: #898781;
+    --grid: #2c2c2a;
+    --baseline: #383835;
+    --border: rgba(255,255,255,0.10);
+    --alumina: #3987e5;
+    --capacity: #d95926;
+    --production: #199e70;
+    --price: #9085e9;
+    --band: rgba(255,255,255,0.06);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--page); }
+  .viz-root {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--page);
+    color: var(--text-primary);
+    min-height: 100vh;
+    padding: 28px 16px 40px;
+  }
+  .card {
+    max-width: 1040px;
+    margin: 0 auto;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 28px 30px 22px;
+  }
+  .head { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
+  h1 { font-size: 20px; font-weight: 650; letter-spacing: -0.01em; }
+  .subtitle { font-size: 13.5px; color: var(--text-secondary); margin-top: 5px; line-height: 1.45; }
+  .figno { font-size: 11.5px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px; }
+  .theme-btn {
+    flex: none; font-size: 12px; color: var(--text-secondary);
+    background: none; border: 1px solid var(--border); border-radius: 6px;
+    padding: 5px 10px; cursor: pointer; font-family: inherit;
+  }
+  .panel { margin-top: 20px; }
+  .panel-title { font-size: 12.5px; font-weight: 600; color: var(--text-primary); }
+  .panel-unit { font-size: 11.5px; color: var(--muted); font-weight: 400; margin-left: 6px; }
+  svg { display: block; width: 100%; height: auto; margin-top: 4px; }
+  .footnote {
+    margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--grid);
+    font-size: 11px; color: var(--muted); line-height: 1.55;
+  }
+  details { margin-top: 14px; font-size: 12px; color: var(--text-secondary); }
+  summary { cursor: pointer; font-weight: 600; }
+  table { border-collapse: collapse; margin-top: 10px; font-variant-numeric: tabular-nums; }
+  th, td { padding: 3px 12px 3px 0; text-align: right; font-size: 11.5px; border-bottom: 1px solid var(--grid); }
+  th:first-child, td:first-child { text-align: left; }
+  th { color: var(--muted); font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="viz-root">
+  <div class="card">
+    <div class="head">
+      <div>
+        <div class="figno">Figure 1 · Sedimentation evidence (H1)</div>
+        <h1>Gallium capacity rides the alumina wave, not the gallium price</h1>
+        <div class="subtitle">China, 2000–2023. Primary gallium capacity never declines — through a 67% price collapse, producers idle output but no capacity exits. Capacity tracks the expansion of its host (alumina), in which gallium recovery is a byproduct circuit.</div>
+      </div>
+      <button class="theme-btn" id="themeBtn" type="button">◐ Theme</button>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">A · China alumina production — the host<span class="panel-unit">million tonnes</span></div>
+      <svg id="pA" viewBox="0 0 980 180" role="img" aria-label="China alumina production 2000 to 2023, rising from 4.3 to 82 million tonnes"></svg>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">B · China primary gallium capacity and reported production — the byproduct circuit<span class="panel-unit">tonnes per year</span></div>
+      <svg id="pB" viewBox="0 0 980 230" role="img" aria-label="China gallium capacity rising from 40 tonnes in 2003 to 1000 tonnes in 2023 without ever declining; production flexes with price"></svg>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">C · Gallium price, single consistent basis<span class="panel-unit">US$ per kg, low-grade (≤99.99%) avg. U.S. import unit value</span></div>
+      <svg id="pC" viewBox="0 0 980 200" role="img" aria-label="Low-grade gallium price 2002 to 2023, collapsing 67 percent from 374 dollars in 2011 to 125 dollars in 2016"></svg>
+    </div>
+
+    <div class="footnote">
+      <strong>Reading:</strong> if gallium capacity were priced on its own market, the 2011–16 collapse (C) should have forced exits; instead capacity held at 600&nbsp;t while production flexed −61% (B) — the response came in flows, never in the stock. Capacity steps up with each alumina build-out wave (A): sunk capital sediments and does not retreat.<br>
+      <strong>Sources:</strong> capacity &amp; price — USGS Minerals Yearbook, gallium chapters 2002–2022, and Mineral Commodity Summaries 2016–2024 (latest revisions); production — USGS MYB reported figures (Asian Metal/CNIA basis); 2005 single point 18&nbsp;t from Antaike/CNIA via Li et al. (2022); alumina — USGS MYB bauxite &amp; alumina chapters. No China production figures published 2000–04 and 2006–10; gaps are left blank, not interpolated.<br>
+      <strong>Basis notes:</strong> price is one consistent series (low-grade ≤99.99% avg. U.S. import unit value) for 2002–23; the 2000–01 producer price ($640/kg, 99.9999% basis) is excluded as not comparable. Capacity 2000–01 (hollow points; 10→100&nbsp;t) is approximate design capacity from a 2002 Dalian Univ. of Technology thesis and is not comparable with the USGS operating-capacity series that begins 2003. Alumina 2014→15 step partly reflects an NBS statistical revision.
+    </div>
+
+    <details>
+      <summary>Data table</summary>
+      <table id="dataTable"><thead><tr><th>Year</th><th>Alumina (Mt)</th><th>Ga capacity (t)</th><th>Ga production (t)</th><th>Ga price low-grade ($/kg)</th></tr></thead><tbody></tbody></table>
+    </details>
+  </div>
+</div>
+
+<script>
+(function () {
+  var YEARS = [];
+  for (var y = 2000; y <= 2023; y++) YEARS.push(y);
+
+  var alumina = [4.33,4.65,5.45,6.11,6.99,8.61,13.70,19.50,22.80,23.80,29.00,34.10,37.70,44.40,47.10,58.98,61.03,69.02,72.53,72.47,73.79,77.48,81.86,82.00];
+  var capacity = {2003:40,2004:47,2005:59,2006:59,2007:59,2008:59,2009:59,2010:141,2011:280,2012:350,2013:450,2014:551,2015:600,2016:600,2017:600,2018:600,2019:600,2020:650,2021:650,2022:1000,2023:1000};
+  var capThesis = {2000:10,2001:100};
+  var production = {2005:18,2011:200,2012:300,2013:300,2014:450,2015:444,2016:171,2017:319,2018:404,2019:338,2020:336,2021:423,2022:600,2023:600};
+  var price = {2002:229,2003:225,2004:192,2005:244,2006:285,2007:314,2008:361,2009:304,2010:307,2011:374,2012:349,2013:276,2014:239,2015:188,2016:125,2017:124,2018:185,2019:153,2020:163,2021:254,2022:394,2023:290};
+
+  var X0 = 2000, X1 = 2024.4;
+  var ML = 46, MR = 168, W = 980;
+  var NS = "http://www.w3.org/2000/svg";
+  var CTRL_X = 2023.5; // Jul 2023 export-control announcement
+
+  function xPos(year) { return ML + (year - X0) / (X1 - X0) * (W - ML - MR); }
+
+  function el(parent, tag, attrs, text) {
+    var e = document.createElementNS(NS, tag);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (text != null) e.textContent = text;
+    parent.appendChild(e);
+    return e;
+  }
+
+  function fmt(v) { return v.toLocaleString("en-US"); }
+
+  // Build one panel. cfg: {svg, h, top, bottom, yMax, yTicks, xLabels, band}
+  function panel(cfg) {
+    var svg = document.getElementById(cfg.svg);
+    svg.innerHTML = "";
+    var top = cfg.top, bottom = cfg.h - cfg.bottom;
+    function yPos(v) { return bottom - v / cfg.yMax * (bottom - top); }
+
+    // 2014-16 highlight band
+    if (cfg.band) {
+      el(svg, "rect", { x: xPos(2013.6), y: top, width: xPos(2016.4) - xPos(2013.6), height: bottom - top, fill: "var(--band)" });
+    }
+    // horizontal gridlines + y tick labels
+    cfg.yTicks.forEach(function (t) {
+      var yy = yPos(t);
+      el(svg, "line", { x1: ML, x2: W - MR, y1: yy, y2: yy, stroke: t === 0 ? "var(--baseline)" : "var(--grid)", "stroke-width": 1 });
+      el(svg, "text", { x: ML - 8, y: yy + 3.5, "text-anchor": "end", "font-size": 10.5, fill: "var(--muted)", "font-variant-numeric": "tabular-nums" }, fmt(t));
+    });
+    // x tick labels (bottom panel only)
+    if (cfg.xLabels) {
+      [2000, 2005, 2010, 2015, 2020, 2023].forEach(function (yr) {
+        el(svg, "text", { x: xPos(yr), y: bottom + 16, "text-anchor": "middle", "font-size": 10.5, fill: "var(--muted)", "font-variant-numeric": "tabular-nums" }, yr);
+        el(svg, "line", { x1: xPos(yr), x2: xPos(yr), y1: bottom, y2: bottom + 4, stroke: "var(--baseline)", "stroke-width": 1 });
+      });
+    }
+    // export-control event line
+    el(svg, "line", { x1: xPos(CTRL_X), x2: xPos(CTRL_X), y1: top, y2: bottom, stroke: "var(--muted)", "stroke-width": 1, "stroke-dasharray": "3 3" });
+    return { svg: svg, yPos: yPos, top: top, bottom: bottom };
+  }
+
+  function polyline(svg, pts, color, width) {
+    el(svg, "polyline", { points: pts.map(function (p) { return p[0] + "," + p[1]; }).join(" "), fill: "none", stroke: color, "stroke-width": width || 2, "stroke-linejoin": "round", "stroke-linecap": "round" });
+  }
+  function dot(svg, x, y, color, r, hollow) {
+    el(svg, "circle", { cx: x, cy: y, r: r || 2.6, fill: hollow ? "var(--surface-1)" : color, stroke: color, "stroke-width": hollow ? 1.6 : 0 });
+  }
+  function endLabel(svg, x, y, lines, color) {
+    lines.forEach(function (ln, i) {
+      el(svg, "text", { x: x, y: y + i * 13, "font-size": 11.5, "font-weight": i === 0 ? 620 : 400, fill: i === 0 ? color : "var(--text-secondary)" }, ln);
+    });
+  }
+  function note(svg, x, y, lines, anchor) {
+    lines.forEach(function (ln, i) {
+      el(svg, "text", { x: x, y: y + i * 12.5, "text-anchor": anchor || "start", "font-size": 10.5, fill: "var(--text-secondary)" }, ln);
+    });
+  }
+
+  /* ---------- Panel A: alumina ---------- */
+  var A = panel({ svg: "pA", h: 180, top: 14, bottom: 10, yMax: 90, yTicks: [0, 30, 60, 90], band: true });
+  var LX = xPos(CTRL_X) + 9; // end labels clear the event line
+  var aPts = YEARS.map(function (yr, i) { return [xPos(yr), A.yPos(alumina[i])]; });
+  // soft area fill
+  el(A.svg, "polygon", { points: aPts.map(function (p) { return p[0] + "," + p[1]; }).join(" ") + " " + xPos(2023) + "," + A.yPos(0) + " " + xPos(2000) + "," + A.yPos(0), fill: "var(--alumina)", opacity: 0.10 });
+  polyline(A.svg, aPts, "var(--alumina)");
+  dot(A.svg, xPos(2023), A.yPos(82), "var(--alumina)", 3);
+  endLabel(A.svg, LX, A.yPos(82) + 4, ["Alumina 82.0 Mt", "×19 since 2000"], "var(--alumina)");
+  note(A.svg, xPos(CTRL_X) - 7, A.yPos(18), ["Jul 2023: Ga/Ge", "export controls"], "end");
+
+  /* ---------- Panel B: gallium capacity + production ---------- */
+  var B = panel({ svg: "pB", h: 230, top: 16, bottom: 10, yMax: 1050, yTicks: [0, 250, 500, 750, 1000], band: true });
+  var capYears = Object.keys(capacity).map(Number).sort(function (a, b) { return a - b; });
+  var cPts = capYears.map(function (yr) { return [xPos(yr), B.yPos(capacity[yr])]; });
+  polyline(B.svg, cPts, "var(--capacity)", 2.2);
+  capYears.forEach(function (yr) { dot(B.svg, xPos(yr), B.yPos(capacity[yr]), "var(--capacity)", 2.2); });
+  // thesis anchors (hollow, not connected)
+  [2000, 2001].forEach(function (yr) { dot(B.svg, xPos(yr), B.yPos(capThesis[yr]), "var(--capacity)", 3.2, true); });
+  note(B.svg, xPos(2000) - 2, B.yPos(100) - 52, ["2000–01: design capacity 10→100 t", "(2002 DUT thesis, approx. — not", "comparable with USGS series →)"]);
+  // production: contiguous 2011-2023 + isolated 2005
+  var prodYears = [2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023];
+  polyline(B.svg, prodYears.map(function (yr) { return [xPos(yr), B.yPos(production[yr])]; }), "var(--production)", 1.8);
+  prodYears.forEach(function (yr) { dot(B.svg, xPos(yr), B.yPos(production[yr]), "var(--production)", 2.2); });
+  dot(B.svg, xPos(2005), B.yPos(18), "var(--production)", 2.6);
+  note(B.svg, xPos(2005) + 8, B.yPos(18) + 3, ["2005: 18 t"], "start");
+  // end labels
+  endLabel(B.svg, LX, B.yPos(1000) + 4, ["Capacity 1,000 t", "never declines,", "2003–2023"], "var(--capacity)");
+  endLabel(B.svg, LX, B.yPos(600) + 14, ["Production 600 t", "flexes with price"], "var(--production)");
+  // sedimentation callout on the band
+  note(B.svg, xPos(2015), B.yPos(720) - 34, ["2015–16: production −61%", "capacity holds at 600 t"], "middle");
+
+  /* ---------- Panel C: price ---------- */
+  var C = panel({ svg: "pC", h: 200, top: 14, bottom: 26, yMax: 420, yTicks: [0, 100, 200, 300, 400], xLabels: true, band: true });
+  var prYears = Object.keys(price).map(Number).sort(function (a, b) { return a - b; });
+  polyline(C.svg, prYears.map(function (yr) { return [xPos(yr), C.yPos(price[yr])]; }), "var(--price)", 2);
+  [2011, 2016, 2022, 2023].forEach(function (yr) { dot(C.svg, xPos(yr), C.yPos(price[yr]), "var(--price)", 2.4); });
+  endLabel(C.svg, LX, C.yPos(290) + 4, ["$290/kg (2023)"], "var(--price)");
+  note(C.svg, xPos(2011), C.yPos(374) - 10, ["$374 (2011)"], "middle");
+  note(C.svg, xPos(2016) + 4, C.yPos(125) + 16, ["$125 (2016) — −67% from 2011 peak"], "start");
+
+  /* ---------- data table ---------- */
+  var tb = document.querySelector("#dataTable tbody");
+  YEARS.forEach(function (yr, i) {
+    var tr = document.createElement("tr");
+    function td(v) { var c = document.createElement("td"); c.textContent = v; tr.appendChild(c); }
+    td(yr);
+    td(alumina[i].toFixed(2));
+    td(capacity[yr] != null ? fmt(capacity[yr]) : (capThesis[yr] != null ? fmt(capThesis[yr]) + "*" : "—"));
+    td(production[yr] != null ? fmt(production[yr]) : "—");
+    td(price[yr] != null ? fmt(price[yr]) : "—");
+    tb.appendChild(tr);
+  });
+
+  /* ---------- theme toggle ---------- */
+  document.getElementById("themeBtn").addEventListener("click", function () {
+    var r = document.documentElement;
+    var cur = r.getAttribute("data-theme");
+    var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    var effective = cur || (prefersDark ? "dark" : "light");
+    r.setAttribute("data-theme", effective === "dark" ? "light" : "dark");
+  });
+})();
+</script>
+</body>
+</html>
