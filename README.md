@@ -2,7 +2,16 @@
 
 Latent supply-chain chokepoints: a sedimentation mechanism builds them (H1), public data maps them years ahead (H2a), and the intensity of an awakening follows criticality × unpreparedness (H2b).
 
-Research repository — Chunyang Zhang, UT Austin. Data complete as of 2026-08-15 (completed pool, corrected diamond term). **Writing starts at §3.**
+**Chunyang Zhang** · The University of Texas at Austin · first published 2026-08-16
+
+> **Work in progress — the paper is being written; this repository is the data and method record behind it.**
+> Data are complete and final as of 2026-08-15 (completed pool, corrected diamond term). Documents here are working documents, not a manuscript. Findings may be refined; every revision is in the commit history.
+>
+> **Citation.** Zhang, Chunyang (2026). *The History Engine: latent supply-chain chokepoints.* https://github.com/C-y22/history-engine
+>
+> **Standing predictions are on the record as of this repository's publication date** — fluorspar as the #1 forward prediction, wollastonite as the on-record false light, and the MOFCOM 2025 No. 70/72 suspensions expiring November 2026. They were written before the outcomes were known, and the commit history is the timestamp.
+>
+> Licensing: code MIT, data and documents CC BY 4.0 — see `LICENSE`. Correspondence: dorazhang0322@gmail.com
 
 ## Where things are
 

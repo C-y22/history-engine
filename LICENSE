@@ -1,0 +1,46 @@
+The History Engine — licensing
+
+This repository holds two kinds of material, licensed differently.
+
+CODE (everything under scripts/)
+--------------------------------
+MIT License
+
+Copyright (c) 2026 Chunyang Zhang
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+DATA, DOCUMENTS, AND FIGURES (data/, docs/, figures/, records_zh/, deck/)
+-------------------------------------------------------------------------
+Creative Commons Attribution 4.0 International (CC BY 4.0).
+You may share and adapt this material for any purpose, including commercially,
+provided you give appropriate credit, link to the license, and indicate if
+changes were made. Full text: https://creativecommons.org/licenses/by/4.0/
+
+Suggested citation:
+  Zhang, Chunyang (2026). The History Engine: latent supply-chain chokepoints.
+  https://github.com/C-y22/history-engine
+
+THIRD-PARTY MATERIAL
+--------------------
+USGS, U.S. DOE, SCRREEN, and MOFCOM sources are cited row by row and remain
+under their own terms. Benchmark Mineral Intelligence price assessments are
+licensed to the author: only derived percentage changes appear here, never raw
+price points, and those percentages are not redistributable as a price series.
+Media Cloud figures are derived counts, not article text.

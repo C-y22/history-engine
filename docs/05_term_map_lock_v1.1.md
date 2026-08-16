@@ -26,7 +26,7 @@ All 23 overrides checked for directional effect. Only two touch restricted commo
 
 ## Independent review
 
-Reviewer: C.Z.; if J.M. joins, a second independent pass with sign-off. Stability check: `scripts/02e_resample_verify.py` (seed 20260814).
+Reviewer: C.Z.; if a second reviewer joins, an independent pass with sign-off. Stability check: `scripts/02e_resample_verify.py` (seed 20260814).
 
 ## Revision log
 

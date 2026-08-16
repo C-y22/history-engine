@@ -92,8 +92,8 @@ Return to neon; "others use history to explain the past, we use it to assess the
 ## Author contribution statement (draft)
 
 - C.Z.: theoretical framework (three axes, cognitive latency, the sedimentation theorem), research design, all data collection (visibility self-collection, Chinese-source facility verification, emissions-permit retrieval), case studies, first draft.
-- J.M. (if joining): computational-pipeline review, independent term-map lock, statistical replication, benchmark packaging.
-- **Theoretical IP stays with C.Z.; authorship order and corresponding authorship follow from that.**
+- A computational collaborator, if one joins: pipeline review, an independent term-map lock, statistical replication, benchmark packaging.
+- The theoretical work is C.Z.'s; authorship order and corresponding authorship follow from that.
 
 ## Suggested writing order
 
