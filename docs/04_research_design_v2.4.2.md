@@ -37,7 +37,7 @@ Empirical quadrants: 1 latent zone | 2 landmark zone | 3 bulk celebrities | 4 du
 
 ## H1 · Mechanism (done)
 
-Figure 1: capacity never declines in 21 years; 2011→16 price −67%, output −61%, capacity unmoved (ratchet); host ×19. Figure 2 + 44-plant census: two waves + the 2015–19 empty band; Xiangjiang Wanji's 20-year lag ("adds 60 t, alumina unchanged"); outsourced circuits (Fangyuan, six sites) → installing nearly free → never torn out; facility-level exit exists but the aggregate is irreversible. **Bridge:** stacking share inside a host generates no news → the latent zone is a manufactured equilibrium.
+Figure 1: capacity never declines in any year of the 21-year USGS series (40 t in 2003 → 1,000 t in 2023); price −67% over 2011→16 (374 → 125 USD/kg low-grade), output −61% in one year (444 t 2015 → 171 t 2016), capacity unmoved at 600 t (ratchet); host alumina ×19 over 2000→2023 (4.3 → 82 Mt). Figure 2 + 44-plant census: two waves + the 2015–19 empty band; Xiangjiang Wanji's 20-year lag ("adds 60 t, alumina unchanged"); outsourced circuits (Fangyuan, six sites) → installing nearly free → never torn out; facility-level exit exists but the aggregate is irreversible. **Bridge:** stacking share inside a host generates no news → the latent zone is a manufactured equilibrium.
 
 ## H2a · Assessment test (final: completed pool + corrected term)
 
