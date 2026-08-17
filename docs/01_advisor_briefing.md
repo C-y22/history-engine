@@ -4,39 +4,62 @@
 
 ## 1. The question
 
-China's 98% share of low-purity gallium sat in USGS yearbooks for a decade — not classified, not obscure, just unread. In the twenty-four months before the July 2023 export controls, English-language news mentioned gallium in a supply-chain context 394 times, out of 6.8 million articles. The day after the announcement, the U.S. substrate maker AXT was filing for Chinese export permits. Neon in 2022 was the same story: half of semiconductor-grade supply ran through two purification firms in Mariupol and Odesa — findable by anyone, found by no one until the missiles landed.
+China's 98% share of low-purity gallium sat in USGS yearbooks for a decade — public, free. In the twenty-four months before the July 2023 export controls, an English-language news corpus carried 10,878 supply-chain articles on lithium and 3,675 on cobalt; gallium drew 394, germanium 75. Then Beijing put both under export licence, and in thirty days germanium drew 149 articles — a decade's worth of inattention undone in a month — while the Rotterdam price of gallium rose 43%. Neon in 2022 was the same story: half of semiconductor-grade supply ran through two purification firms in Mariupol and Odesa — a fact in the trade press and nowhere else until the missiles landed.
 
-The puzzle is not secrecy. Comparative advantage asks who produces most cheaply; criticality ratings (Graedel et al. 2015; the USGS supply-risk scores) ask which materials matter. Neither asks who is watching — and neither asks which facts are stable enough to be worth predicting at all.
+The question is how to find the parts of a supply chain that matter before someone uses them. Comparative advantage asks who produces most cheaply; criticality ratings ask which materials matter today. Neither asks how a node came to be where it is — and the ones that turn out to matter were usually built sideways, decades ago, inside somebody else's industry. China's gallium capacity was never a gallium investment: it is a circuit bolted onto alumina refineries, most of it installed before 2014, kept running through a 67% price collapse because nobody dismantles a line that costs nothing to keep. Nothing newsworthy ever happened, so nothing was ever written. History buries these nodes in the act of building them, and what is buried is not watched — which is also what makes it measurable, and what makes the map hold still long enough to be drawn.
 
-This paper works with three axes and treats each differently. Criticality is imported, not reinvented. Visibility is measured directly, node by node, across a full commodity pool. Reflexivity is a property of the thing being predicted, not a score: prices move the moment people read about them, but a refinery's gallium line, laid down by history, is not undone by an article about it — and it is the second kind of fact this framework predicts. No single axis does the work. Ranked by the USGS supply-risk score alone, this pool puts two of the later-restricted commodities in its top ten; ranked by invisibility alone, four — a list full of thallium and kyanite. Multiply the two and the same pool yields nine, restricted twenty-one to twenty-seven months after the map was drawn.
-
-Together the three axes define a state space: eight regions, four of them high-criticality. Power sleeps in the latent zone — critical, unwatched, structural — next door to the landmark zone (already priced in), the arena (prices and tariffs, reflexive by nature), and the dark currents. Each has a low-criticality shadow. The dust corner — thallium, kyanite — is where you land if you rank by obscurity alone: nobody watches these because nobody needs them. Naming that space, measuring the axis that locates the latent zone inside it, and grading the result against seven reveals is what this paper contributes: a map of where latent chokepoints sit, not a forecast of who Beijing restricts next.
+This paper builds a framework from three axes and, more importantly, from the interaction between them. Criticality asks whether it hurts when cut. Visibility asks whether anyone is watching. Reflexivity asks whether the thing moves when you talk about it — a price hears a prediction, a refinery line does not — and so decides what can be predicted at all. None of the three is worth much alone: criticality by itself reproduces the watch-lists everyone already has, obscurity by itself returns dust. Crossed, they define a state space, and its most interesting region is the latent zone — important, unwatched, fixed in place — where supply-chain power sits until someone uses it. Scored this way, the full pool is graded against seven rounds of Chinese export controls: on the eve of the first, nine of the top ten picks were commodities restricted twenty-one to twenty-seven months later. The claim is about where latent chokepoints sit, not about what Beijing restricts next.
 
 ## 2. Framework
 
-| Axis | Question | Treatment | Dialogue / source |
+
+Three axes, and the eight regions they define. 
+
+| Axis | What it asks | How it is operationalized | Source / dialogue |
 |---|---|---|---|
-| **Reflexivity** | Will it hear the prediction? | A design rule, not a variable: predict only structural facts — capacity, installed circuits — never prices or policy timing. Structure, once in place, does not easily change, and that is what makes it assessable years ahead. | Soros 2013; Merton 1948; Grunberg & Modigliani 1954; Lucas 1976; Hughes 1969; Berger & Luckmann 1966; Callon 1991 |
-| **Visibility** | Is anyone watching? | Measured directly: context-filtered news counts on Media Cloud, 100 commodities × 6 cutoff dates = 600 cells, 24-month window each. Queries are generated by mechanical rules that never reference outcomes, and audited afterwards; corrections happen only under result-blind triggers, with both versions reported. | Roberts et al. 2021 |
-| **Criticality** | Does it hurt when cut? | Imported: USGS 2021 supply-risk scores, and China's production share measured at the stage where the restricted product is actually made (refining for gallium, separation for rare earths, mining for molybdenum). The numbers are other people's, published before these controls existed; the choice of which stage to use is mine, by a rule stated and disclosed. | Nassar & Fortier 2021; DOE 2022; USGS MCS 2023; SCRREEN 2023 |
+| **Criticality** | Does it hurt when cut? | Two rulers, both other people's numbers, both published before any of these controls existed: the USGS 2021 supply-risk score (available for 49 of the pool's rows), and China's production share taken at the stage where the restricted product is actually made — refining for gallium, separation for rare earths, mining for molybdenum. That choice of stage is mine, by a rule stated in advance and disclosed; the shares themselves come from USGS, DOE and SCRREEN. | Graedel et al. 2015; Nassar & Fortier 2021; DOE 2022; USGS MCS 2023; SCRREEN 2023 |
+| **Visibility** | Is anyone watching? | Context-filtered article counts on Media Cloud's US national collection: 100 commodities × 6 cutoff dates = 600 cells, each a 24-month window ending the day before an announcement. Every query is `term AND (mining OR supply OR production OR export OR smelter OR refinery)`; 77 terms are the USGS commodity name verbatim, 23 depart from it under three mechanical rules — parenthetical or compound row names, multi-word phrases needing quotes, non-mineral ambiguity — none of which refers to any commodity's expected result. V = log1p(count) ÷ the largest log1p in the pool still uncontrolled at that cutoff; invisibility = 1 − V. | Farrell & Newman 2019 (from anecdote to a node-level variable); Roberts et al. 2021 (the instrument) |
+| **Reflexivity** | Does the thing move when you talk about it? | Not scored, and not in any formula. It decides what kind of fact can be predicted at all: a price hears a forecast and adjusts, an installed refinery line does not. Mineral supply belongs to the second kind — output responds weakly to price, mines take five to fifteen years, and capacity outlives the conditions that justified it. The axis is therefore held fixed by the composition of the pool rather than measured within it, and it appears in the argument as a scope condition: predictions are made about structure — installed capacity, existing circuits, production shares — never about prices or the timing of policy. | Soros 2013; Merton 1948; Grunberg & Modigliani 1954; Lucas 1976; Hughes 1969; Berger & Luckmann 1966; Callon 1991 |
 
-**Two formulas:** latent power (stock) = criticality × invisibility. Awakening intensity (flow) = criticality × pre-event unpreparedness. Both factors are on 0–1; the product is used only to rank, and its magnitude carries no cardinal meaning. Reflexivity enters neither formula: it constrains what may be predicted, and is never an input to the score.
+### 2.2 The state space: eight regions
 
-**On the visibility measure.** Attention has been measured for decades in other fields. In this literature, invisibility appears only as anecdote — "nobody was watching neon." The contribution is measuring it at node level across a full commodity pool, and showing that it carries predictive content only in interaction with criticality.
+Three binary axes give eight regions. Reflexivity splits them into the half this framework can work in and the half it cannot.
 
-**The full state space — eight octants.** Criticality slices every reflexivity × visibility cell into a twin (upper table) and a shadow (lower table).
+**Non-reflexive — structure that stays put. This is where the whole pool sits, and where the empirical test runs.**
 
-| HIGH criticality | invisible | visible |
+| | invisible | visible |
 |---|---|---|
-| **non-reflexive (structure)** | **Latent zone** — the hunting ground. Neon pre-2022; heavy rare earths pre-2025. | **Landmark zone** — watched, no information advantage. TSMC, Hormuz, ASML. |
-| **reflexive (behavior)** | **Dark currents** — ceded to intelligence agencies. Secret stockpiles. | **The arena** — talks back; the Lucas critique's home ground. Prices, tariffs. |
+| **high criticality** | **1 · Latent zone** — matters, unwatched, and cannot rearrange itself once found. The hunting ground: neon before 2022, heavy rare earths before 2025, gallium for a decade. | **2 · Landmark zone** — matters, and everyone already knows. No information advantage: the risk is priced into everyone's planning. TSMC, Hormuz, ASML. |
+| **low criticality** | **3 · Dust corner** — nobody watches because nobody needs it. The false-positive trap for any method that hunts obscurity alone: thallium, whose production nobody even publishes, and kyanite. | **4 · Bulk celebrities** — loud but not lethal. Widely sourced, substitutable, endlessly covered: gold, copper. |
 
-| LOW criticality (shadow) | invisible | visible |
+**Reflexive — behaviour that answers back. Shown for completeness; the framework makes no claims here.**
+
+| | invisible | visible |
 |---|---|---|
-| **non-reflexive (structure)** | **Dust corner** — the false-positive trap. Thallium, kyanite, wollastonite. | **Bulk celebrities** — loud, not lethal. Gold, copper. |
-| **reflexive (behavior)** | **The whispers** — hidden but trivial. | **The froth** — "the next lithium" chatter. |
+| **high criticality** | **5 · Dark currents** — matters, unwatched, and moves the moment it is observed. Secret stockpiles, undisclosed contracts. public data cannot see it. | **6 · The arena** — matters, watched, and answers back. Prices, tariffs, exchange rates: the Lucas critique's home ground, and the reason economics is cautious about prediction. |
+| **low criticality** | **7 · The whispers** — hidden, responsive, inconsequential. Small markets that move when noticed and matter to no one outside them. | **8 · The froth** — visible, responsive, and not load-bearing. Logically this cell exists; in commodities it is close to empty, and for an instructive reason. Capital mobilizes around believed importance, and in minerals belief stays anchored to real use, so hype cycles attach to materials that genuinely matter and the froth forms one layer up, in the equities and ventures built on top of them. The cell is named for completeness and carries no weight in the argument. |
 
-The paper works in two 2D slices: theory crosses reflexivity × visibility; the empirical test crosses visibility × criticality (reflexivity held fixed by the all-physical-commodity pool).
+### 2.3 Why the empirical work runs on two axes
+
+The pool sits entirely in the first table. Reflexivity varies across domains, not inside this pool. Every row here is a physical mineral commodity: supply responds slowly to price, capacity is sunk, and what exists today was largely decided years ago. Gold is the clean illustration — the price quadrupled between 2005 and 2011 and mine output barely moved. A published map does not cause a refinery line to be built or torn out inside the horizon over which the map is being tested.
+
+That has two consequences. It is a limitation: the framework has nothing to say about the reflexive half of the state space, where most of economics lives. And it is the enabling condition: because the objects hold still, a map drawn from public data in July 2023 can still be graded in October 2025. The empirical test therefore runs in the **visibility × criticality** plane, with reflexivity fixed; the theory uses the reflexivity × visibility plane, where hardening carries a node from the arena toward the landmark or latent zones as decisions turn into concrete (§2.4), and §8 returns to the axis to ask what happens as attention erodes the latent zone from the outside.
+
+### 2.4 The score
+
+**Latent power = criticality × invisibility × reflexivity (not used in the mining sector)** — a ranking device, not a cardinal quantity.
+
+The same score does two jobs: across the pool it ranks who holds power nobody has noticed (§5); among the commodities actually restricted, it predicts how hard the shock lands (§6).
+
+
+### 2.5 What the framework adds
+
+The arrangement of the three axes does not existed. Each reads the same supply chain in a different tense. **Reflexivity is its past**: the structure it inherited and cannot quickly undo. **Visibility reads its present** — not a property of the material but a state of knowledge about it, and the only coordinate that can change in a week. **Criticality reads its trajectory** — which dependencies the economy has accumulated, a list that looks different every decade as technologies arrive and substitutes appear.
+
+Existing instruments hold one axis and treat the others as fixed. Criticality assessment scores what a loss would cost, but treats that cost as a property of the material rather than of what is known about it. Weaponized interdependence establishes that network position is power, but its variables are topological: it does not ask whether anyone has noticed the position. The reflexivity literature, from Merton through Grunberg–Modigliani to Lucas, gives rules for when a forecast defeats itself, but none for which objects are slow enough to forecast safely. What this paper adopts is a restriction rather than a criterion: it predicts structural facts — installed capacity, existing circuits, production shares — and never prices or the timing of policy. In this domain the restriction costs little, because mineral structure moves slowly (§2.3).
+
+Crossed, the three axes give eight regions, and the one this paper is about is the latent zone: critical without being watched. The claim is that the two measured coordinates have to be read together — a rating that ignores attention cannot tell a chokepoint from a landmark already priced in, and an attention measure that ignores consequence cannot tell one from dust.
+
 
 ## 3. Design
 
