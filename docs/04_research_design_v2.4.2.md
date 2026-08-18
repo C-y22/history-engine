@@ -41,7 +41,7 @@ Figure 1: capacity never declines in 21 years; 2011→16 price −67%, output �
 
 ## H2a · Assessment test (final: completed pool + corrected term)
 
-Locks: per-exam cutoffs (D/E1 conservative); 100-row external pool, fully accounted for (88 valued + 11 documented-NA); criticality imported from pre-2021 publications; term lock v1.1 + audit. **Results (element level):** A 9/10 (p=7.4e-06; top ten = 7 heavy REEs + diamond #7 + yttrium; wollastonite #9 = the only false light), B 9, C 9, D 10, E1 10 (2.0e-10), E2 all six positives sweep ranks 1–6 (diamond #5). Cluster level: A 6/10 (4.4e-04), B 4/10 (0.019 — cite exact p), C 5, D 5, E1 2/10, E2 1/10 n.s. Ablation (matched 88): precise share 10/10 (diamond only #13), product-on-coarse 7/10 vs share-on-coarse 5/10, invisibility-only 4/10, USGS-score-only 2/10; no-REE 5/10 (3.3e-03); normalizations log 9 / linear 10 / percentile 9; inferred shares capped at 85% keep 9/10. Misses diagnosable (graphite not latent; molybdenum a small card). Standing bets: fluorspar (#1 prediction) + wollastonite (false-light bet) + the 2025 No. 70/72 suspensions expiring Nov 2026.
+Locks: per-exam cutoffs (D/E1 conservative); 100-row external pool, fully accounted for (88 valued + 11 documented-NA); criticality imported from pre-2021 publications; term lock v1.1 + audit. **Results (element level):** A 9/10 (p=7.4e-06; top ten = 8 REEs (Tm, Ho, Yb, Er, Eu, Sm, Gd, Y) + diamond #7; wollastonite #9 = the only false light), B 9, C 9, D 10, E1 10 (2.0e-10), E2 all six positives sweep ranks 1–6 (diamond #5). Cluster level: A 6/10 (4.4e-04), B 4/10 (0.019 — cite exact p), C 5, D 5, E1 2/10, E2 1/10 n.s. Ablation (matched 88): precise share 10/10 (diamond only #13), product-on-coarse 7/10 vs share-on-coarse 5/10, invisibility-only 4/10, USGS-score-only 2/10; no-REE 5/10 (3.3e-03); normalizations log 9 / linear 10 / percentile 9; inferred shares capped at 85% keep 9/10. Misses diagnosable (graphite not latent; molybdenum a small card). Standing bets: fluorspar (#1 prediction) + wollastonite (false-light bet) + the 2025 No. 70/72 suspensions expiring Nov 2026.
 
 ## H2b · Awakening test (final; diamond incorporated on corrected data)
 
@@ -49,7 +49,7 @@ Main result 1 (formula validation): price product spec, 1-month ρ=0.89 (p=0.000
 
 ## Predictions / future papers
 
-On record: fluorspar #1; wollastonite false-light bet; the Nov-2026 suspension expiry. Paper 2 (own criticality measure + germanium replication + full stock study + cross-domain factor separation + three-factor spec); Paper 3 (H3 + ratchet).
+On record: fluorspar #1 (rule: highest-ranked on-list non-REE never-restricted row, holds at all six cutoffs; ranks 18-19, 11th at E2); wollastonite false-light bet; the Nov-2026 suspension expiry. Paper 2 (own criticality measure + germanium replication + full stock study + cross-domain factor separation + three-factor spec); Paper 3 (H3 + ratchet).
 
 ## Status (2026-08-16)
 

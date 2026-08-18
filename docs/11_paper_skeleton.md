@@ -66,7 +66,7 @@ Version 2, 2026-08-16 (v1 was 2026-08-12; all numbers here are on the completed-
 
 ## §7 Prediction (1 page — the publication date is the notarization)
 
-- Two products: China's likely next candidates (fluorspar first; cerium, lanthanum, magnesium, vanadium; neodymium and praseodymium as the largest card still unplayed) and a global latent list (hafnium, niobium, barite, tantalum).
+- Two products: China's likely next candidates (fluorspar first, by the stated rule: highest-ranked commodity on the 2022 US critical list that is not a rare earth and has never been restricted; cerium, lanthanum, magnesium, vanadium; neodymium and praseodymium as the largest card still unplayed) and a global latent list (hafnium, niobium, barite, tantalum).
 - One dated bet: the No. 70 and No. 72 suspensions expire in November 2026.
 - Falsifiability clause: what counts as a hit, a 3–5 year horizon, what counts as a miss.
 

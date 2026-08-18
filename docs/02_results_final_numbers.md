@@ -36,6 +36,6 @@ Single source of truth. Completed pool, corrected diamond term (2026-08-15). Whe
 | H1 | Capacity declines in 21 yrs (USGS) | 0 | | capacity is a ratchet |
 | H1 | 2011→16 price / output / capacity | −67% / −61% / 0 | | |
 | H1 | Host (alumina) growth | ×19 | | |
-| Standing bets | Fluorspar | #1 prediction | | pass/fail written in advance |
+| Standing bets | Fluorspar | #1 prediction | ranks 18/18/18/19/18/11 across A-E2 | rule fixed in advance: the highest-ranked commodity that is on the 2022 US critical list, is not a rare earth, and has never been restricted — true at all six cutoffs, ahead of vanadium and magnesium metal each time |
 | Standing bets | Wollastonite | on-record false light | | a restriction would flip it to a hit |
 | Standing bets | Suspension orders (2025 No. 70/72) | expire Nov 2026 | | dated second bet |
