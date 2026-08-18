@@ -9,7 +9,7 @@
 | **1_Results** | All final result numbers (corrected-diamond basis) (H2a element/cluster/ablation; H2b thermometers/ablation grid) | Computed from sheets 2–12; methods below |
 | 2_Shares | China production share, non-REE commodities (85: 80 valued + 11 documented-NA) | USGS MCS 2023 primarily (MCS 2022/2020 fallbacks noted per row); numerator/denominator kept in notes |
 | 3_REE_Shares | Rare-earth element shares, dual basis (mine / separation) | DOE Feb-2022 REPM Deep Dive; USGS MCS 2023; SCRREEN 2023; 7 rows flagged INFERRED |
-| 4_Visibility | Context-filtered news counts, 600 cells (100 commodities × 6 cutoffs, 24-month windows) | Media Cloud API; queries per term_map_lock.md v1.1 |
+| 4_Visibility | Context-filtered news counts, 600 cells (100 commodities × 6 cutoffs, 24-month windows) | Media Cloud API; queries per the term-map lock v1.1 (docs/05) |
 | 5_Rankings | H2a final rankings, completed pool (6 exams × 99 rows, per-row source flags) | Computed from sheets 2, 3, 4 |
 | 6_AnswerKey | Seven exams: announcement/effective dates, official numbers, positives, cutoffs | MOFCOM originals, checked number by number (complete-set audit 2026-08-12); Chinese official designations kept verbatim |
 | 7_H2b_Attention | Attention jump: 30-day post-announcement counts ÷ pre-event monthly baseline (21 targets + 58 placebos + dark-vs-dark) | Media Cloud; placebo seed 20260813 |
