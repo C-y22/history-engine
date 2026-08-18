@@ -168,7 +168,7 @@ Soros, G. (2013). Fallibility, reflexivity, and the human uncertainty principle.
 - Reuters (2022-03-11), "Ukraine halts half of world's neon output for chips, clouding outlook" — carried by CNN: https://edition.cnn.com/2022/03/11/tech/ukraine-neon-chips and CNBC: https://www.cnbc.com/2022/03/12/russias-attack-on-ukraine-halts-half-of-worlds-neon-output-for-chips.html
 - Reuters (2023-07-04), "US firm AXT applying for permits after China restricts chipmaking exports" — carried by Malay Mail: https://www.malaymail.com/news/money/2023/07/04/us-firm-axt-applying-for-permits-after-china-restricts-chipmaking-exports/77754
 
-**MOFCOM announcement originals (exam-defining; full 14-link archive in `data/evidence_manifest.csv`):**
+**MOFCOM announcement originals (exam-defining; the six exam dates and official numbers are in sheet `6_AnswerKey`):**
 
 - 2023 No. 23 (Ga/Ge): https://aqygzj.mofcom.gov.cn/qdml/art/2023/art_c2ae3d2061e14e97ba608de1ed565f78.html
 - 2023 No. 39 (graphite): https://www.mofcom.gov.cn/zcfb/blgg/art/2023/art_f6b1bc49e2c8482f8eb749012bc66dec.html
@@ -177,6 +177,8 @@ Soros, G. (2013). Fallibility, reflexivity, and the human uncertainty principle.
 - 2025 No. 18 (7 heavy rare earths): https://www.mofcom.gov.cn/zwgk/zcfb/art/2025/art_9c2108ccaf754f22a34abab2fedaa944.html
 - 2025 No. 55 (synthetic diamond): https://www.mofcom.gov.cn/zwgk/zcfb/art/2025/art_949f47563b834dad95b0010f375a892c.html
 - 2025 No. 57 (5 rare earths): https://www.mofcom.gov.cn/zwgk/zcfb/art/2025/art_59ec4f6bec0b459aa4a30c4bbd0a41c1.html
+
+**Source-survival audit:** `data/evidence_manifest.csv` — the ten non-government sources behind H1 (company PDFs, trade press, Chinese-language studies), each with its live-check date, whether the content confirms the claim it is cited for, and its Wayback status. The fragile ones are flagged.
 
 **Licensed / market:** Benchmark Mineral Intelligence quarterly price assessments (licensed files on hand — percentage changes only are cited, raw points are not redistributed); SSE/SZSE daily quotes and CSI 300 (via Yahoo Finance API).
 
