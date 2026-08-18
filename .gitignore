@@ -12,3 +12,7 @@ __pycache__/
 Thumbs.db
 # licensed source files (percentage changes only are published)
 data/benchmark/
+
+# Excel lock files
+~$*
+.~lock.*
