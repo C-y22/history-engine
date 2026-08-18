@@ -46,7 +46,7 @@ Latent supply-chain chokepoints: a sedimentation mechanism builds them (H1), pub
 |---|---|
 | `figures/h1_sedimentation.html` | Figure 1 — sedimentation evidence (the ratchet) |
 | `figures/h1_vintage_en.html` | Figure 2 — the two waves, 44 plants |
-| `figures/quad_empirical_en.html` | Empirical four quadrants — marked "pilot illustration": ten commodities, USGS supply-risk score on the y-axis. The framework picture, not the 100-row result. |
+| `figures/engine_interactive_en.html` | **Interactive evidence** — H1 the ratchet and the plant timeline, H2a the map at six cutoffs, H2b the three thermometers; click any point for its formula and a link to the data row |
 | `figures/h2b_activation_en.html` | Figure 4 — latent power vs one-month offshore price change, ρ=0.89 |
 | `figures/h2b_division_en.html` | Figure 5 — division of labour across the three thermometers (n=22 basis) |
 

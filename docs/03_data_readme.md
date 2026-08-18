@@ -12,7 +12,7 @@
 | 4_Visibility | Context-filtered news counts, 600 cells (100 commodities × 6 cutoffs, 24-month windows) | Media Cloud API; queries per term_map_lock.md v1.1 |
 | 5_Rankings | H2a final rankings, completed pool (6 exams × 99 rows, per-row source flags) | Computed from sheets 2, 3, 4 |
 | 6_AnswerKey | Seven exams: announcement/effective dates, official numbers, positives, cutoffs | MOFCOM originals, checked number by number (complete-set audit 2026-08-12); Chinese official designations kept verbatim |
-| 7_H2b_Attention | Attention jump: 30-day post-announcement counts ÷ pre-event monthly baseline (21 targets + 58 placebos + dark-vs-dark) | Media Cloud; placebo seed 20260813 |
+| 7_H2b_Attention | Attention jump: 30-day post-announcement counts ÷ pre-event monthly baseline (21 targets + 58 placebos + dark-vs-dark) | Media Cloud; placebo seed 20260813. The file holds 60 placebo rows as collected; the two synthetic-diamond rows are excluded from the control group because diamond was restricted at E2, leaving the 58 placebos reported |
 | 8_H2b_Stocks | Stock BHAR[0,+5] vs CSI 300, 24 ticker-events | SSE/SZSE daily quotes via Yahoo Finance API |
 | 9_H2b_Prices | Offshore price changes (1-month n=10, longest n=12), point-level sourcing | Benchmark Mineral Intelligence (licensed) + archived quotes (Wayback) |
 | 10_H1_Plants | 44 alumina refineries: host start-up year × gallium-line year, cell-level sources | EIA filings, listed-company disclosures, China Nonferrous Metals News, SHFE brand list, Mysteel capacity tables; Chinese source text kept verbatim |

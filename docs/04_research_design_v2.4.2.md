@@ -45,7 +45,7 @@ Locks: per-exam cutoffs (D/E1 conservative); 100-row external pool, fully accoun
 
 ## H2b · Awakening test (final; diamond incorporated on corrected data)
 
-Main result 1 (formula validation): price product spec, 1-month ρ=0.89 (p=0.0008), longest 0.80; attention driven by unpreparedness alone (n=22 main: 0.66, p=0.0005; n=21 value 0.82 in parens); stocks in between (0.54 / 0.004). Main result 2 (quadrant contrast): attention latent ×23.2 vs landmark ×4.8 (n=17/5, p=0.0065); long-window price +150% vs +18%. Calibrations: placebo ×1.26; dark-vs-dark ×23.2 vs ×1.03. Antimony = the negative-space exhibit; diamond = the attention thermometer's ceiling counterexample (zero coverage even under the corrected term; only stocks read it, +25%). The product's attention-column 0.36 (p=0.051) is stated as marginal, never as significant.
+Main result 1 (formula validation): price product spec, 1-month ρ=0.89 (p=0.0008), longest 0.80; attention driven by unpreparedness alone (n=22 main: 0.66, p=0.0005; n=21 value 0.82 in parens); stocks in between (0.54 / 0.004). Main result 2 (quadrant contrast): attention latent ×24.7 vs landmark ×9.6 (median split of pre-event invisibility, n=11/11, p=0.0105; the earlier 0.564 threshold gives ×23.2 vs ×4.8, n=17/5, p=0.0065); long-window price +150% vs +18%. Calibrations: placebo ×1.26; dark-vs-dark ×23.2 vs ×1.03. Antimony = the negative-space exhibit; diamond = the attention thermometer's ceiling counterexample (zero coverage even under the corrected term; only stocks read it, +25%). The product's attention-column 0.36 (p=0.051) is stated as marginal, never as significant.
 
 ## Predictions / future papers
 
