@@ -25,8 +25,9 @@ Latent supply-chain chokepoints: a sedimentation mechanism builds them (H1), pub
 | `docs/06_pool_completion_and_diamond_repull.md` | What was completed, what was re-pulled, what changed downstream. |
 | `docs/11_paper_skeleton.md` | Section-by-section writing plan. |
 | `data/history_engine_master_2026-08.xlsx` | The 13-sheet consolidated workbook. |
-| `data/sheets_csv/` | Each workbook sheet as a flat CSV (diff-able). |
-| `data/` | The per-topic source CSVs, the 100-row term map (`term_map_100rows.csv`), and the evidence manifest. |
+| `data/sheets_csv/` | Each workbook sheet as a flat CSV — generated from the workbook by `scripts/07_export_sheets.py`, so git can diff the data line by line. **The workbook is the source: edit it, re-run the script, commit both.** |
+| `data/H1_mechanism_data_2026-08.xlsx` | H1 data pack — the USGS series, the 44-refinery census, the discharge-permit panel and the two USGS facility lists, each sheet carrying its own source column. |
+| `data/` | Everything that is not a workbook sheet: the 100-row term map, the term-map lock, the discharge-permit panel, the two USGS facility lists, the evidence manifest. |
 | `figures/` | Five self-contained HTML figures; open in a browser. |
 | `scripts/` | Collection and verification scripts (`02f` is the diamond re-pull). |
 | `deck/` | 16-slide English advisor deck. |
@@ -60,6 +61,7 @@ python scripts/02c_visibility_mediacloud.py     # 600-cell visibility panel
 python scripts/02d_attention_activation.py      # H2b attention jumps
 python scripts/02f_diamond_repull.py            # rule-(d) diamond correction
 python scripts/02e_resample_verify.py           # stability check, seed 20260814
+python3 scripts/07_export_sheets.py              # re-export the workbook to data/sheets_csv/
 ```
 
 ## Standing bets on the record
