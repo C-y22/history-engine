@@ -47,14 +47,16 @@ That has two consequences. It is a limitation: the framework has nothing to say 
 
 ### 2.4 The score
 
-**Latent power = criticality × invisibility × reflexivity (not used in the mining sector)** — a ranking device, not a cardinal quantity.
+**Latent power = criticality × invisibility × (1 − reflexivity)** — a ranking device, not a cardinal quantity.
+
+The third factor is carried because the framework is meant to travel beyond minerals. In this pool it equals one for every row — mineral structure responds too slowly for a published map to move it — so it drops out of every number reported here and is never estimated.
 
 The same score does two jobs: across the pool it ranks who holds power nobody has noticed (§5); among the commodities actually restricted, it predicts how hard the shock lands (§6).
 
 
 ### 2.5 What the framework adds
 
-The arrangement of the three axes does not existed. Each reads the same supply chain in a different tense. **Reflexivity is its past**: the structure it inherited and cannot quickly undo. **Visibility reads its present** — not a property of the material but a state of knowledge about it, and the only coordinate that can change in a week. **Criticality reads its trajectory** — which dependencies the economy has accumulated, a list that looks different every decade as technologies arrive and substitutes appear.
+The three axes are borrowed; the arrangement is not. Each reads the same supply chain in a different tense. **Reflexivity is its past**: the structure it inherited and cannot quickly undo. **Visibility reads its present** — not a property of the material but a state of knowledge about it, and the only coordinate that can change in a week. **Criticality reads its trajectory** — which dependencies the economy has accumulated, a list that looks different every decade as technologies arrive and substitutes appear.
 
 Existing instruments hold one axis and treat the others as fixed. Criticality assessment scores what a loss would cost, but treats that cost as a property of the material rather than of what is known about it. Weaponized interdependence establishes that network position is power, but its variables are topological: it does not ask whether anyone has noticed the position. The reflexivity literature, from Merton through Grunberg–Modigliani to Lucas, gives rules for when a forecast defeats itself, but none for which objects are slow enough to forecast safely. What this paper adopts is a restriction rather than a criterion: it predicts structural facts — installed capacity, existing circuits, production shares — and never prices or the timing of policy. In this domain the restriction costs little, because mineral structure moves slowly (§2.3).
 
