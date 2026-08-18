@@ -1,6 +1,6 @@
 # 02 · Results — final numbers
 
-Single source of truth. Completed pool, corrected diamond term (2026-08-15). Where any other file disagrees, this table and workbook sheet `1_Results` govern.
+Single source of truth. Completed pool, corrected diamond term (2026-08-15). Where any other file disagrees, this table governs; sheet `1_Results` of `data/H2a_map_data_2026-08.xlsx` is its machine-readable copy.
 
 | Section | Item | Result | p | Notes |
 |---|---|---|---|---|
@@ -25,7 +25,7 @@ Single source of truth. Completed pool, corrected diamond term (2026-08-15). Whe
 | H2a robustness | No-REE version (n=72) | 5/10 | 3.3e-03 | diamond, bismuth, gallium, tungsten, germanium |
 | H2a robustness | Normalizations (log / linear / percentile) | 9 / 10 / 9 | | on completed pool |
 | H2a robustness | Inferred REE shares capped at 85% | 9/10 picks unchanged | | |
-| H2b thermometers | Attention jump (n=22 targets) | ×12.9 vs ×1.26 (58 placebos) | <0.00001 | latent ×24.7 vs landmark ×9.6 (median split of pre-event invisibility, n=11/11, p=0.0105; the earlier 0.564 threshold gives ×23.2 vs ×4.8, n=17/5, p=0.0065) |
+| H2b thermometers | Attention jump (n=22 targets) | ×12.9 vs ×1.26 (58 placebos) | <0.00001 | latent ×23.2 vs landmark ×4.8 (n=17/5, p=0.0065) |
 | H2b thermometers | Stock CAR (BHAR[0,+5] vs CSI 300; n=24) | ρ=0.54 | 0.004 | Yunnan Germanium +37.8% |
 | H2b thermometers | Price, product spec (1-month, n=10) | ρ=0.89 | 0.0008 | longest window ρ=0.80 (n=12, p=0.002) |
 | H2b ablation grid (attention n=22; n=21 in parens) | Unpreparedness only | 0.66 (0.82) | 0.0005 | |

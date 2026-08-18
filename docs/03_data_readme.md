@@ -1,6 +1,6 @@
 # The History Engine — Master Data Workbook README (final basis, 2026-08-15)
 
-**One file**: `history_engine_master_2026-08.xlsx`, 13 sheets. This README documents each sheet's source, basis, and every computation. `data/sheets_csv/` holds the same sheets as flat CSVs, exported from the workbook by `scripts/07_export_sheets.py` so that git can diff them; the workbook is the source. **Where numbers conflict, the workbook (= final basis) governs.** `ranking_unified_v1.csv` and `archive_v0/` are historical archives — do not cite.
+**Three files**, one per hypothesis: `H1_mechanism_data_2026-08.xlsx`, `H2a_map_data_2026-08.xlsx`, `H2b_awakening_data_2026-08.xlsx`. Each opens with a `0_README` sheet giving the source of every sheet in it; sheet names are unique across the three. This README documents each sheet's source, basis, and every computation. `data/sheets_csv/` holds the same sheets as flat CSVs, exported from the three packs by `scripts/07_export_sheets.py` so that git can diff them; the packs are the source. **Where numbers conflict, the packs (= final basis) govern.** `ranking_unified_v1.csv` and `archive_v0/` are historical archives — do not cite.
 
 ## Sheet map
 
@@ -12,7 +12,7 @@
 | 4_Visibility | Context-filtered news counts, 600 cells (100 commodities × 6 cutoffs, 24-month windows) | Media Cloud API; queries per term_map_lock.md v1.1 |
 | 5_Rankings | H2a final rankings, completed pool (6 exams × 99 rows, per-row source flags) | Computed from sheets 2, 3, 4 |
 | 6_AnswerKey | Seven exams: announcement/effective dates, official numbers, positives, cutoffs | MOFCOM originals, checked number by number (complete-set audit 2026-08-12); Chinese official designations kept verbatim |
-| 7_H2b_Attention | Attention jump: 30-day post-announcement counts ÷ pre-event monthly baseline (21 targets + 58 placebos + dark-vs-dark) | Media Cloud; placebo seed 20260813. The file holds 60 placebo rows as collected; the two synthetic-diamond rows are excluded from the control group because diamond was restricted at E2, leaving the 58 placebos reported |
+| 7_H2b_Attention | Attention jump: 30-day post-announcement counts ÷ pre-event monthly baseline (21 targets + 58 placebos + dark-vs-dark) | Media Cloud; placebo seed 20260813 |
 | 8_H2b_Stocks | Stock BHAR[0,+5] vs CSI 300, 24 ticker-events | SSE/SZSE daily quotes via Yahoo Finance API |
 | 9_H2b_Prices | Offshore price changes (1-month n=10, longest n=12), point-level sourcing | Benchmark Mineral Intelligence (licensed) + archived quotes (Wayback) |
 | 10_H1_Plants | 44 alumina refineries: host start-up year × gallium-line year, cell-level sources | EIA filings, listed-company disclosures, China Nonferrous Metals News, SHFE brand list, Mysteel capacity tables; Chinese source text kept verbatim |

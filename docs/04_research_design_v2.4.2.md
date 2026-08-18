@@ -37,7 +37,7 @@ Empirical quadrants: 1 latent zone | 2 landmark zone | 3 bulk celebrities | 4 du
 
 ## H1 · Mechanism (done)
 
-Figure 1: capacity never declines in any year of the 21-year USGS series (40 t in 2003 → 1,000 t in 2023); price −67% over 2011→16 (374 → 125 USD/kg low-grade), output −61% in one year (444 t 2015 → 171 t 2016), capacity unmoved at 600 t (ratchet); host alumina ×19 over 2000→2023 (4.3 → 82 Mt). Figure 2 + 44-plant census: two waves + the 2015–19 empty band; Xiangjiang Wanji's 20-year lag ("adds 60 t, alumina unchanged"); outsourced circuits (Fangyuan, six sites) → installing nearly free → never torn out; facility-level exit exists but the aggregate is irreversible. **Bridge:** stacking share inside a host generates no news → the latent zone is a manufactured equilibrium.
+Figure 1: capacity never declines in 21 years; 2011→16 price −67%, output −61%, capacity unmoved (ratchet); host ×19. Figure 2 + 44-plant census: two waves + the 2015–19 empty band; Xiangjiang Wanji's 20-year lag ("adds 60 t, alumina unchanged"); outsourced circuits (Fangyuan, six sites) → installing nearly free → never torn out; facility-level exit exists but the aggregate is irreversible. **Bridge:** stacking share inside a host generates no news → the latent zone is a manufactured equilibrium.
 
 ## H2a · Assessment test (final: completed pool + corrected term)
 
@@ -45,7 +45,7 @@ Locks: per-exam cutoffs (D/E1 conservative); 100-row external pool, fully accoun
 
 ## H2b · Awakening test (final; diamond incorporated on corrected data)
 
-Main result 1 (formula validation): price product spec, 1-month ρ=0.89 (p=0.0008), longest 0.80; attention driven by unpreparedness alone (n=22 main: 0.66, p=0.0005; n=21 value 0.82 in parens); stocks in between (0.54 / 0.004). Main result 2 (quadrant contrast): attention latent ×24.7 vs landmark ×9.6 (median split of pre-event invisibility, n=11/11, p=0.0105; the earlier 0.564 threshold gives ×23.2 vs ×4.8, n=17/5, p=0.0065); long-window price +150% vs +18%. Calibrations: placebo ×1.26; dark-vs-dark ×23.2 vs ×1.03. Antimony = the negative-space exhibit; diamond = the attention thermometer's ceiling counterexample (zero coverage even under the corrected term; only stocks read it, +25%). The product's attention-column 0.36 (p=0.051) is stated as marginal, never as significant.
+Main result 1 (formula validation): price product spec, 1-month ρ=0.89 (p=0.0008), longest 0.80; attention driven by unpreparedness alone (n=22 main: 0.66, p=0.0005; n=21 value 0.82 in parens); stocks in between (0.54 / 0.004). Main result 2 (quadrant contrast): attention latent ×23.2 vs landmark ×4.8 (n=17/5, p=0.0065); long-window price +150% vs +18%. Calibrations: placebo ×1.26; dark-vs-dark ×23.2 vs ×1.03. Antimony = the negative-space exhibit; diamond = the attention thermometer's ceiling counterexample (zero coverage even under the corrected term; only stocks read it, +25%). The product's attention-column 0.36 (p=0.051) is stated as marginal, never as significant.
 
 ## Predictions / future papers
 
@@ -53,4 +53,4 @@ On record: fluorspar #1; wollastonite false-light bet; the Nov-2026 suspension e
 
 ## Status (2026-08-16)
 
-Everything closed out on corrected, complete data; workbook + README, briefing, deck, and records all consistent. Remaining (nothing blocks writing): 02e resampling (author runs), term-lock sign-off, 12 spot-verify rows during writing. **Next = writing, starting at §3.**
+Everything closed out on corrected, complete data; the three data packs + README, briefing, deck, and records all consistent. Remaining (nothing blocks writing): 02e resampling (author runs), term-lock sign-off, 12 spot-verify rows during writing. **Next = writing, starting at §3.**
