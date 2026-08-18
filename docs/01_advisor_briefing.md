@@ -8,7 +8,7 @@ China's 98% share of low-purity gallium sat in USGS yearbooks for a decade — p
 
 The question is how to find the parts of a supply chain that matter before someone uses them. Comparative advantage asks who produces most cheaply; criticality ratings ask which materials matter today. Neither asks how a node came to be where it is — and the ones that turn out to matter were usually built sideways, decades ago, inside somebody else's industry. China's gallium capacity was never a gallium investment: it is a circuit bolted onto alumina refineries, most of it installed before 2014, kept running through a 67% price collapse because nobody dismantles a line that costs nothing to keep. Nothing newsworthy ever happened, so nothing was ever written. History buries these nodes in the act of building them, and what is buried is not watched — which is also what makes it measurable, and what makes the map hold still long enough to be drawn.
 
-This paper builds a framework from three axes and, more importantly, from the interaction between them. Criticality asks whether it hurts when cut. Visibility asks whether anyone is watching. Reflexivity asks whether the thing moves when you talk about it — a price hears a prediction, a refinery line does not — and so decides what can be predicted at all. None of the three is worth much alone: criticality by itself reproduces the watch-lists everyone already has, obscurity by itself returns dust. Crossed, they define a state space, and its most interesting region is the latent zone — important, unwatched, fixed in place — where supply-chain power sits until someone uses it. Scored this way, the full pool is graded against seven rounds of Chinese export controls: on the eve of the first, nine of the top ten picks were commodities restricted twenty-one to twenty-seven months later. The claim is about where latent chokepoints sit, not about what Beijing restricts next.
+This paper builds a framework from three axes and, more importantly, from the interaction between them. Criticality asks whether it hurts when cut. Visibility asks whether anyone is watching. Reflexivity asks whether the thing moves when you talk about it — a price hears a prediction, a refinery line does not — and so decides what can be predicted at all. None of the three is worth much alone: criticality by itself reproduces the watch-lists everyone already has, obscurity by itself returns dust. Crossed, they define a state space, and its most interesting region is the latent zone — important, unwatched, fixed in place — where supply-chain power sits until someone uses it. Scored this way, the full pool is graded against six rounds of Chinese export controls: on the eve of the first, nine of the top ten picks were commodities restricted twenty-one to twenty-seven months later. The claim is about where latent chokepoints sit, not about what Beijing restricts next.
 
 ## 2. Framework
 
@@ -63,9 +63,30 @@ Crossed, the three axes give eight regions, and the one this paper is about is t
 
 ## 3. Design
 
-**H1 · Mechanism** (why the latent zone exists) → **H2a · Map test** (does the assessment hold against reality? seven control rounds 2023–25 as grading events — validation, not policy forecasting) → **H2b · Awakening test** (among the restricted, do more latent ones hit harder? strategy conditioned away).
+**The pool.** All 100 commodities in the USGS Mineral Commodity Summaries list (86 rows plus 14 lanthanides), defined externally and used whole. Visibility is measured for all 100. China's production share carries a pre-cutoff value for 88; the other 11 are documented-NA, cases where USGS states no data is published. All 22 commodities later restricted are scorable.
 
-Interlock: H2a's misses (graphite, molybdenum) land quietly in H2b precisely because they were not latent — each test digests the other's residuals. The two factors are collinear inside the rare-earth cluster, so H2a cannot separate them; H2b can, and does.
+**The exams.** Every Chinese export-control announcement covering physical minerals between 2023 and 2025, verified one by one against the MOFCOM originals as a complete set.
+
+| Exam | Announced | Official number | Restricted | Cutoff |
+|---|---|---|---|---|
+| A | 2023-07-03 | 2023 No. 23 | gallium, germanium | 2023-07-02 |
+| B | 2023-10-20 | 2023 No. 39 | graphite (a tightening of 2006 controls) | 2023-10-19 |
+| C | 2024-08-15 | 2024 No. 33 | antimony | 2024-08-14 |
+| D | 2025-02-04 | 2025 No. 10 | tungsten, tellurium, bismuth, molybdenum, indium | 2025-01-31 |
+| E1 | 2025-04-04 | 2025 No. 18 | samarium, gadolinium, terbium, dysprosium, lutetium, scandium, yttrium | 2025-04-01 |
+| E2 | 2025-10-09 | 2025 Nos. 55–58, 61–62 | holmium, erbium, thulium, europium, ytterbium, synthetic diamond | 2025-10-08 |
+
+D and E1 use cutoffs pulled back beyond the usual day-before, since both were embedded in retaliation packages foreseeable from US actions on 1 February and 2 April.
+
+**Grading.** At each cutoff the pool is scored, the top ten taken, and a pick counts as a hit if that commodity is restricted then or later. Commodities already under control leave the pool. Ties break alphabetically. Significance is a hypergeometric exact test on the scorable live pool.
+
+**Two units of analysis.** Rare earths are graded at element level, where the seventeen members compete individually, and at cluster level, where they fold into one candidate scored by its strongest member and removed once played at E1. Both are reported throughout.
+
+**The awakening test.** Its sample is the commodities actually restricted, which removes the question of why Beijing chose them. Three instruments read each shock: news coverage in the thirty days after the announcement against the pre-event monthly average, five-day abnormal returns on pure-exposure A-shares, and offshore price changes. Weak responses are collected as deliberately as strong ones — the quiet end is where selection bias would otherwise do its damage.
+
+**Data quality.** Every share is tiered on the record: measured or official for the large majority; documented-NA for 11 rows; inferred for seven heavy rare earths and scandium, where no agency publishes element-level production; industry-sourced for synthetic diamond, where USGS gives only "leading producer."
+
+**Instrument audit.** The 23 queries that depart from the raw USGS row name were checked afterwards for directional bias. Two touch commodities that were later restricted: graphite, where the term also catches synthetic-graphite coverage and so overstates its visibility, running against the hypothesis; and synthetic diamond, where the term was too narrow, corrected under a result-blind rule and reported in §5. The one override that could have favoured the hypothesis, magnesium, never enters a top ten.
 
 ## 4. H1 — sedimentation (gallium riding alumina)
 

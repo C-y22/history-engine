@@ -14,7 +14,7 @@ Version 2, 2026-08-16 (v1 was 2026-08-12; all numbers here are on the completed-
 
 - **Opening hook**: neon, 2022 — told in one paragraph and then dropped (the Mariupol purification plant: not scarce, simply unwatched; power activates the moment visibility flips).
 - The puzzle: why chokepoints of this kind are always "discovered" after they detonate, and why the standard answers — comparative advantage, existing risk indices — cannot see them.
-- Preview of the answer: three-axis framework → the latent zone → seven showdowns as exams (exam A's top ten contains nine of the ten commodities later restricted, 21–27 months ahead of the event, p = 7.4e-06) → awakening intensity (dysprosium ≈ ×3 and yttrium +4,400% at one end; molybdenum ≈ 0 at the other).
+- Preview of the answer: three-axis framework → the latent zone → six showdowns as exams (exam A's top ten contains nine of the ten commodities later restricted, 21–27 months ahead of the event, p = 7.4e-06) → awakening intensity (dysprosium ≈ ×3 and yttrium +4,400% at one end; molybdenum ≈ 0 at the other).
 - **Contributions** (four, one sentence each): (i) the three-axis framework and its "one axis, one treatment" operationalization; (ii) cognitive latency plus power = criticality × the visibility flip; (iii) the sedimentation / by-product theorem as mechanism; (iv) the back-test methodology and the NEON public benchmark.
 - One roadmap paragraph.
 
@@ -31,9 +31,9 @@ Version 2, 2026-08-16 (v1 was 2026-08-12; all numbers here are on the completed-
 - Visibility measurement: Media Cloud context-filtered counts (lineage: BBD, Fang & Peress), Wikipedia as a robustness ruler, and full disclosure of the single-corpus limitation and the term-map lock.
 - Criticality, two specifications: "who should be afraid" (USGS supply-risk score) versus "who is being aimed at" (China's production share, measured at the processing stage where the restricted product is made — a rule codified after the fact and disclosed as such).
 - The latent score and its normalization (three variants tested; conclusions unchanged).
-- The seven exams: the answer key (complete-set audit, 2026-08-12), cutoff-date discipline, the conservative cutoffs at D and E1, and the two safeguards. **Discipline of statement: this validates a map, not a prediction of sanctions — the joint proposition is stated explicitly.**
+- The six exams: the answer key (complete-set audit, 2026-08-12), cutoff-date discipline, the conservative cutoffs at D and E1, and the two safeguards. **Discipline of statement: this validates a map, not a prediction of sanctions — the joint proposition is stated explicitly.**
 - H2b design: dependent variables are the one-month offshore price change and the onshore–offshore gap; selection-bias discipline (weak-response points are collected, not dropped).
-- **Table 1**: the seven exams (document number, dates, positives, cutoff).
+- **Table 1**: the six exams (document number, dates, positives, cutoff).
 
 ## §4 Mechanism evidence: sedimentation (H1, ~5 pages)
 
@@ -62,7 +62,7 @@ Version 2, 2026-08-16 (v1 was 2026-08-12; all numbers here are on the completed-
 - Two instrument calibrations, kept in a methods note rather than the headline: the placebo (targets ×12.9 versus ×1.26) and dark-versus-dark (×23.2 versus ×1.03). Quadrant contrast among the restricted: ×23.2 versus ×4.8 (n = 17/5, p = 0.0065).
 - The stock case pair: Yunnan Germanium's three limit-ups against Hunan Gold closing under +2% — the market pays only for power it did not expect.
 - Two exhibits worth their own paragraphs: antimony as the negative-space exhibit, and **synthetic diamond as the ceiling counterexample for the attention thermometer** — zero coverage in the 30 days after the announcement even under the corrected search term, a real zero rather than a vocabulary artifact; only the stock market read it (+25%).
-- Method and bias handling: what the onshore–offshore split means (the gap is the power reading); completeness of the event set (all seven); weak responses collected deliberately.
+- Method and bias handling: what the onshore–offshore split means (the gap is the power reading); completeness of the event set (all six); weak responses collected deliberately.
 
 ## §7 Prediction (1 page — the publication date is the notarization)
 

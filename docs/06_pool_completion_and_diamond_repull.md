@@ -33,7 +33,7 @@ Corrected term ("industrial diamond" OR "synthetic diamond"): six pre-cutoff win
 
 ## Cluster level (fold confirmed)
 
-The fold (17 rows → one unit, max member score, unit removed after E1) was validated by exam-by-exam reproduction on the old pool. Final: A 6/10 (4.4e-04), B 4/10 (0.019), C 5/10 (9.5e-04), D 5/10 (4.1e-04), E1 2/10 (0.022), E2 1/10 n.s. (one positive left).
+The fold (16 rows → one unit: 14 lanthanides + scandium + yttrium, max member score, unit removed after E1) was validated by exam-by-exam reproduction on the old pool. Final: A 6/10 (4.4e-04), B 4/10 (0.019), C 5/10 (9.5e-04), D 5/10 (4.1e-04), E1 2/10 (0.022), E2 1/10 n.s. (one positive left).
 
 ## File state
 

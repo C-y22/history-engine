@@ -29,7 +29,7 @@
 
 **Significance.** Hypergeometric exact test: population = scorable live pool (N), successes = later-restricted within it (K), draw 10, upper-tail probability of the observed hits.
 
-**Cluster level.** The 17-member REE family (15 lanthanides + Sc + Y) folds into one candidate scored by its best member; the unit is removed after it is played at E1. The fold was validated by reproducing the Aug-12 original record exam by exam (A–E1 exact).
+**Cluster level.** The 16-member REE family (14 lanthanides + scandium + yttrium; the separate 'rare earths' chapter row is not scored) folds into one candidate scored by its best member; the unit is removed after it is played at E1. The fold was validated by reproducing the Aug-12 original record exam by exam (A–E1 exact).
 
 **Ablation.** Each single-factor ruler ranks the same matched pool of 88 scorable rows. Coarse variant = all 15 REE element shares set to the group proxy of 70.
 
