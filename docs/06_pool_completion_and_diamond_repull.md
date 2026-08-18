@@ -37,4 +37,4 @@ The fold (16 rows → one unit: 14 lanthanides + scandium + yttrium, max member 
 
 ## File state
 
-`china_share.csv` 91 rows; `ranking_unified_v2.csv` final (with `diamond_term_corrected` source flags); `mc_diamond_repull.csv` filed; `history_engine_master_2026-08.xlsx` (13 sheets) is the consolidated view. Open items (none block writing): 12 spot-verify rows; exact kyanite figure; 02e resampling; term-lock sign-off.
+Final state lives in `data/history_engine_master_2026-08.xlsx` (13 sheets) and its flat export `data/sheets_csv/`: shares in `2_Shares`, rankings in `5_Rankings` with `diamond_term_corrected` source flags, the re-pull in `4b_Diamond_Repull`. Open items (none block writing): 12 spot-verify rows; exact kyanite figure; 02e resampling; term-lock sign-off.

@@ -33,13 +33,13 @@ Latent supply-chain chokepoints: a sedimentation mechanism builds them (H1), pub
 | `deck/` | 16-slide English advisor deck. |
 | `records_zh/` | The author's original Chinese working records, kept verbatim. |
 
-**Where numbers conflict, `docs/02` and the workbook govern.** `ranking_unified_v1.csv` and any 57-row-era number are retired — do not cite.
+**Where numbers conflict, `docs/02` and the workbook govern.** Any 57-row-era number is retired — do not cite.
 
 ## Headline results
 
 - **H2a, element level:** A 9/10 (p=7.4e-06), B 9/10 (3.2e-06), C 9/10 (2.0e-06), D 10/10 (1.6e-08), E1 10/10 (2.0e-10); at E2 the six positives sweep ranks 1–6 (1.3e-06). Wollastonite is the single false light on the record.
 - **H2a, cluster level:** A 6/10, B 4/10 (p=0.019), C 5/10, D 5/10 significant; E1/E2 degrade, reported as-is.
-- **H2b:** price product spec ρ=0.89 at one month (p=0.0008), 0.80 at the longest window; attention is unpreparedness alone (ρ=0.66, p=0.0005, n=22; the product is 0.36, marginal at p=0.051); stocks in between (0.54, p=0.004). Quadrant contrast ×23.2 vs ×4.8 (p=0.0065).
+- **H2b:** price product spec ρ=0.89 at one month (p=0.0008), 0.80 at the longest window; attention is unpreparedness alone (ρ=0.66, p=0.0005, n=22; the product is 0.36, marginal at p=0.051); stocks in between (0.54, p=0.004). Quadrant contrast: the more latent half of the restricted commodities jumped ×24.7 against ×9.6 for the rest (median split, n=11/11, p=0.0105).
 
 ## Figures
 

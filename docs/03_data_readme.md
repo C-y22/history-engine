@@ -1,6 +1,6 @@
 # The History Engine — Master Data Workbook README (final basis, 2026-08-15)
 
-**One file**: `history_engine_master_2026-08.xlsx`, 12 sheets. This README documents each sheet's source, basis, and every computation. The loose CSVs in `data/` remain as replication-package originals; the workbook is their consolidated view. **Where numbers conflict, the workbook (= final basis) governs.** `ranking_unified_v1.csv` and `archive_v0/` are historical archives — do not cite.
+**One file**: `history_engine_master_2026-08.xlsx`, 13 sheets. This README documents each sheet's source, basis, and every computation. `data/sheets_csv/` holds the same sheets as flat CSVs, exported from the workbook by `scripts/07_export_sheets.py` so that git can diff them; the workbook is the source. **Where numbers conflict, the workbook (= final basis) governs.** `ranking_unified_v1.csv` and `archive_v0/` are historical archives — do not cite.
 
 ## Sheet map
 
@@ -47,7 +47,7 @@
 
 - **2026-08-15 (evening)**: diamond term-correction re-pull completed (7 queries, corrected term). Pre-cutoff counts 32–48 vs 3–4 under the old term: diamond drops #1 → #7 in exam A but stays in every exam's top ten; no hit count changes; E2's six positives still sweep ranks 1–6. The post-announcement window read zero under the corrected term too — a real zero, so diamond re-enters the attention sample (n=22; median ×12.9; unpreparedness ρ 0.82→0.66, p=0.0005; quadrant contrast ×23.2 vs ×4.8, p=0.0065; both samples reported). Corrected data are the main specification per author's ruling.
 - **2026-08-15**: pool completed; main spec switched to the completed pool (author's ruling). Exam A 9/10 with wollastonite the single false light; E2 swept ranks 1–6. Cluster fold codified and validated.
-- 2026-08-13: 57-row-era final (10/10 ×5) — superseded; archived in ranking_unified_v1.csv and the H2-audit doc.
+- 2026-08-13: 57-row-era final (10/10 ×5) — superseded; retired, and retrievable only from the commit history.
 - 2026-08-12: complete-set audit + significance tests + locked normalization (archive_v0/ holds the three older rankings).
 - Term-map lock v1.1 (2026-08-15): rule (d) vocabulary-validity check added; synthetic diamond the only correction; per author's ruling the corrected data are the main specification, with the frozen version reported as the disclosed alternative.
 
