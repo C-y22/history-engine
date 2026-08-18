@@ -50,11 +50,11 @@ Interlock: H2a's misses (graphite, molybdenum) land quietly in H2b precisely bec
 |---|---|---|
 | Declines of Chinese gallium capacity, 21 yrs of USGS records | **0** | Capacity is a ratchet: the market adjusts flow, never stock. Sources: USGS Minerals Yearbook & MCS; Asian Metal/CNIA basis. |
 | 2011→16: price / output / capacity | **−67% / −61% / 0** | |
-| Host (alumina) growth over the period | **×19** | |
+| Host (alumina) capacity, 2000→2023 | **×19** | The host grew nineteenfold; the gallium riding inside it grew with it, unnoticed. |
 
-**44-plant census timeline** (frame: every refinery ≥0.8 Mt/yr, three independent lists):
+**44-plant census** (frame: every refinery ≥0.8 Mt/yr, three independent lists). Twenty-four host a gallium circuit, three are verified to have none, the rest undetermined. Twenty of the twenty-four carry a date: **nine by 2014**, **nine from 2020**, two bounded only as "pre-2021", four undated. **Not one falls in 2015–19** — the price trough bought no new line, and closed none either.
 
-**Wave 1 ≤2014** (fixed China's 2023 hand) → **2015–19: empty band** (price trough — not one new line) → **Wave 2 ≥2020** (prices recover and the controls light the map).
+**Wave 1 ≤2014** fixed the hand China played in 2023 → **2015–19 empty band** → **Wave 2 ≥2020**, still running: Guizhou Qiya commissioned a 20 t circuit in October 2023, three months after the first announcement, with a 60 t third phase on the books.
 
 Key exhibits: Xiangjiang Wanji — refinery 2005, gallium line 2025, filing reads "adds 60 t gallium, alumina unchanged" (the circuit is a decision, not a chemical freebie). Fangyuan ran outsourced circuits at six sites: installing nearly free, keeping free, nothing gets torn out. Bridge to H2: stacking share inside a host generates no news — high criticality with low visibility is a manufactured equilibrium.
 
@@ -75,7 +75,7 @@ Key exhibits: Xiangjiang Wanji — refinery 2005, gallium line 2025, filing read
 | E1 | 2025-04 | 7 rare earths (incl. Sc, Y) | **10/10** (p=2.0×10⁻¹⁰) | 2/10 (p=0.022) |
 | E2 | 2025-10 | 5 rare earths + diamond | **all 6 restricted swept ranks 1–6** (p=1.3×10⁻⁶) | 1/10 (n.s.; one positive left) |
 
-**Headline:** on July 2, 2023 — the day before the first announcement — the completed pool's top ten holds seven heavy rare earths, synthetic diamond (#7), and yttrium: nine picks, all restricted in 2025, 21–27 months later. Diamond appears in every exam's top ten and stands 5th at E2, where the engine's top six were exactly the six commodities announced. Rank 9 is **wollastonite**, the one false light — a 75%-share filler mineral on no critical list, the on-record cost of running without a criticality gate and a live demonstration of why the dust corner needs one. Nd/Pr never ranked and remain unrestricted.
+**Headline:** on July 2, 2023 — the day before the first announcement — the completed pool's top ten holds eight rare earths — thulium, holmium, ytterbium, erbium, europium, samarium, gadolinium, yttrium — and synthetic diamond at #7: nine picks, all restricted in 2025, 21–27 months later. Diamond appears in every exam's top ten and stands 5th at E2, where the engine's top six were exactly the six commodities announced. Rank 9 is **wollastonite**, the one false light — a 75%-share filler mineral on no critical list, the on-record cost of running without a criticality gate and a live demonstration of why the dust corner needs one. Nd/Pr never entered a top ten (21st and 17th at exam A) and remain unrestricted.
 
 **What each factor contributes (exam A, matched pool of 88 scorable rows):**
 
@@ -89,7 +89,7 @@ Key exhibits: Xiangjiang Wanji — refinery 2005, gallium line 2025, filing read
 
 **Reading, stated plainly.** On raw precision, precise share alone edges the product by one — reported as is. The product's value in H2a is ranking quality and robustness, not the hit count: the product ranks diamond 7th where share alone leaves it 13th, and on coarse share data the product holds 7/10 while share alone falls to 5/10. The separation of the two factors is H2b's job, and its ablation grid does it cleanly. Earlier versions (the 10/10 headline on the 57-row pool; diamond at #1 under the pre-correction term) are superseded and archived.
 
-**Robustness:** three normalizations on the completed pool (log 9/10, linear 10/10, percentile 9/10); a Wikipedia-pageview substitute performs worse (construct validity); dropping the entire rare-earth family still yields 5/10 (p=3.3×10⁻³: diamond, bismuth, gallium, tungsten, germanium). Misses diagnosable: graphite not latent; molybdenum 40% share. **Fluorspar** — repeatedly top-five, untouched — remains the standing prediction, joined by wollastonite as its falsifying twin: if wollastonite is ever restricted the false light becomes a hit, and if fluorspar never is, the engine loses its bet. Both outcomes are written down.
+**Robustness:** three normalizations on the completed pool (log 9/10, linear 10/10, percentile 9/10); a Wikipedia-pageview substitute performs worse (construct validity); dropping the entire rare-earth family still yields 5/10 (p=3.3×10⁻³: diamond, bismuth, gallium, tungsten, germanium). Misses diagnosable: graphite not latent; molybdenum 40% share. **Fluorspar** remains the standing prediction, on a rule stated in advance: at every one of the six cutoffs it is the highest-ranked commodity that sits on the 2022 US critical-minerals list, is not a rare earth, and has never been restricted — 18th to 19th through E1 and 11th at E2, ahead of vanadium and magnesium metal each time. It is joined by wollastonite as its falsifying twin: if wollastonite is ever restricted the false light becomes a hit, and if fluorspar never is, the engine loses its bet. Both outcomes are written down.
 
 ## 6. H2b — awakening test
 
@@ -117,7 +117,7 @@ Queries are generated from the USGS row names by mechanical rules that never ref
 
 One query failed and was corrected under a result-blind rule: every query must cover the subcategory names in its USGS chapter, with synonyms drawn only from USGS and HS descriptions. Synthetic diamond is the only correction the rule produces across all 100 rows. The corrected re-pull (Aug 15) read 32–48 articles per 24-month window against 3–4 under the old term: diamond drops from #1 to #7 in exam A but stays in every exam's top ten, and no hit count changes. Its post-announcement window read zero under the corrected term too — a real zero, not a vocabulary artifact — so diamond re-enters the attention sample as a genuine observation rather than a measurement failure. Per the author's ruling the corrected data are the main specification; the pre-correction version is reported as the disclosed alternative.
 
-Seven exams verified against every MOFCOM announcement of 2023–25 as the complete set of physical mineral controls. Standing bets carry pass/fail conditions written in advance: fluorspar as the #1 prediction; wollastonite as the on-record false light; the suspension orders (2025 No. 70/72) expiring November 2026 as a dated second bet.
+Six exams verified against every MOFCOM announcement of 2023–25 as the complete set of physical mineral controls. Standing bets carry pass/fail conditions written in advance: fluorspar as the #1 prediction; wollastonite as the on-record false light; the suspension orders (2025 No. 70/72) expiring November 2026 as a dated second bet.
 
 ## 8. Status and three questions
 
