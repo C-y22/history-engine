@@ -1,6 +1,6 @@
 # The History Engine — Master Data Workbook README (final basis, 2026-08-15)
 
-**Three files**, one per hypothesis: `H1_mechanism_data_2026-08.xlsx`, `H2a_map_data_2026-08.xlsx`, `H2b_awakening_data_2026-08.xlsx`. Each opens with a `0_README` sheet giving the source of every sheet in it; sheet names are unique across the three. This README documents each sheet's source, basis, and every computation. `data/sheets_csv/` holds the same sheets as flat CSVs, exported from the three packs by `scripts/07_export_sheets.py` so that git can diff them; the packs are the source. **Where numbers conflict, the packs (= final basis) govern.** `ranking_unified_v1.csv` and `archive_v0/` are historical archives — do not cite.
+**Three files**, one per hypothesis: `H1_mechanism_data_2026-08.xlsx`, `H2a_map_data_2026-08.xlsx`, `H2b_awakening_data_2026-08.xlsx`. Each opens with a `0_README` sheet giving the source of every sheet in it; sheet names are unique across the three. This README documents each sheet's source, basis, and every computation. `data/sheets_csv/` holds the same sheets as flat CSVs, exported from the three packs by `scripts/07_export_sheets.py` so that git can diff them; the packs are the source. **Where numbers conflict, the packs (= final basis) govern.** Superseded rankings are no longer kept as files; they are retrievable from the commit history alone and must not be cited.
 
 ## Sheet map
 
@@ -48,7 +48,7 @@
 - **2026-08-15 (evening)**: diamond term-correction re-pull completed (7 queries, corrected term). Pre-cutoff counts 32–48 vs 3–4 under the old term: diamond drops #1 → #7 in exam A but stays in every exam's top ten; no hit count changes; E2's six positives still sweep ranks 1–6. The post-announcement window read zero under the corrected term too — a real zero, so diamond re-enters the attention sample (n=22; median ×12.9; unpreparedness ρ 0.82→0.66, p=0.0005; quadrant contrast ×23.2 vs ×4.8, p=0.0065; both samples reported). Corrected data are the main specification per author's ruling.
 - **2026-08-15**: pool completed; main spec switched to the completed pool (author's ruling). Exam A 9/10 with wollastonite the single false light; E2 swept ranks 1–6. Cluster fold codified and validated.
 - 2026-08-13: 57-row-era final (10/10 ×5) — superseded; retired, and retrievable only from the commit history.
-- 2026-08-12: complete-set audit + significance tests + locked normalization (archive_v0/ holds the three older rankings).
+- 2026-08-12: complete-set audit + significance tests + locked normalization (the three older rankings survive in the commit history only).
 - Term-map lock v1.1 (2026-08-15): rule (d) vocabulary-validity check added; synthetic diamond the only correction; per author's ruling the corrected data are the main specification, with the frozen version reported as the disclosed alternative.
 
 ## Open items (none block writing)
